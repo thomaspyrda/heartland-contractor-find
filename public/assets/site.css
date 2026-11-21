@@ -14,6 +14,6 @@
 .call-preference{margin:24px 0 0;padding:0;border:0;min-width:0}.call-preference legend{font-size:.9rem;font-weight:700;padding:0;margin-bottom:10px}.call-options{display:flex;gap:12px;flex-wrap:wrap}.call-options label{display:flex;align-items:center;gap:9px;margin:0;padding:11px 14px;border:1px solid #c4cbd4;border-radius:5px;cursor:pointer;font-size:.9rem}.call-options input[type=radio]{width:18px;height:18px;margin:0;accent-color:#b54617;flex-shrink:0}.call-options label:has(input:checked){background:#fff2eb;border-color:#b54617}
 
 
-.full-project-section>p{max-width:1000px}.full-project-list{columns:3;column-gap:42px;padding-left:24px;margin:30px 0 36px;list-style:disc}.full-project-list li{break-inside:avoid;padding:0 10px 0 2px;margin:0 0 14px;line-height:1.55}@media(max-width:760px){.full-project-list{columns:1;margin-top:24px}}
+.full-project-section>p{max-width:1000px}.full-project-list,.scope-box .full-project-list{columns:3;column-gap:42px;padding-left:24px;margin:30px 0 36px;list-style:disc}.full-project-list li{break-inside:avoid;padding:0 10px 0 2px;margin:0 0 14px;line-height:1.55}@media(max-width:760px){.full-project-list,.scope-box .full-project-list{columns:1;margin-top:24px}}
 
 .contractor-assurance h2{font-size:clamp(1.8rem,3.2vw,2.65rem);font-weight:800;line-height:1.18;max-width:1100px;margin-bottom:20px}.contractor-assurance p{max-width:1000px}.local-planning-note{margin-top:24px}
