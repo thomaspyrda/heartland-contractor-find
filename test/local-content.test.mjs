@@ -25,27 +25,19 @@ test('every town has researched guidance; only verified official resources are r
   }
  }
 });
-test('all local pages show three or four distinct reviewed project examples with relevant expertise',()=>{
- const used={concrete:new Set(),masonry:new Set(),hardscaping:new Set()};
+test('every local page replaces the themed project cards with the approved town-specific licensing message',()=>{
  for(const [key,catalog] of Object.entries(projectCatalog)){
   assert.equal(catalog.projects.length,40,key);assert.equal(new Set(catalog.projects.map(p=>p.id)).size,40,key);
  }
  for(const p of site.pages){
-  const theme=p.projectTheme,t=site.towns[p.town];
-  assert.ok(theme.projects.length>=3 && theme.projects.length<=4);
-  assert.equal(new Set(theme.projects.map(p=>p.id)).size,theme.projects.length);
-  assert.ok(theme.hook.includes(t.name));
-  const html=readFileSync(`dist/${p.service}/${p.town}/index.html`,'utf8');
-  assert.equal((html.match(/data-project-example=/g)||[]).length,theme.projects.length);
-  for(const project of theme.projects){
-   assert.ok(project.expertise.length>60);assert.ok(html.includes(esc(project.title)));assert.ok(html.includes(esc(project.expertise)));
-   assert.ok(projectCatalog[theme.catalog].projects.some(x=>x.id===project.id&&x.title===project.title));
-   used[theme.catalog].add(project.id);
-  }
+  const t=site.towns[p.town],html=readFileSync(`dist/${p.service}/${p.town}/index.html`,'utf8');
+  assert.ok(html.includes(`We only connect you with fully licensed and insured contractors serving ${esc(t.name)}.`));
+  assert.match(html,/class="scope-box contractor-assurance"/);
+  assert.ok(!html.includes('data-project-example='));
+  assert.ok(!html.includes('Here is a closer look at a few possibilities.'));
   assert.match(html,/budget range, preferred timing, and at least one project or inspiration photo/);
   assert.ok(!html.includes('{town}'));
  }
- for(const [key,ids] of Object.entries(used))assert.equal(ids.size,40,`${key}: every reviewed idea appears somewhere`);
 });
 test('local resources and expanded content do not increase lead Worker initialization dependencies',()=>{
  const worker=readFileSync('src/worker.mjs','utf8');

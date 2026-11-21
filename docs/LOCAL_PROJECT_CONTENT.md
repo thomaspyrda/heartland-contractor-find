@@ -43,3 +43,7 @@ This is a content improvement, not a certification that each local page has whol
 ## Full project lists
 
 All 801 concrete, masonry and hardscaping location pages additionally display their complete 40-item service list as semantic HTML bullets. The list uses three columns on desktop and one column on narrow screens. The short themed examples remain as deeper explanations, with copy making their illustrative scope clear. The build now runs 34 tests, including verification that all 40 service-specific suggestions appear exactly once in each applicable local list.
+
+## Contractor assurance replacement
+
+At the owner's request, the former three/four detailed project-card section is replaced on all 1,068 local pages with the approved large, bold statement that referrals connect homeowners only with fully licensed and insured contractors serving the named town. The owner confirmed that every referral goes to one fully licensed and insured company. This is an owner-supplied business representation, not a claim of independent credential verification by the website developer. The full 40-item lists remain on all 801 concrete, masonry and hardscaping location pages. Local planning resources, introductory discussion prompts and inquiry requirements remain in place. The content regression check now verifies the assurance text and removal of the old cards.
