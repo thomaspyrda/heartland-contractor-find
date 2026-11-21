@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "reviewedOn": "2026-11-21",
+  "corePaths": [
+    "/",
+    "/services/",
+    "/concrete/",
+    "/masonry/",
+    "/hardscaping/",
+    "/retaining-walls/",
+    "/areas/",
+    "/about/"
+  ],
+  "localTowns": [
+    "shenandoah-ia",
+    "clarinda-ia",
+    "nebraska-city-ne",
+    "pawnee-city-ne",
+    "treynor-ia",
+    "maryville-mo",
+    "glenwood-ia",
+    "bellevue-ne",
+    "papillion-ne",
+    "savannah-mo",
+    "sabetha-ks",
+    "troy-ks"
+  ],
+  "reason": "Initial reviewed release: core service and area pages plus twelve communities across all four coverage states with verified official planning resources. Other routes remain available for inquiries while awaiting further indexing review."
+}

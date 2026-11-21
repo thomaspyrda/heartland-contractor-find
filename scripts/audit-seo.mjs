@@ -42,8 +42,10 @@ const sitemapPaths=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>new URL(de
 for(const path of sitemapPaths)if(!pages.has(path))errors.push(`sitemap: unknown page ${path}`);
 const noindexCount=[...pages.values()].filter(p=>p.noindex).length;
 const sitemapNoindex=sitemapPaths.filter(p=>pages.get(p)?.noindex).length;
-if(noindexCount)warnings.push(`${noindexCount} pages intentionally noindex: not eligible for Google results until launch.`);
-if(sitemapNoindex)warnings.push(`${sitemapNoindex} sitemap URLs are noindex. At launch include only approved indexable canonical URLs.`);
+if(noindexCount)warnings.push(`${noindexCount} pages deliberately remain noindex under the current release policy.`);
+if(sitemapNoindex)errors.push(`${sitemapNoindex} sitemap URLs are noindex; only indexable canonical URLs may be listed.`);
+if(new Set(sitemapPaths).size!==sitemapPaths.length)errors.push('sitemap contains duplicate URLs');
+for(const [path,page] of pages)if(!page.noindex&&!sitemapPaths.includes(path))errors.push(`${path}: indexable page absent from sitemap`);
 const depthCounts={};for(const n of depth.values())depthCounts[n]=(depthCounts[n]||0)+1;
 const assets=readdirSync(join(root,'assets')).map(name=>({name,bytes:statSync(join(root,'assets',name)).size})).sort((a,b)=>b.bytes-a.bytes);
 const report={scope:'Built HTML only; live host routing, HTTP status and Core Web Vitals require separate checks.',pages:pages.size,localPages:info.pages.filter(p=>/^\/[^/]+\/[^/]+\/$/.test(p)).length,noindexPages:noindexCount,sitemapUrls:sitemapPaths.length,sitemapNoindexUrls:sitemapNoindex,maxClickDepth:Math.max(...depth.values()),depthCounts,missingOrDuplicateMetadata:errors.filter(e=>/title|description/.test(e)).length,titleCharacters:{min:Math.min(...[...pages.values()].map(p=>p.titleLength)),max:Math.max(...[...pages.values()].map(p=>p.titleLength))},largestAssets:assets.slice(0,5),errors,warnings};
