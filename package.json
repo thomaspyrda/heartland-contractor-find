@@ -12,7 +12,8 @@
     "preview": "node scripts/preview.mjs",
     "configure": "node scripts/configure.mjs",
     "deploy": "node scripts/check-deploy.mjs && npx --yes wrangler@4 deploy",
-    "check": "npm run build && npm test",
-    "dev": "node scripts/preview.mjs"
+    "check": "npm run build && npm test && npm run audit:seo",
+    "dev": "node scripts/preview.mjs",
+    "audit:seo": "node scripts/audit-seo.mjs"
   }
 }

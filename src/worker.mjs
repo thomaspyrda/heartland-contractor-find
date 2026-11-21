@@ -6,7 +6,7 @@ const MAX_BODY = 10 * 1024 * 1024;
 const MAX_PHOTO = 3 * 1024 * 1024;
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const MAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const json = (data, status=200) => Response.json(data, {status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
+const json = (data, status=200) => Response.json(data, {status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','X-Robots-Tag':'noindex'}});
 const fail = (error,status=400) => json({error},status);
 export function configured(env) {
   return env.INQUIRIES_ENABLED === 'true' && !!(env.DB && env.PHOTOS && env.TURNSTILE_SITE_KEY && env.TURNSTILE_SECRET_KEY && env.RESEND_API_KEY && env.LEAD_NOTIFICATION_TO && env.MAIL_FROM && env.PUBLIC_ORIGIN);
@@ -136,7 +136,8 @@ function protect(response) {
 export default {
   async fetch(request,env,ctx) {
     const url=new URL(request.url);
-    if(url.hostname==='www.heartlandcontractorfind.com'){url.hostname='heartlandcontractorfind.com';return Response.redirect(url.toString(),308);}
+    // Run before static assets so canonical redirects cannot be bypassed by an existing page.
+    if(url.hostname==='www.heartlandcontractorfind.com' || (url.hostname==='heartlandcontractorfind.com' && url.protocol!=='https:')){url.hostname='heartlandcontractorfind.com';url.protocol='https:';return Response.redirect(url.toString(),308);}
     if(url.pathname==='/api/form-config' && request.method==='GET')return json({ready:configured(env),sitekey:configured(env)?env.TURNSTILE_SITE_KEY:null});
     if(url.pathname==='/api/leads'){
       if(request.method!=='POST')return fail('Method not allowed.',405);
@@ -144,7 +145,10 @@ export default {
     }
     if(url.pathname.startsWith('/api/'))return fail('Not found.',404);
     if(!['GET','HEAD'].includes(request.method))return fail('Method not allowed.',405);
-    return protect(await env.ASSETS.fetch(request));
+    const response=protect(await env.ASSETS.fetch(request));
+    // Keep preview hosts, missing pages, and operational JSON out of the search index.
+    if(url.hostname!=='heartlandcontractorfind.com' || response.status>=400 || url.pathname==='/build-info.json')response.headers.set('X-Robots-Tag','noindex');
+    return response;
   },
   scheduled(event,env,ctx){ctx.waitUntil(retryNotifications(env));}
 };
