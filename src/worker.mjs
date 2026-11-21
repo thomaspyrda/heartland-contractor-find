@@ -26,6 +26,7 @@ export function validateFields(data) {
   }
   if(!values.name || !values.location || values.description.length<10) return {error:'Please include your name, project location, and a description of at least 10 characters.'};
   if(values.phone.replace(/\D/g,'').length<7 || !MAIL.test(values.email)) return {error:'Please include a valid phone number and email address.'};
+  if(pageContext(values.source_path).path!=='/privacy/' && (!values.budget || !values.timeline)) return {error:'Please include your budget range and preferred timing.'};
   if(!UUID.test(values.request_id)) return {error:'Please reload the page and try again.'};
   if(data.get('consent')!=='yes') return {error:'Please agree to contact and project-information sharing before submitting.'};
   return {values};
@@ -68,6 +69,7 @@ export async function acceptLead(request,env,ctx,fetcher=fetch) {
   const previous=await env.DB.prepare('SELECT id FROM leads WHERE request_id = ?').bind(v.request_id).first();
   if(previous)return json({reference:previous.id},200);
   const files=data.getAll('photos').filter(f=>typeof f!=='string'&&f.size>0);
+  if(context.path!=='/privacy/' && files.length===0)return fail('Please add at least one project or inspiration photo.');
   if(files.length>3)return fail('Please choose no more than 3 images.');
   const prepared=[];
   for(const file of files){

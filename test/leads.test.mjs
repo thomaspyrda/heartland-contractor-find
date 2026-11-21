@@ -20,9 +20,9 @@ function fixture() {
   const lead=()=>sqlite.prepare('SELECT * FROM leads LIMIT 1').get();
   return {sqlite,env,objects,pending,ctx,sent,fetcher,count,lead};
 }
-function fields(changes={}) {
+function fields(changes={},withPhoto=true) {
   const values={name:'Test Homeowner',email:'homeowner@example.test',phone:'712-555-0100',location:'Shenandoah, IA 51601',description:'A small concrete pad and a related brick step repair.',budget:'$150 or still figuring it out',timeline:'Next spring if possible',notes:'Please call in the afternoon.',source_path:'/concrete/shenandoah-ia/',request_id:crypto.randomUUID(),consent:'yes','cf-turnstile-response':'valid-test-token',...changes};
-  const data=new FormData();for(const [key,value] of Object.entries(values))data.set(key,value);return data;
+  const data=new FormData();for(const [key,value] of Object.entries(values))data.set(key,value);if(withPhoto)data.append('photos',new File([new Uint8Array([255,216,255,1,2,3])],'project.jpg',{type:'image/jpeg'}));return data;
 }
 function request(data,origin='https://heartlandcontractorfind.com') {return new Request('https://heartlandcontractorfind.com/api/leads',{method:'POST',headers:{Origin:origin},body:data});}
 test('saves an open-ended small project, attribution and privately addressed email',async()=>{
@@ -31,8 +31,8 @@ test('saves an open-ended small project, attribution and privately addressed ema
   await Promise.all(f.pending);const row=f.lead();assert.equal(row.budget,'$150 or still figuring it out');assert.equal(row.referral_owner,'owner-test');assert.equal(row.service_context,'Concrete');assert.equal(row.town_context,'Shenandoah, IA');assert.equal(row.partner_id,'partner-test');assert.equal(row.notification_state,'sent');
   assert.deepEqual(f.sent[0].to,['inquiries@example.test']);assert.equal(f.sent[0].reply_to,'homeowner@example.test');
 });
-test('does not restrict the service description or reject an uncertain location or budget',async()=>{
-  const f=fixture();const r=await acceptLead(request(fields({description:'I have a mixed outdoor project and do not know what services are involved.',location:'Near the service boundary; please call me',budget:'unsure'})),f.env,f.ctx,f.fetcher);assert.equal(r.status,201);await Promise.all(f.pending);
+test('accepts mixed work, an uncertain location, and a budget range without a minimum',async()=>{
+  const f=fixture();const r=await acceptLead(request(fields({description:'I have a mixed outdoor project and do not know what services are involved.',location:'Near the service boundary; please call me',budget:'$100–$200'})),f.env,f.ctx,f.fetcher);assert.equal(r.status,201);await Promise.all(f.pending);
 });
 test('retrying the same submission creates one lead and one notification',async()=>{
   const f=fixture(),id=crypto.randomUUID();for(let i=0;i<2;i++){const r=await acceptLead(request(fields({request_id:id})),f.env,f.ctx,f.fetcher);assert.ok(r.ok);await Promise.all(f.pending);}assert.equal(f.count(),1);assert.equal(f.sent.length,1);
@@ -47,13 +47,13 @@ test('a notification claim prevents duplicate concurrent delivery',async()=>{
   await Promise.all([notifyLead(f.env,f.lead().id,f.fetcher),notifyLead(f.env,f.lead().id,f.fetcher)]);assert.equal(f.sent.length,1);
 });
 test('stores photos privately and includes them in the owner notification',async()=>{
-  const f=fixture(),data=fields();data.append('photos',new File([new Uint8Array([255,216,255,1,2,3])],'private-name.jpg',{type:'image/jpeg'}));
+  const f=fixture(),data=fields({},false);data.append('photos',new File([new Uint8Array([255,216,255,1,2,3])],'private-name.jpg',{type:'image/jpeg'}));
   const r=await acceptLead(request(data),f.env,f.ctx,f.fetcher);assert.equal(r.status,201);await Promise.all(f.pending);assert.equal(f.objects.size,1);assert.equal(f.sent[0].attachments.length,1);assert.equal(f.sent[0].attachments[0].filename,'photo-1.jpg');assert.equal(JSON.stringify(await r.json()).includes('private-name'),false);
 });
 test('rejects disguised or oversized photos without saving a lead',async()=>{
-  const f=fixture(),data=fields();data.append('photos',new File(['<script>bad</script>'],'image.jpg',{type:'image/jpeg'}));
+  const f=fixture(),data=fields({},false);data.append('photos',new File(['<script>bad</script>'],'image.jpg',{type:'image/jpeg'}));
   assert.equal((await acceptLead(request(data),f.env,f.ctx,f.fetcher)).status,400);assert.equal(f.count(),0);
-  const oversized=fields();oversized.append('photos',new File([new Uint8Array(3*1024*1024+1)],'big.jpg',{type:'image/jpeg'}));assert.equal((await acceptLead(request(oversized),f.env,f.ctx,f.fetcher)).status,400);assert.equal(f.count(),0);
+  const oversized=fields({},false);oversized.append('photos',new File([new Uint8Array(3*1024*1024+1)],'big.jpg',{type:'image/jpeg'}));assert.equal((await acceptLead(request(oversized),f.env,f.ctx,f.fetcher)).status,400);assert.equal(f.count(),0);
 });
 test('rejects missing consent, incorrect origin, honeypot, and invalid security token',async()=>{
   const f=fixture();assert.equal((await acceptLead(request(fields({consent:''})),f.env,f.ctx,f.fetcher)).status,400);
@@ -65,7 +65,7 @@ test('rejects a verified token for another hostname or action',async()=>{
   for(const value of [{hostname:'other.example',action:'project-inquiry'},{hostname:'heartlandcontractorfind.com',action:'other'}]){const f=fixture();const r=await acceptLead(request(fields()),f.env,f.ctx,async()=>Response.json({success:true,...value}));assert.equal(r.status,400);assert.equal(f.count(),0);}
 });
 test('privacy requests are saved unassigned and marked for private handling',async()=>{
-  const f=fixture();await acceptLead(request(fields({source_path:'/privacy/',description:'Please remove my previous project inquiry.'})),f.env,f.ctx,f.fetcher);await Promise.all(f.pending);assert.equal(f.lead().request_kind,'privacy');assert.equal(f.lead().partner_id,'unassigned');assert.match(f.sent[0].text,/do not forward to a contractor/);
+  const f=fixture();await acceptLead(request(fields({source_path:'/privacy/',description:'Please remove my previous project inquiry.',budget:'',timeline:''},false)),f.env,f.ctx,f.fetcher);await Promise.all(f.pending);assert.equal(f.lead().request_kind,'privacy');assert.equal(f.lead().partner_id,'unassigned');assert.match(f.sent[0].text,/do not forward to a contractor/);
 });
 test('does not accept submissions while configuration is incomplete',async()=>{
   const f=fixture();delete f.env.RESEND_API_KEY;assert.equal(configured(f.env),false);assert.equal((await acceptLead(request(fields()),f.env,f.ctx,f.fetcher)).status,503);assert.equal(f.count(),0);
@@ -78,4 +78,14 @@ test('there is no public endpoint for retrieving lead records',async()=>{
 });
 test('context comes from known pages rather than arbitrary posted service names',()=>{
   assert.equal(pageContext('/masonry/clarinda-ia/').service,'Masonry');assert.equal(pageContext('/not-a-page/').path,'/');
+});
+
+test('requires budget, timing, and a nonempty photo before saving a project',async()=>{
+  for(const field of ['budget','timeline','photos']){
+    const f=fixture(),data=fields();data.delete(field);
+    const response=await acceptLead(request(data),f.env,f.ctx,f.fetcher);
+    assert.equal(response.status,400,field);assert.equal(f.count(),0);assert.equal(f.objects.size,0);assert.equal(f.sent.length,0);
+  }
+  const f=fixture(),data=fields({},false);data.append('photos',new File([],'empty.jpg',{type:'image/jpeg'}));
+  assert.equal((await acceptLead(request(data),f.env,f.ctx,f.fetcher)).status,400);assert.equal(f.count(),0);
 });

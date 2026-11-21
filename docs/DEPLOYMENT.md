@@ -67,13 +67,13 @@ Keep the Hostinger domain renewed. Domain registration does not need to move. Re
 
 ## 5. Verify the complete inquiry flow
 
-Submit an operator-authorized test project with no photo, then one with a permitted photo. Confirm:
+Confirm that project requests missing a budget range, timing, or photo are rejected, then submit an operator-authorized test project with all required details and a permitted photo. Confirm:
 
 - The customer sees success only after a real durable database write.
 - The reference matches the D1 record and the notification.
 - The private owner mailbox receives the correct details and photo attachment.
 - The originating service and town are preserved separately from the customer-entered project location.
-- Budget and timing remain optional; descriptions accept mixed or unlisted work.
+- Budget range, timing, and one to three photos are required for project requests; descriptions accept mixed or unlisted work. Privacy requests do not require project details or photos.
 - Repeating the same request ID creates no duplicate lead or notification.
 - Invalid Turnstile, incorrect origin, missing consent and unsupported uploads are rejected without saving a lead.
 - A deliberately failed email attempt leaves a saved inquiry eligible for retry.

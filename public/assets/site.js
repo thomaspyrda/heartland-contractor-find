@@ -30,6 +30,7 @@ if (form) {
     event.preventDefault();
     if (!ready || !form.reportValidity()) return;
     const files = [...form.elements.photos.files];
+    if (form.elements.photos.required && files.length === 0) { message('Please add at least one project or inspiration photo.', 'error'); return; }
     if (files.length > 3 || files.some(f => f.size > 3 * 1024 * 1024 || !['image/jpeg','image/png','image/webp'].includes(f.type))) {
       message('Please choose up to 3 JPG, PNG, or WebP images, no larger than 3 MB each.', 'error'); return;
     }
@@ -45,7 +46,7 @@ if (form) {
     } catch (error) {
       // Keep the same request ID after a failed response so retrying cannot duplicate a saved inquiry.
       message(error.message || 'We could not confirm your submission. Please try again; your details remain in the form.', 'error'); resetChallenge();
-    } finally { button.disabled = false; button.textContent = 'Send my project details'; }
+    } finally { button.disabled = false; button.textContent = 'Request a contractor connection'; }
   });
   initialize();
 }

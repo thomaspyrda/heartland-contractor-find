@@ -6,7 +6,7 @@ An independently branded residential project-referral website for Southwest Iowa
 
 - 16 generated pages plus a real 404 page: homepage, service directory, four service guides, six service/location pages, service area, how it works, privacy notice and photo credits.
 - Responsive design, locally hosted licensed stock photography, crawlable HTML, unique titles/descriptions, canonical URLs, structured data and a sitemap.
-- Open-ended project inquiry form: project description, location, contact information, optional budget, timing, notes and up to three photos. No service dropdown, budget threshold or automated service-fit rejection.
+- Open-ended project inquiry form: project description, location, contact information, required budget range, timing and one to three photos, plus optional notes. No service dropdown, budget threshold or automated service-fit rejection.
 - Cloudflare Worker backend with D1 lead records, private R2 photos, Turnstile verification, referral attribution and private email notifications through Resend.
 - Durable notification retry queue. A delivery failure does not discard a saved inquiry. Customer photo attachments are included in the owner's notification.
 - No public access to lead records, notification destination, email credentials, partner assignment or original uploaded filenames.

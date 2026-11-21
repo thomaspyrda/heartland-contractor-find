@@ -12,7 +12,7 @@ test('all published routes have one heading, unique SEO metadata and working loc
   }
 });
 test('all forms remain open-ended and include the source path',()=>{
-  for(const path of info.pages){const html=readFileSync(join(root,path,'index.html'),'utf8');assert.ok(!html.includes('<select'),path);assert.match(html,/name="description" required/);assert.match(html,/name="source_path"/);assert.match(html,/name="budget" maxlength/);assert.doesNotMatch(html,/name="budget"[^>]*required/);}
+  for(const path of info.pages){const html=readFileSync(join(root,path,'index.html'),'utf8');assert.ok(!html.includes('<select'),path);assert.match(html,/name="description" required/);assert.match(html,/name="source_path"/);if(path!=='/privacy/')for(const field of ['budget','timeline','photos'])assert.match(html,new RegExp(`name="${field}" required`));}
 });
 test('all structured data parses and no fake local contractor or review markup is present',()=>{
   for(const path of info.pages){const html=readFileSync(join(root,path,'index.html'),'utf8');for(const [,json] of html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g)){const schema=JSON.parse(json);assert.ok(Array.isArray(schema));}assert.doesNotMatch(html,/"@type":"(?:LocalBusiness|AggregateRating|Review)"/);}
