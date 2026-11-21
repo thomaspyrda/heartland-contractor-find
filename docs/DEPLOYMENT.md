@@ -14,27 +14,27 @@ In the owner's Cloudflare account:
 
 The production domain, D1 database and R2 bucket must belong to the owner's account so the project can change contractor partners without losing its lead-generation infrastructure.
 
-## 2. Generate the deployment configuration
+## 2. Deploy the repository
 
-Use Node.js 24. In a local checkout:
+The repository includes `wrangler.json` with the owner's created D1 database and private R2 bucket. Infrastructure names and database IDs are not credentials; runtime secrets remain outside the repository. The owner has initialized the lead schema through the D1 Console.
+
+Use Node.js 24. For optional local deployment:
 
 ```sh
 npm run check
-npm run configure -- <real-d1-database-id>
 npx --yes wrangler@4 login
 npx --yes wrangler@4 d1 migrations apply heartland-inquiries --remote
 ```
 
-`npm run configure` writes an ignored `wrangler.json`. It contains infrastructure bindings but never runtime secrets or the notification recipient. Use `PHOTO_BUCKET_NAME` only if a different bucket name was actually created.
+The migration command is only needed when the schema has not already been initialized. To change infrastructure later, `npm run configure -- <real-d1-database-id>` regenerates the tracked `wrangler.json`; review and commit the resulting configuration. It never writes runtime secrets or the notification recipient. Use `PHOTO_BUCKET_NAME` only if a different bucket name was actually created.
 
 Cloudflare can serve prebuilt files without invoking the Worker. `assets.run_worker_first` only targets `/api/*`; ordinary pages and images use static asset delivery. `_headers` applies security headers to static responses. A real `404.html` handles unknown pages rather than returning the homepage with status 200.
 
 For GitHub-connected Cloudflare Builds, set:
 
-- Build command: `npm run build && npm run configure`
+- Build command: `npm run build`
 - Deploy command: `npm run deploy`
-- Build variable: `CLOUDFLARE_D1_DATABASE_ID` with the real database ID.
-- Optional build variable: `PHOTO_BUCKET_NAME` if a non-default real bucket name was chosen.
+- Worker name: `heartland-contractor-find` (must match `wrangler.json`).
 - Keep `INDEXING_ENABLED` unset during review.
 
 Use the repository's `main` branch. If the dashboard initially detects another framework or generates configuration, select this Worker entrypoint and static asset directory; do not introduce a single-page-app fallback or overwrite the binding configuration.

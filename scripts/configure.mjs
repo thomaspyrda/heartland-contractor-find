@@ -18,4 +18,4 @@ const config = {
 };
 // Runtime secrets are configured in Cloudflare. Never write notification addresses or API credentials here.
 await writeFile(new URL('../wrangler.json',import.meta.url),JSON.stringify(config,null,2)+'\n');
-console.log('Wrote ignored wrangler.json using the supplied database ID. No runtime secrets were written.');
+console.log('Wrote wrangler.json using the supplied database ID. No runtime secrets were written.');
