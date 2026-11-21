@@ -39,3 +39,7 @@ Primary technical background for the general expertise descriptions includes Bri
 `npm run check` builds every route, runs 33 tests and checks SEO structure. The content tests require a research record for every town, three or four valid project examples per local page, expertise for each example, coverage of all 120 reviewed ideas, and no office link on fallback pages. They also verify that expanded research is not imported into the lead Worker.
 
 This is a content improvement, not a certification that each local page has wholly unique expert-authored research. Service explanations and themes remain shared where applicable. Prelaunch noindex is retained; the separate indexing rollout and Cloudflare www redirect identified in the technical audit remain pending.
+
+## Full project lists
+
+All 801 concrete, masonry and hardscaping location pages additionally display their complete 40-item service list as semantic HTML bullets. The list uses three columns on desktop and one column on narrow screens. The short themed examples remain as deeper explanations, with copy making their illustrative scope clear. The build now runs 34 tests, including verification that all 40 service-specific suggestions appear exactly once in each applicable local list.

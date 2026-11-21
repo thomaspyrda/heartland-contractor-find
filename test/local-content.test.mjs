@@ -51,3 +51,16 @@ test('local resources and expanded content do not increase lead Worker initializ
  const worker=readFileSync('src/worker.mjs','utf8');
  assert.doesNotMatch(worker,/local-research|project-examples|catalog\.mjs|projects\.mjs/);
 });
+
+test('every concrete, masonry and hardscaping location page includes its complete 40-item bullet list',()=>{
+ let count=0;
+ for(const p of site.pages){
+  const catalog=projectCatalog[p.service];if(!catalog)continue;
+  const html=readFileSync(`dist/${p.service}/${p.town}/index.html`,'utf8');
+  assert.match(html,/<ul class="full-project-list">/);
+  assert.equal((html.match(/data-project-suggestion=/g)||[]).length,40);
+  for(const project of catalog.projects)assert.ok(html.includes(`<li data-project-suggestion="${p.service}-${project.id}">${esc(project.title)}</li>`),`${p.service}/${p.town}: ${project.id}`);
+  count++;
+ }
+ assert.equal(count,coverage.towns.length*3);
+});
