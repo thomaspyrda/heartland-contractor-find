@@ -27,6 +27,6 @@ ZIP maps are approximate representations, not official USPS delivery boundaries.
 
 ## Publishing and content
 
-The searchable directory links to existing static service/location routes. Local pages contain recorded ZIP references, the community reference distance, nearby communities, service-specific project questions, and the same open-ended inquiry flow. Preserve the six previously researched municipal-resource sections. No generated town page invents local soil, permits, completed work, reviews, or contractor offices.
+The searchable directory links to existing static service/location routes. Local pages contain recorded ZIP references, the community reference distance, nearby communities, service-specific project questions, and the same open-ended inquiry flow. Retain the researched municipal-resource links where available. Local sales passages use the approved tone and name the town in the permit wording. No generated town page invents local soil, permits, completed work, reviews, or contractor offices.
 
 Indexing remains disabled by default. The directory and routes are available for review; these new pages have not had individual municipal research. Refine local content before enabling broad search indexing. Location pages are not a guarantee of availability or ranking.

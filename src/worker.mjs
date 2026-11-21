@@ -26,10 +26,11 @@ export function validateFields(data) {
     values[key]=(value||'').trim();
     if(values[key].length>max || /\x00/.test(values[key])) return {error:`Please shorten the ${key.replace('_',' ')} field.`};
   }
-  if(!values.name || !values.location || values.description.length<10) return {error:'Please include your name, project location, and a description of at least 10 characters.'};
+  if(!values.name || !values.location || values.description.length<10) return {error:'Please include your name, project ZIP code, and a description of at least 10 characters.'};
+  if(!/^[0-9]{5}$/.test(values.location))return {error:'Please enter a ZIP code using exactly 5 digits.'};
   if(values.phone.replace(/\D/g,'').length<7 || !MAIL.test(values.email)) return {error:'Please include a valid phone number and email address.'};
   if(pageContext(values.source_path).path!=='/privacy/' && (!values.budget || !values.timeline)) return {error:'Please include your budget range and preferred timing.'};
-  if(values.callback_time && !['Morning','Afternoon','Evening'].includes(values.callback_time))return {error:'Please choose Morning, Afternoon, or Evening for your phone call.'};
+  if(!['Morning','Afternoon','Evening'].includes(values.callback_time))return {error:'Please choose Morning, Afternoon, or Evening for your phone call.'};
   if(!UUID.test(values.request_id)) return {error:'Please reload the page and try again.'};
   if(data.get('consent')!=='yes') return {error:'Please agree to contact and project-information sharing before submitting.'};
   return {values};
@@ -110,7 +111,7 @@ export async function notifyLead(env,id,fetcher=fetch) {
   try{
     const attachmentKeys=JSON.parse(lead.photo_keys||'[]');const attachments=[];
     for(const key of attachmentKeys){const object=await env.PHOTOS.get(key);if(!object)throw new Error('photo-missing');attachments.push({filename:key.split('/').pop(),content:base64(new Uint8Array(await object.arrayBuffer()))});}
-    const text=[`New ${lead.request_kind==='privacy'?'privacy request':'project inquiry'}`,`Reference: ${lead.id}`,`Received: ${lead.created_at}`,`Name: ${lead.name}`,`Phone: ${lead.phone}`,`Email: ${lead.email}`,`Project location: ${lead.location}`,`\nPROJECT\n${lead.description}`,`\nBudget: ${lead.budget||'Not specified'}`,`Timing: ${lead.timeline||'Not specified'}`,`Other notes: ${lead.notes||'None'}`,`\nSource: ${lead.source_path}`,`Page topic: ${lead.service_context}`,`Page town: ${lead.town_context||'Not specified'}`,`Referral owner: ${lead.referral_owner}`,`Assigned partner: ${lead.partner_id}`,`Photos: ${attachmentKeys.length}`,lead.request_kind==='privacy'?'PRIVACY REQUEST: review privately; do not forward to a contractor.':'Follow up with the homeowner to qualify the project and arrange any appointment.'].join('\n');
+    const text=[`New ${lead.request_kind==='privacy'?'privacy request':'project inquiry'}`,`Reference: ${lead.id}`,`Received: ${lead.created_at}`,`Name: ${lead.name}`,`Phone: ${lead.phone}`,`Email: ${lead.email}`,`Project ZIP code: ${lead.location}`,`\nPROJECT\n${lead.description}`,`\nBudget: ${lead.budget||'Not specified'}`,`Timing: ${lead.timeline||'Not specified'}`,`Other notes: ${lead.notes||'None'}`,`\nSource: ${lead.source_path}`,`Page topic: ${lead.service_context}`,`Page town: ${lead.town_context||'Not specified'}`,`Referral owner: ${lead.referral_owner}`,`Assigned partner: ${lead.partner_id}`,`Photos: ${attachmentKeys.length}`,lead.request_kind==='privacy'?'PRIVACY REQUEST: review privately; do not forward to a contractor.':'Follow up with the homeowner to qualify the project and arrange any appointment.'].join('\n');
     const response=await fetcher('https://api.resend.com/emails',{method:'POST',headers:{Authorization:`Bearer ${env.RESEND_API_KEY}`,'Content-Type':'application/json','Idempotency-Key':`inquiry-${lead.id}`},body:JSON.stringify({from:env.MAIL_FROM,to:[env.LEAD_NOTIFICATION_TO],reply_to:lead.email,subject:`${lead.request_kind==='privacy'?'Privacy request':'New project inquiry'} · ${lead.service_context} · ${lead.id.slice(0,8)}`,text,...(attachments.length?{attachments}:{})}),signal:AbortSignal.timeout(15000)});
     if(!response.ok)throw new Error('delivery-failed');
     await env.DB.prepare("UPDATE leads SET notification_state='sent', notified_at=?, notification_lock_until=0 WHERE id=?").bind(new Date().toISOString(),id).run();return true;

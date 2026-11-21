@@ -57,3 +57,17 @@ test('pages omit raw community API links and offer the three phone-call preferen
   }
   assert.match(readFileSync(join(root,'concrete/shenandoah-ia/index.html'),'utf8'),/shenandoahiowa.net\/forms-permits/);
 });
+
+test('all forms require callback preference and five-digit ZIP; local permit copy names the town',()=>{
+  for(const path of info.pages){
+    const html=readFileSync(join(root,path,'index.html'),'utf8');
+    assert.match(html,/name="location" required inputmode="numeric" pattern="\[0-9\]\{5\}" minlength="5" maxlength="5"/);
+    for(const value of ['Morning','Afternoon','Evening'])assert.ok(html.includes(`name="callback_time" value="${value}" required`),path);
+  }
+  for(const page of site.pages){
+    const town=site.towns[page.town];const html=readFileSync(join(root,page.service,page.town,'index.html'),'utf8');
+    const escaped=town.name.replaceAll('&','&amp;').replaceAll("'",'&#39;');
+    assert.ok(html.includes(`permits or other approvals may be needed for ${escaped}.`),`${page.service}/${page.town}`);
+    assert.ok(!html.includes('is included through our ZIP-area coverage directory'));
+  }
+});

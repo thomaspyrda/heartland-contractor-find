@@ -12,20 +12,22 @@ const towns=Object.fromEntries(coverage.towns.map(t=>{
   const original=base.towns[t.slug]||{};
   return [t.slug,{...t,context:`${t.name}, ${t.stateName}, is included through our ZIP-area coverage directory. The listed ZIP codes are ${t.zipCodes.join(', ')}. ${t.counties.length?`Postal references associate this community with ${t.counties.join(' and ')} County${t.counties.length>1?' areas':''}. `:''}Tell us the actual project town and ZIP code, including rural properties or a different mailing-city name. Our sales team reviews location, scope, and availability during follow-up; the form does not reject a project by distance.`,resource:null,resourceLabel:'',...original}];
 }));
-// Preserve the six individually researched local pages; expand every listed community across the existing services.
+// Service-specific passages are localized for every community; municipal resource links remain where researched.
 const pages=[];
 for(const [slug,t] of Object.entries(towns))for(const [key,s] of Object.entries(base.services)){
-  const original=base.pages.find(p=>p.town===slug&&p.service===key);
-  if(original){pages.push(original);continue;}
-  const zipText=t.zipCodes.join(', ');
-  const nearby=Object.values(towns).filter(n=>n.slug!==slug).sort((a,b)=>milesBetween(t,a)-milesBetween(t,b)).slice(0,3).map(n=>`${n.name}, ${n.state}`).join('; ');
-  const planning={
-    concrete:'Describe what the concrete will support, approximate dimensions, site access, and whether existing material needs removal. For a patio, show the relationship to the home; for an indoor slab, explain access to the room and any connected work.',
-    masonry:'Identify whether the work involves brick, block, stone, a chimney, or steps. Include a wide photo showing the area and close-up details of the joints or damage. Mention working height and nearby roofs or landscaping that affect access.',
-    hardscaping:'Describe how you want to use the space and how the patio, paths, walls, and any fire feature should connect. Photos should show the wider yard, existing surfaces, changes in grade, and access from the street or driveway.',
-    'retaining-walls':'Include the approximate wall length and height, material preferences, and what is above and below the wall. Photograph the slope and any existing wall. Mention connected patios or steps so the contractor can review the whole site.'
+  const ideas={
+    concrete:`A new patio, a durable slab, or fresh concrete for a space you use every day—what would make your ${t.name} home work better for you?`,
+    masonry:`New brick or stonework, refreshed steps, or repairs to the masonry around your ${t.name} home—what would you like to improve?`,
+    hardscaping:`A new patio, a welcoming walkway, or a fire pit for evenings outside—what would make your outdoor space in ${t.name} work better for you?`,
+    'retaining-walls':`More usable yard space, a defined garden area, or a new wall to replace an aging one—what would you like to change at your ${t.name} property?`
   };
-  pages.push({service:key,town:slug,intro:`Looking for a local contractor to discuss ${s.name.toLowerCase()} in ${t.name}, ${t.stateName}? Share the whole residential project, your budget range, preferred timing, and at least one photo. We help arrange a contractor conversation for projects of all sizes.`,localHeading:`Planning ${s.name.toLowerCase()} in ${t.name}`,localDetail:`For a ${t.name} inquiry, our directory lists ZIP codes ${zipText}. Nearby listed communities include ${nearby}. ${planning[key]} A mailing ZIP can include several communities or rural addresses; provide the town and ZIP for the actual work site so the sales team can plan the follow-up.`});
+  const prompts={
+    concrete:'Tell us how you plan to use the space, what is there now, and any related work you are considering.',
+    masonry:'Tell us what you want to build or repair, what needs attention, and how you would like the finished work to look.',
+    hardscaping:'Tell us how you would like to use the space, what you want to change, and any related work you are considering.',
+    'retaining-walls':'Tell us about the space, any existing wall or slope, and how the wall should connect with your yard, patio, or steps.'
+  };
+  pages.push({service:key,town:slug,intro:`Planning ${s.name.toLowerCase()} at your ${t.name}, ${t.stateName}, home? Share your ideas, and we will help connect you with a local contractor to discuss the possibilities. Residential projects of all sizes are welcome.`,localHeading:`Bring your ${t.name} project to life.`,localDetail:`${ideas[key]} Whether you have a clear plan or are gathering ideas, we will help connect you with a local contractor to discuss the possibilities.`,localIdeas:`For your ${t.name} project, ${prompts[key].charAt(0).toLowerCase()+prompts[key].slice(1)} Include your budget range, preferred timing, and at least one photo of the area or inspiration you like. Those details give the contractor a useful starting point for your conversation.`,localPermits:`Depending on the scope of work, permits or other approvals may be needed for ${t.name}. Requirements vary by location and should be confirmed for your project before work begins.`});
 }
 export const site={...base,coverage:'Southwest Iowa, Southeast Nebraska, Northwest Missouri, and Northeast Kansas',towns,pages};
 export {coverage};
