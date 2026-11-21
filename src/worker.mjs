@@ -18,7 +18,7 @@ export function pageContext(path) {
   return {path:category||['/','/services/','/areas/','/about/','/privacy/','/photo-credits/'].includes(path)?path:'/',service:category?site.services[category].name:'General project inquiry',town:''};
 }
 export function validateFields(data) {
-  const limits={name:120,phone:40,email:254,location:180,description:6000,budget:200,timeline:300,notes:2000,source_path:240,request_id:36};
+  const limits={name:120,phone:40,email:254,location:180,description:6000,budget:200,timeline:300,notes:2000,callback_time:20,source_path:240,request_id:36};
   const values={};
   for(const [key,max] of Object.entries(limits)) {
     const value=data.get(key);
@@ -29,6 +29,7 @@ export function validateFields(data) {
   if(!values.name || !values.location || values.description.length<10) return {error:'Please include your name, project location, and a description of at least 10 characters.'};
   if(values.phone.replace(/\D/g,'').length<7 || !MAIL.test(values.email)) return {error:'Please include a valid phone number and email address.'};
   if(pageContext(values.source_path).path!=='/privacy/' && (!values.budget || !values.timeline)) return {error:'Please include your budget range and preferred timing.'};
+  if(values.callback_time && !['Morning','Afternoon','Evening'].includes(values.callback_time))return {error:'Please choose Morning, Afternoon, or Evening for your phone call.'};
   if(!UUID.test(values.request_id)) return {error:'Please reload the page and try again.'};
   if(data.get('consent')!=='yes') return {error:'Please agree to contact and project-information sharing before submitting.'};
   return {values};
@@ -64,6 +65,8 @@ export async function acceptLead(request,env,ctx,fetcher=fetch) {
   if(data.get('website'))return fail('Your request could not be accepted.',400);
   const validated=validateFields(data);if(validated.error)return fail(validated.error);
   const v=validated.values;
+  // Store the preference with the lead's notes so existing databases and notification retries retain it.
+  if(v.callback_time)v.notes=`Preferred Time for Phone Call: ${v.callback_time}${v.notes?'\n\n'+v.notes:''}`;
   const token=data.get('cf-turnstile-response');
   if(typeof token!=='string'||token.length>2048||!token)return fail('Please complete the security check.');
   try{if(!await verifyTurnstile(env,token,url.hostname,fetcher))return fail('Please complete the security check again.');}catch{return fail('The security check is temporarily unavailable. Please try again.',503);}

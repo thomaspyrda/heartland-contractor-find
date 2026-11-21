@@ -95,3 +95,14 @@ test('new community service pages retain service and town attribution without di
   assert.equal(r.status,201);await Promise.all(f.pending);
   assert.equal(f.lead().town_context,'White Cloud, KS');assert.equal(f.lead().service_context,'Hardscaping');assert.equal(f.lead().referral_owner,'owner-test');
 });
+
+test('stores every offered phone-call preference and includes it in the owner notification',async()=>{
+  for(const time of ['Morning','Afternoon','Evening']){
+    const f=fixture();const response=await acceptLead(request(fields({callback_time:time,notes:'Side gate access.'})),f.env,f.ctx,f.fetcher);
+    assert.equal(response.status,201);await Promise.all(f.pending);
+    assert.equal(f.lead().notes,`Preferred Time for Phone Call: ${time}\n\nSide gate access.`);
+    assert.ok(f.sent[0].text.includes(`Preferred Time for Phone Call: ${time}`));
+  }
+  const f=fixture();const response=await acceptLead(request(fields({callback_time:'Midnight'})),f.env,f.ctx,f.fetcher);
+  assert.equal(response.status,400);assert.equal(f.count(),0);
+});

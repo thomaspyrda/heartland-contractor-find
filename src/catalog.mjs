@@ -10,8 +10,7 @@ export function milesBetween(a,b){
 }
 const towns=Object.fromEntries(coverage.towns.map(t=>{
   const original=base.towns[t.slug]||{};
-  const placeSource=t.censusGeoid?`https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2025/MapServer/${t.censusLayer||28}/query?where=GEOID%3D%27${t.censusGeoid}%27&outFields=NAME%2CGEOID&returnGeometry=false&f=pjson`:'https://www.geonames.org/postal-codes/US/';
-  return [t.slug,{...t,context:`${t.name}, ${t.stateName}, is included through our ZIP-area coverage directory. The listed ZIP codes are ${t.zipCodes.join(', ')}. ${t.counties.length?`Postal references associate this community with ${t.counties.join(' and ')} County${t.counties.length>1?' areas':''}. `:''}Tell us the actual project town and ZIP code, including rural properties or a different mailing-city name. Our sales team reviews location, scope, and availability during follow-up; the form does not reject a project by distance.`,resource:placeSource,resourceLabel:'Community reference',...original}];
+  return [t.slug,{...t,context:`${t.name}, ${t.stateName}, is included through our ZIP-area coverage directory. The listed ZIP codes are ${t.zipCodes.join(', ')}. ${t.counties.length?`Postal references associate this community with ${t.counties.join(' and ')} County${t.counties.length>1?' areas':''}. `:''}Tell us the actual project town and ZIP code, including rural properties or a different mailing-city name. Our sales team reviews location, scope, and availability during follow-up; the form does not reject a project by distance.`,resource:null,resourceLabel:'',...original}];
 }));
 // Preserve the six individually researched local pages; expand every listed community across the existing services.
 const pages=[];

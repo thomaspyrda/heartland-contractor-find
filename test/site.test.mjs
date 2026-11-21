@@ -47,3 +47,13 @@ test('the directory includes the origin, overlapping boundary communities, and K
   for(const code of coverage.geographicZipCodes)assert.ok(codes.has(code),code);
   assert.equal(coverage.radiusMiles,60);
 });
+
+test('pages omit raw community API links and offer the three phone-call preferences',()=>{
+  for(const path of info.pages){
+    const html=readFileSync(join(root,path,'index.html'),'utf8');
+    assert.doesNotMatch(html,/href="https:\/\/tigerweb\.geo\.census\.gov/);
+    assert.doesNotMatch(html,/>Community reference<\/a>/);
+    for(const value of ['Morning','Afternoon','Evening'])assert.ok(html.includes(`name="callback_time" value="${value}"`),path);
+  }
+  assert.match(readFileSync(join(root,'concrete/shenandoah-ia/index.html'),'utf8'),/shenandoahiowa.net\/forms-permits/);
+});
