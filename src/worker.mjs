@@ -1,4 +1,4 @@
-import site from '../content/site.json' with { type: 'json' };
+import {site} from './catalog.mjs';
 
 const MAX_BODY = 10 * 1024 * 1024;
 const MAX_PHOTO = 3 * 1024 * 1024;

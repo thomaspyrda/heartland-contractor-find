@@ -89,3 +89,9 @@ test('requires budget, timing, and a nonempty photo before saving a project',asy
   const f=fixture(),data=fields({},false);data.append('photos',new File([],'empty.jpg',{type:'image/jpeg'}));
   assert.equal((await acceptLead(request(data),f.env,f.ctx,f.fetcher)).status,400);assert.equal(f.count(),0);
 });
+
+test('new community service pages retain service and town attribution without distance rejection',async()=>{
+  const f=fixture();const r=await acceptLead(request(fields({source_path:'/hardscaping/white-cloud-ks/',location:'White Cloud, KS'})),f.env,f.ctx,f.fetcher);
+  assert.equal(r.status,201);await Promise.all(f.pending);
+  assert.equal(f.lead().town_context,'White Cloud, KS');assert.equal(f.lead().service_context,'Hardscaping');assert.equal(f.lead().referral_owner,'owner-test');
+});

@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { join, resolve } from 'node:path';
+import {site,coverage} from '../src/catalog.mjs';
 const root=resolve('dist');
 const info=JSON.parse(readFileSync(join(root,'build-info.json'),'utf8'));
 test('all published routes have one heading, unique SEO metadata and working local links',()=>{
@@ -20,8 +21,8 @@ test('all structured data parses and no fake local contractor or review markup i
 test('prelaunch builds are not presented as indexed pages',()=>{
   if(!info.indexingEnabled)for(const path of info.pages)assert.match(readFileSync(join(root,path,'index.html'),'utf8'),/name="robots" content="noindex,follow"/);
 });
-test('there are six initial service/location pages and four distinct service guides',()=>{
-  assert.equal(info.pages.filter(p=>/^\/[^/]+\/[^/]+\/$/.test(p)).length,6);for(const key of ['concrete','masonry','hardscaping','retaining-walls'])assert.ok(info.pages.includes(`/${key}/`));
+test('every directory community has all four service pages',()=>{
+  assert.equal(info.pages.filter(p=>/^\/[^/]+\/[^/]+\/$/.test(p)).length,coverage.towns.length*4);for(const key of ['concrete','masonry','hardscaping','retaining-walls'])assert.ok(info.pages.includes(`/${key}/`));
 });
 test('the public site contains no personal notification address, credentials or partner identity',()=>{
   function walk(dir){return readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(join(dir,e.name)):[join(dir,e.name)]);}
@@ -34,4 +35,15 @@ test('stock images contain no embedded EXIF, IPTC or comment metadata',()=>{
       assert.ok(![225,237,254].includes(marker),`Embedded metadata found: ${name}`);i+=bytes.readUInt16BE(i);
     }
   }
+});
+
+test('the directory includes the origin, overlapping boundary communities, and Kansas without removing the original pages',()=>{
+  for(const path of ['/concrete/farragut-ia/','/hardscaping/omaha-ne/','/masonry/white-cloud-ks/','/retaining-walls/lincoln-ne/','/concrete/shenandoah-ia/'])assert.ok(info.pages.includes(path),path);
+  for(const key of Object.keys(site.services)){
+    const html=readFileSync(join(root,key,'index.html'),'utf8');
+    for(const town of coverage.towns)assert.ok(html.includes(`href="/${key}/${town.slug}/"`),`${key}/${town.slug}`);
+  }
+  const codes=new Set(coverage.towns.flatMap(t=>t.zipCodes));
+  for(const code of coverage.geographicZipCodes)assert.ok(codes.has(code),code);
+  assert.equal(coverage.radiusMiles,60);
 });

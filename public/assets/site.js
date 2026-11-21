@@ -50,3 +50,14 @@ if (form) {
   });
   initialize();
 }
+
+for(const search of document.querySelectorAll('[data-area-search]')){
+  const directory=search.closest('.location-directory'),items=[...directory.querySelectorAll('[data-area-item]')];
+  search.addEventListener('input',()=>{
+    const term=search.value.trim().toLocaleLowerCase();let count=0;
+    for(const item of items){item.hidden=!item.dataset.search.toLocaleLowerCase().includes(term);if(!item.hidden)count++;}
+    for(const section of directory.querySelectorAll('.state-directory'))section.hidden=![...section.querySelectorAll('[data-area-item]')].some(item=>!item.hidden);
+    directory.querySelector('[data-area-status]').textContent=`${count} ${count===1?'community matches':'communities match'}. Your inquiry is welcome even if your location is not listed.`;
+    directory.querySelector('.directory-no-results').hidden=count!==0;
+  });
+}

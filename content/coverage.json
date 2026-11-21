@@ -1,0 +1,5103 @@
+{
+  "origin": {
+    "name": "Farragut, Iowa",
+    "latitude": 40.7200993,
+    "longitude": -95.480798,
+    "censusGeoid": "1926985"
+  },
+  "radiusMiles": 60,
+  "method": "Any intersection of a 60-mile azimuthal-equidistant radius with 2020 Census ZIP Code Tabulation Area geometry. Census places and postal community names associated with those areas are included. Additional non-ZCTA postal codes associated with included town names are listed for lead intake, not asserted to have polygon overlap.",
+  "sources": [
+    "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2025/MapServer/2",
+    "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2025/MapServer/28",
+    "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2025/MapServer/30",
+    "https://download.geonames.org/export/zip/US.zip"
+  ],
+  "geographicZipCodes": [
+    "50020",
+    "50022",
+    "50274",
+    "50801",
+    "50833",
+    "50835",
+    "50836",
+    "50837",
+    "50839",
+    "50840",
+    "50841",
+    "50842",
+    "50843",
+    "50845",
+    "50846",
+    "50847",
+    "50848",
+    "50851",
+    "50853",
+    "50854",
+    "50857",
+    "50858",
+    "50859",
+    "50860",
+    "50862",
+    "50864",
+    "51501",
+    "51503",
+    "51510",
+    "51521",
+    "51525",
+    "51526",
+    "51531",
+    "51532",
+    "51533",
+    "51534",
+    "51535",
+    "51536",
+    "51537",
+    "51540",
+    "51541",
+    "51542",
+    "51544",
+    "51546",
+    "51548",
+    "51549",
+    "51551",
+    "51552",
+    "51553",
+    "51554",
+    "51555",
+    "51559",
+    "51560",
+    "51561",
+    "51563",
+    "51565",
+    "51566",
+    "51570",
+    "51571",
+    "51573",
+    "51575",
+    "51576",
+    "51577",
+    "51601",
+    "51630",
+    "51631",
+    "51632",
+    "51636",
+    "51637",
+    "51638",
+    "51639",
+    "51640",
+    "51645",
+    "51646",
+    "51647",
+    "51648",
+    "51649",
+    "51650",
+    "51651",
+    "51652",
+    "51653",
+    "51654",
+    "51656",
+    "64421",
+    "64423",
+    "64427",
+    "64428",
+    "64431",
+    "64432",
+    "64433",
+    "64434",
+    "64437",
+    "64445",
+    "64446",
+    "64449",
+    "64451",
+    "64453",
+    "64455",
+    "64456",
+    "64457",
+    "64461",
+    "64466",
+    "64468",
+    "64470",
+    "64473",
+    "64475",
+    "64476",
+    "64479",
+    "64480",
+    "64482",
+    "64483",
+    "64485",
+    "64486",
+    "64487",
+    "64489",
+    "64491",
+    "64496",
+    "64498",
+    "64499",
+    "66035",
+    "66087",
+    "66094",
+    "66408",
+    "66425",
+    "66434",
+    "66515",
+    "66532",
+    "66534",
+    "66538",
+    "68003",
+    "68005",
+    "68007",
+    "68008",
+    "68010",
+    "68016",
+    "68017",
+    "68022",
+    "68023",
+    "68028",
+    "68033",
+    "68034",
+    "68037",
+    "68041",
+    "68042",
+    "68046",
+    "68048",
+    "68056",
+    "68058",
+    "68059",
+    "68064",
+    "68068",
+    "68069",
+    "68073",
+    "68102",
+    "68104",
+    "68105",
+    "68106",
+    "68107",
+    "68108",
+    "68110",
+    "68111",
+    "68112",
+    "68113",
+    "68114",
+    "68116",
+    "68117",
+    "68118",
+    "68122",
+    "68123",
+    "68124",
+    "68127",
+    "68128",
+    "68130",
+    "68131",
+    "68132",
+    "68133",
+    "68134",
+    "68135",
+    "68136",
+    "68137",
+    "68138",
+    "68142",
+    "68144",
+    "68147",
+    "68152",
+    "68154",
+    "68157",
+    "68164",
+    "68178",
+    "68182",
+    "68183",
+    "68301",
+    "68304",
+    "68305",
+    "68307",
+    "68317",
+    "68320",
+    "68321",
+    "68323",
+    "68324",
+    "68329",
+    "68332",
+    "68337",
+    "68344",
+    "68345",
+    "68346",
+    "68347",
+    "68348",
+    "68349",
+    "68355",
+    "68357",
+    "68358",
+    "68366",
+    "68372",
+    "68376",
+    "68378",
+    "68379",
+    "68380",
+    "68382",
+    "68403",
+    "68407",
+    "68409",
+    "68410",
+    "68413",
+    "68414",
+    "68417",
+    "68418",
+    "68419",
+    "68420",
+    "68421",
+    "68430",
+    "68431",
+    "68433",
+    "68437",
+    "68441",
+    "68442",
+    "68443",
+    "68446",
+    "68447",
+    "68448",
+    "68450",
+    "68454",
+    "68455",
+    "68457",
+    "68458",
+    "68461",
+    "68462",
+    "68463",
+    "68505",
+    "68506",
+    "68507",
+    "68510",
+    "68516",
+    "68517",
+    "68520",
+    "68526",
+    "68527"
+  ],
+  "additionalPostalCodes": [
+    "51502",
+    "51591",
+    "51593",
+    "51603",
+    "68009",
+    "68101",
+    "68103",
+    "68109",
+    "68119",
+    "68120",
+    "68139",
+    "68145",
+    "68155",
+    "68172",
+    "68175",
+    "68176",
+    "68179",
+    "68180",
+    "68197",
+    "68198",
+    "68501",
+    "68509",
+    "68529",
+    "68542",
+    "68544",
+    "68583"
+  ],
+  "towns": [
+    {
+      "name": "Anderson",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51652"
+      ],
+      "latitude": 40.7983085,
+      "longitude": -95.60849,
+      "centerMiles": 8.6,
+      "censusGeoid": "1902035",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "anderson-ia"
+    },
+    {
+      "name": "Anita",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50020"
+      ],
+      "latitude": 41.4436926,
+      "longitude": -94.7660151,
+      "centerMiles": 62.3,
+      "censusGeoid": "1902260",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "anita-ia"
+    },
+    {
+      "name": "Athelstan",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50836"
+      ],
+      "latitude": 40.5727019,
+      "longitude": -94.5426307,
+      "centerMiles": 50.3,
+      "censusGeoid": "1903430",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "athelstan-ia"
+    },
+    {
+      "name": "Atlantic",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50022"
+      ],
+      "latitude": 41.3957581,
+      "longitude": -95.0136873,
+      "centerMiles": 52.6,
+      "censusGeoid": "1903520",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "atlantic-ia"
+    },
+    {
+      "name": "Avoca",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51521"
+      ],
+      "latitude": 41.4828638,
+      "longitude": -95.3372556,
+      "centerMiles": 53.2,
+      "censusGeoid": "1903970",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "avoca-ia"
+    },
+    {
+      "name": "Bartlett",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51654"
+      ],
+      "latitude": 40.8853384,
+      "longitude": -95.7946661,
+      "centerMiles": 20.0,
+      "censusGeoid": "1904735",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "bartlett-ia"
+    },
+    {
+      "name": "Bedford",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50833"
+      ],
+      "latitude": 40.6711317,
+      "longitude": -94.7239564,
+      "centerMiles": 39.9,
+      "censusGeoid": "1905365",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Taylor"
+      ],
+      "slug": "bedford-ia"
+    },
+    {
+      "name": "Bentley",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51559",
+        "51576"
+      ],
+      "latitude": 41.3755461,
+      "longitude": -95.6225006,
+      "centerMiles": 45.8,
+      "censusGeoid": "1905870",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "bentley-ia"
+    },
+    {
+      "name": "Benton",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50835"
+      ],
+      "latitude": 40.7047379,
+      "longitude": -94.3607667,
+      "centerMiles": 58.8,
+      "censusGeoid": "1905905",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Ringgold"
+      ],
+      "slug": "benton-ia"
+    },
+    {
+      "name": "Blanchard",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51630"
+      ],
+      "latitude": 40.5803143,
+      "longitude": -95.2212378,
+      "centerMiles": 16.7,
+      "censusGeoid": "1906895",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Page"
+      ],
+      "slug": "blanchard-ia"
+    },
+    {
+      "name": "Blockton",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50836"
+      ],
+      "latitude": 40.6168092,
+      "longitude": -94.4778874,
+      "centerMiles": 53.2,
+      "censusGeoid": "1906985",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Taylor"
+      ],
+      "slug": "blockton-ia"
+    },
+    {
+      "name": "Braddyville",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51631"
+      ],
+      "latitude": 40.5806031,
+      "longitude": -95.0312437,
+      "centerMiles": 25.5,
+      "censusGeoid": "1907930",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Page"
+      ],
+      "slug": "braddyville-ia"
+    },
+    {
+      "name": "Bridgewater",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50837"
+      ],
+      "latitude": 41.2471075,
+      "longitude": -94.6689486,
+      "centerMiles": 55.9,
+      "censusGeoid": "1908425",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Adair"
+      ],
+      "slug": "bridgewater-ia"
+    },
+    {
+      "name": "California Junction",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51555"
+      ],
+      "latitude": 41.5601704,
+      "longitude": -95.9947516,
+      "centerMiles": 63.9,
+      "censusGeoid": "1909910",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "california-junction-ia"
+    },
+    {
+      "name": "Carbon",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50839",
+        "50841"
+      ],
+      "latitude": 41.0497499,
+      "longitude": -94.8245747,
+      "centerMiles": 41.2,
+      "censusGeoid": "1910585",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Adams"
+      ],
+      "slug": "carbon-ia"
+    },
+    {
+      "name": "Carson",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51525"
+      ],
+      "latitude": 41.2356575,
+      "longitude": -95.4198115,
+      "centerMiles": 35.7,
+      "censusGeoid": "1911170",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "carson-ia"
+    },
+    {
+      "name": "Carter Lake",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51510"
+      ],
+      "latitude": 41.2884532,
+      "longitude": -95.916934,
+      "centerMiles": 45.4,
+      "censusGeoid": "1911215",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "carter-lake-ia"
+    },
+    {
+      "name": "Clarinda",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51632"
+      ],
+      "latitude": 40.7377641,
+      "longitude": -95.0337625,
+      "centerMiles": 23.5,
+      "censusGeoid": "1913575",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Page"
+      ],
+      "slug": "clarinda-ia"
+    },
+    {
+      "name": "Clearfield",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50840"
+      ],
+      "latitude": 40.8027889,
+      "longitude": -94.483481,
+      "centerMiles": 52.6,
+      "censusGeoid": "1913980",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Taylor"
+      ],
+      "slug": "clearfield-ia"
+    },
+    {
+      "name": "Coburg",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51566"
+      ],
+      "latitude": 40.9186354,
+      "longitude": -95.2654903,
+      "centerMiles": 17.8,
+      "censusGeoid": "1914880",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "coburg-ia"
+    },
+    {
+      "name": "Coin",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51636"
+      ],
+      "latitude": 40.6558281,
+      "longitude": -95.2348784,
+      "centerMiles": 13.7,
+      "censusGeoid": "1914970",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Page"
+      ],
+      "slug": "coin-ia"
+    },
+    {
+      "name": "College Springs",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51630",
+        "51637"
+      ],
+      "latitude": 40.6213523,
+      "longitude": -95.1209917,
+      "centerMiles": 20.1,
+      "censusGeoid": "1915105",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Page"
+      ],
+      "slug": "college-springs-ia"
+    },
+    {
+      "name": "Conway",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50833"
+      ],
+      "latitude": 40.7491782,
+      "longitude": -94.6200139,
+      "centerMiles": 45.2,
+      "censusGeoid": "1915960",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "conway-ia"
+    },
+    {
+      "name": "Corley",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51537"
+      ],
+      "latitude": 41.5777194,
+      "longitude": -95.3305581,
+      "centerMiles": 59.7,
+      "censusGeoid": "1916320",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "corley-ia"
+    },
+    {
+      "name": "Corning",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50841"
+      ],
+      "latitude": 40.9927815,
+      "longitude": -94.7390911,
+      "centerMiles": 43.2,
+      "censusGeoid": "1916500",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Adams"
+      ],
+      "slug": "corning-ia"
+    },
+    {
+      "name": "Council Bluffs",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51501",
+        "51502",
+        "51503"
+      ],
+      "latitude": 41.2368379,
+      "longitude": -95.8518809,
+      "centerMiles": 40.6,
+      "censusGeoid": "1916860",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "council-bluffs-ia"
+    },
+    {
+      "name": "Crescent",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51526"
+      ],
+      "latitude": 41.3653644,
+      "longitude": -95.8590635,
+      "centerMiles": 48.7,
+      "censusGeoid": "1917175",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "crescent-ia"
+    },
+    {
+      "name": "Creston",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50801"
+      ],
+      "latitude": 41.0597662,
+      "longitude": -94.3649874,
+      "centerMiles": 63.0,
+      "censusGeoid": "1917265",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Union"
+      ],
+      "slug": "creston-ia"
+    },
+    {
+      "name": "Cromwell",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50801",
+        "50842"
+      ],
+      "latitude": 41.0404889,
+      "longitude": -94.4617787,
+      "centerMiles": 57.8,
+      "censusGeoid": "1917490",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Union"
+      ],
+      "slug": "cromwell-ia"
+    },
+    {
+      "name": "Cumberland",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50843"
+      ],
+      "latitude": 41.2731777,
+      "longitude": -94.8705031,
+      "centerMiles": 49.7,
+      "censusGeoid": "1917760",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "cumberland-ia"
+    },
+    {
+      "name": "Delphos",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50860"
+      ],
+      "latitude": 40.663174,
+      "longitude": -94.3402745,
+      "centerMiles": 60.0,
+      "censusGeoid": "1919810",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "delphos-ia"
+    },
+    {
+      "name": "Diagonal",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50845"
+      ],
+      "latitude": 40.8104503,
+      "longitude": -94.3420269,
+      "centerMiles": 60.1,
+      "censusGeoid": "1921270",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Ringgold"
+      ],
+      "slug": "diagonal-ia"
+    },
+    {
+      "name": "Elk Horn",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51531"
+      ],
+      "latitude": 41.5930905,
+      "longitude": -95.0612518,
+      "centerMiles": 64.1,
+      "censusGeoid": "1924780",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Shelby"
+      ],
+      "slug": "elk-horn-ia"
+    },
+    {
+      "name": "Elliott",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51532"
+      ],
+      "latitude": 41.1493653,
+      "longitude": -95.1629542,
+      "centerMiles": 34.0,
+      "censusGeoid": "1924915",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Montgomery"
+      ],
+      "slug": "elliott-ia"
+    },
+    {
+      "name": "Emerson",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51533"
+      ],
+      "latitude": 41.0179804,
+      "longitude": -95.4027249,
+      "centerMiles": 21.0,
+      "censusGeoid": "1925500",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Mills"
+      ],
+      "slug": "emerson-ia"
+    },
+    {
+      "name": "Essex",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51638"
+      ],
+      "latitude": 40.8328021,
+      "longitude": -95.3053465,
+      "centerMiles": 12.0,
+      "censusGeoid": "1925815",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Page"
+      ],
+      "slug": "essex-ia"
+    },
+    {
+      "name": "Farragut",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51639"
+      ],
+      "latitude": 40.7200993,
+      "longitude": -95.480798,
+      "centerMiles": 0.0,
+      "censusGeoid": "1926985",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Fremont"
+      ],
+      "slug": "farragut-ia"
+    },
+    {
+      "name": "Fontanelle",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50846"
+      ],
+      "latitude": 41.2900395,
+      "longitude": -94.5602041,
+      "centerMiles": 62.2,
+      "censusGeoid": "1928290",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Adair"
+      ],
+      "slug": "fontanelle-ia"
+    },
+    {
+      "name": "Glenwood",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51534"
+      ],
+      "latitude": 41.044553,
+      "longitude": -95.7406056,
+      "centerMiles": 26.2,
+      "censusGeoid": "1931350",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Mills"
+      ],
+      "slug": "glenwood-ia"
+    },
+    {
+      "name": "Grant",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50847",
+        "50864",
+        "51532"
+      ],
+      "latitude": 41.1428638,
+      "longitude": -94.9847524,
+      "centerMiles": 39.1,
+      "censusGeoid": "1932295",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Montgomery"
+      ],
+      "slug": "grant-ia"
+    },
+    {
+      "name": "Gravity",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50848"
+      ],
+      "latitude": 40.7607407,
+      "longitude": -94.743487,
+      "centerMiles": 38.8,
+      "censusGeoid": "1932520",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Taylor"
+      ],
+      "slug": "gravity-ia"
+    },
+    {
+      "name": "Griswold",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51535"
+      ],
+      "latitude": 41.234332,
+      "longitude": -95.1393679,
+      "centerMiles": 39.7,
+      "censusGeoid": "1933150",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "griswold-ia"
+    },
+    {
+      "name": "Hamburg",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51640"
+      ],
+      "latitude": 40.6058621,
+      "longitude": -95.6575285,
+      "centerMiles": 12.2,
+      "censusGeoid": "1933780",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Fremont"
+      ],
+      "slug": "hamburg-ia"
+    },
+    {
+      "name": "Hancock",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51536",
+        "51560"
+      ],
+      "latitude": 41.3924175,
+      "longitude": -95.3636067,
+      "centerMiles": 46.8,
+      "censusGeoid": "1934005",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "hancock-ia"
+    },
+    {
+      "name": "Harlan",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51537",
+        "51593"
+      ],
+      "latitude": 41.6495293,
+      "longitude": -95.3267881,
+      "centerMiles": 64.6,
+      "censusGeoid": "1934500",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Shelby"
+      ],
+      "slug": "harlan-ia"
+    },
+    {
+      "name": "Hastings",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51540"
+      ],
+      "latitude": 41.0251529,
+      "longitude": -95.4947418,
+      "centerMiles": 21.1,
+      "censusGeoid": "1934995",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Mills"
+      ],
+      "slug": "hastings-ia"
+    },
+    {
+      "name": "Henderson",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51541"
+      ],
+      "latitude": 41.1399142,
+      "longitude": -95.430294,
+      "centerMiles": 29.1,
+      "censusGeoid": "1935715",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Mills"
+      ],
+      "slug": "henderson-ia"
+    },
+    {
+      "name": "Honey Creek",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51542"
+      ],
+      "latitude": 41.463,
+      "longitude": -95.8802,
+      "centerMiles": 55.3,
+      "kind": "Postal community",
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "honey-creek-ia"
+    },
+    {
+      "name": "Imogene",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51645"
+      ],
+      "latitude": 40.8776738,
+      "longitude": -95.4292132,
+      "centerMiles": 11.2,
+      "censusGeoid": "1938055",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Fremont"
+      ],
+      "slug": "imogene-ia"
+    },
+    {
+      "name": "Jacksonville",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51537"
+      ],
+      "latitude": 41.6450738,
+      "longitude": -95.1516925,
+      "centerMiles": 66.1,
+      "censusGeoid": "1939180",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "jacksonville-ia"
+    },
+    {
+      "name": "Kent",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50851"
+      ],
+      "latitude": 40.9536318,
+      "longitude": -94.4611274,
+      "centerMiles": 55.8,
+      "censusGeoid": "1940710",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "kent-ia"
+    },
+    {
+      "name": "Lenox",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50851"
+      ],
+      "latitude": 40.8835799,
+      "longitude": -94.5582384,
+      "centerMiles": 49.7,
+      "censusGeoid": "1944490",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Taylor"
+      ],
+      "slug": "lenox-ia"
+    },
+    {
+      "name": "Lewis",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51544"
+      ],
+      "latitude": 41.306403,
+      "longitude": -95.084269,
+      "centerMiles": 45.5,
+      "censusGeoid": "1944805",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "lewis-ia"
+    },
+    {
+      "name": "Logan",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51546"
+      ],
+      "latitude": 41.6460029,
+      "longitude": -95.7913114,
+      "centerMiles": 65.9,
+      "censusGeoid": "1946155",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Harrison"
+      ],
+      "slug": "logan-ia"
+    },
+    {
+      "name": "Loveland",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51555"
+      ],
+      "latitude": 41.4970198,
+      "longitude": -95.8902245,
+      "centerMiles": 57.7,
+      "censusGeoid": "1946785",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "loveland-ia"
+    },
+    {
+      "name": "Macedonia",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51549"
+      ],
+      "latitude": 41.1922593,
+      "longitude": -95.4265443,
+      "centerMiles": 32.7,
+      "censusGeoid": "1947955",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "macedonia-ia"
+    },
+    {
+      "name": "Magnolia",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51546"
+      ],
+      "latitude": 41.6926709,
+      "longitude": -95.8741389,
+      "centerMiles": 70.2,
+      "censusGeoid": "1948495",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "magnolia-ia"
+    },
+    {
+      "name": "Maloy",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50836"
+      ],
+      "latitude": 40.6729587,
+      "longitude": -94.4119785,
+      "centerMiles": 56.2,
+      "censusGeoid": "1948675",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "maloy-ia"
+    },
+    {
+      "name": "Malvern",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51551"
+      ],
+      "latitude": 41.0037471,
+      "longitude": -95.584141,
+      "centerMiles": 20.3,
+      "censusGeoid": "1948720",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Mills"
+      ],
+      "slug": "malvern-ia"
+    },
+    {
+      "name": "Marne",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51552"
+      ],
+      "latitude": 41.448857,
+      "longitude": -95.110897,
+      "centerMiles": 53.9,
+      "censusGeoid": "1949575",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "marne-ia"
+    },
+    {
+      "name": "Massena",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50853"
+      ],
+      "latitude": 41.2506317,
+      "longitude": -94.7698594,
+      "centerMiles": 52.2,
+      "censusGeoid": "1950250",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "massena-ia"
+    },
+    {
+      "name": "McClelland",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51548",
+        "51576"
+      ],
+      "latitude": 41.3316162,
+      "longitude": -95.6813961,
+      "centerMiles": 43.5,
+      "censusGeoid": "1947865",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "mcclelland-ia"
+    },
+    {
+      "name": "Minden",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51553"
+      ],
+      "latitude": 41.4698673,
+      "longitude": -95.5430011,
+      "centerMiles": 51.8,
+      "censusGeoid": "1952590",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "minden-ia"
+    },
+    {
+      "name": "Mineola",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51554"
+      ],
+      "latitude": 41.1414458,
+      "longitude": -95.6947734,
+      "centerMiles": 31.2,
+      "censusGeoid": "1952635",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [
+        "Mills"
+      ],
+      "slug": "mineola-ia"
+    },
+    {
+      "name": "Missouri Valley",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51555"
+      ],
+      "latitude": 41.5593195,
+      "longitude": -95.9026347,
+      "centerMiles": 62.0,
+      "censusGeoid": "1952860",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Harrison"
+      ],
+      "slug": "missouri-valley-ia"
+    },
+    {
+      "name": "Mount Ayr",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50854"
+      ],
+      "latitude": 40.7141089,
+      "longitude": -94.2375405,
+      "centerMiles": 65.3,
+      "censusGeoid": "1954480",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Ringgold"
+      ],
+      "slug": "mount-ayr-ia"
+    },
+    {
+      "name": "Neola",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51559"
+      ],
+      "latitude": 41.4518611,
+      "longitude": -95.6184473,
+      "centerMiles": 51.0,
+      "censusGeoid": "1955560",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "neola-ia"
+    },
+    {
+      "name": "New Market",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51646"
+      ],
+      "latitude": 40.7323994,
+      "longitude": -94.9004394,
+      "centerMiles": 30.5,
+      "censusGeoid": "1956370",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Taylor"
+      ],
+      "slug": "new-market-ia"
+    },
+    {
+      "name": "Nodaway",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50857"
+      ],
+      "latitude": 40.9360994,
+      "longitude": -94.8973727,
+      "centerMiles": 34.0,
+      "censusGeoid": "1956865",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Adams"
+      ],
+      "slug": "nodaway-ia"
+    },
+    {
+      "name": "Northboro",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51647"
+      ],
+      "latitude": 40.6073301,
+      "longitude": -95.2924699,
+      "centerMiles": 12.6,
+      "censusGeoid": "1957045",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Page"
+      ],
+      "slug": "northboro-ia"
+    },
+    {
+      "name": "Oakland",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51560"
+      ],
+      "latitude": 41.3114724,
+      "longitude": -95.3950719,
+      "centerMiles": 41.1,
+      "censusGeoid": "1958080",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "oakland-ia"
+    },
+    {
+      "name": "Orient",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50858"
+      ],
+      "latitude": 41.2032111,
+      "longitude": -94.4172909,
+      "centerMiles": 64.9,
+      "censusGeoid": "1959565",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Adair"
+      ],
+      "slug": "orient-ia"
+    },
+    {
+      "name": "Pacific Junction",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51561"
+      ],
+      "latitude": 41.0179749,
+      "longitude": -95.7994526,
+      "centerMiles": 26.5,
+      "censusGeoid": "1960825",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Mills"
+      ],
+      "slug": "pacific-junction-ia"
+    },
+    {
+      "name": "Percival",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51648"
+      ],
+      "latitude": 40.7512687,
+      "longitude": -95.8132664,
+      "centerMiles": 17.6,
+      "censusGeoid": "1962175",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [
+        "Fremont"
+      ],
+      "slug": "percival-ia"
+    },
+    {
+      "name": "Persia",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51563"
+      ],
+      "latitude": 41.5785555,
+      "longitude": -95.5701131,
+      "centerMiles": 59.4,
+      "censusGeoid": "1962445",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Harrison"
+      ],
+      "slug": "persia-ia"
+    },
+    {
+      "name": "Portsmouth",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51565"
+      ],
+      "latitude": 41.6503716,
+      "longitude": -95.5192783,
+      "centerMiles": 64.2,
+      "censusGeoid": "1964200",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Shelby"
+      ],
+      "slug": "portsmouth-ia"
+    },
+    {
+      "name": "Prescott",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50859"
+      ],
+      "latitude": 41.0235867,
+      "longitude": -94.6128161,
+      "centerMiles": 50.1,
+      "censusGeoid": "1964560",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Adams"
+      ],
+      "slug": "prescott-ia"
+    },
+    {
+      "name": "Randolph",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51649"
+      ],
+      "latitude": 40.8731349,
+      "longitude": -95.5647266,
+      "centerMiles": 11.4,
+      "censusGeoid": "1965640",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Fremont"
+      ],
+      "slug": "randolph-ia"
+    },
+    {
+      "name": "Red Oak",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51566",
+        "51591"
+      ],
+      "latitude": 41.0141026,
+      "longitude": -95.224943,
+      "centerMiles": 24.3,
+      "censusGeoid": "1966135",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Montgomery"
+      ],
+      "slug": "red-oak-ia"
+    },
+    {
+      "name": "Redding",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50860"
+      ],
+      "latitude": 40.6067509,
+      "longitude": -94.3862657,
+      "centerMiles": 58.0,
+      "censusGeoid": "1966000",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Ringgold"
+      ],
+      "slug": "redding-ia"
+    },
+    {
+      "name": "Riverton",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51650"
+      ],
+      "latitude": 40.6868707,
+      "longitude": -95.5686128,
+      "centerMiles": 5.1,
+      "censusGeoid": "1967575",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Fremont"
+      ],
+      "slug": "riverton-ia"
+    },
+    {
+      "name": "Shambaugh",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51632",
+        "51651"
+      ],
+      "latitude": 40.6574595,
+      "longitude": -95.0352593,
+      "centerMiles": 23.8,
+      "censusGeoid": "1971895",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Page"
+      ],
+      "slug": "shambaugh-ia"
+    },
+    {
+      "name": "Sharpsburg",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50862"
+      ],
+      "latitude": 40.8029095,
+      "longitude": -94.6404949,
+      "centerMiles": 44.5,
+      "censusGeoid": "1972075",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Taylor"
+      ],
+      "slug": "sharpsburg-ia"
+    },
+    {
+      "name": "Shelby",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51570"
+      ],
+      "latitude": 41.5051332,
+      "longitude": -95.4493534,
+      "centerMiles": 54.2,
+      "censusGeoid": "1972300",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "shelby-ia"
+    },
+    {
+      "name": "Shenandoah",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51601",
+        "51603"
+      ],
+      "latitude": 40.7582063,
+      "longitude": -95.3720675,
+      "centerMiles": 6.3,
+      "censusGeoid": "1972525",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Page"
+      ],
+      "slug": "shenandoah-ia"
+    },
+    {
+      "name": "Sidney",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51652"
+      ],
+      "latitude": 40.7458946,
+      "longitude": -95.6447281,
+      "centerMiles": 8.8,
+      "censusGeoid": "1973065",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Fremont"
+      ],
+      "slug": "sidney-ia"
+    },
+    {
+      "name": "Silver City",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51571"
+      ],
+      "latitude": 41.1114742,
+      "longitude": -95.6378521,
+      "centerMiles": 28.2,
+      "censusGeoid": "1973155",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Mills"
+      ],
+      "slug": "silver-city-ia"
+    },
+    {
+      "name": "Stanton",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51573"
+      ],
+      "latitude": 40.9816529,
+      "longitude": -95.1023706,
+      "centerMiles": 26.8,
+      "censusGeoid": "1975000",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Montgomery"
+      ],
+      "slug": "stanton-ia"
+    },
+    {
+      "name": "Tabor",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51653"
+      ],
+      "latitude": 40.8949411,
+      "longitude": -95.6736185,
+      "centerMiles": 15.7,
+      "censusGeoid": "1976935",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Fremont"
+      ],
+      "slug": "tabor-ia"
+    },
+    {
+      "name": "Tennant",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51537"
+      ],
+      "latitude": 41.594115,
+      "longitude": -95.4449625,
+      "centerMiles": 60.3,
+      "censusGeoid": "1977430",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "tennant-ia"
+    },
+    {
+      "name": "Thurman",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51654"
+      ],
+      "latitude": 40.8201183,
+      "longitude": -95.7488129,
+      "centerMiles": 15.7,
+      "censusGeoid": "1977970",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Fremont"
+      ],
+      "slug": "thurman-ia"
+    },
+    {
+      "name": "Treynor",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51575"
+      ],
+      "latitude": 41.2320236,
+      "longitude": -95.6064545,
+      "centerMiles": 35.9,
+      "censusGeoid": "1978825",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "treynor-ia"
+    },
+    {
+      "name": "Underwood",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51576"
+      ],
+      "latitude": 41.3807234,
+      "longitude": -95.6820618,
+      "centerMiles": 46.8,
+      "censusGeoid": "1979500",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "underwood-ia"
+    },
+    {
+      "name": "Villisca",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50864"
+      ],
+      "latitude": 40.929875,
+      "longitude": -94.9811081,
+      "centerMiles": 29.9,
+      "censusGeoid": "1980985",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Montgomery"
+      ],
+      "slug": "villisca-ia"
+    },
+    {
+      "name": "Walnut",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51577"
+      ],
+      "latitude": 41.4894531,
+      "longitude": -95.2196691,
+      "centerMiles": 54.8,
+      "censusGeoid": "1982065",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pottawattamie"
+      ],
+      "slug": "walnut-ia"
+    },
+    {
+      "name": "Weston",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51576"
+      ],
+      "latitude": 41.3422607,
+      "longitude": -95.7448215,
+      "centerMiles": 45.1,
+      "censusGeoid": "1984495",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "weston-ia"
+    },
+    {
+      "name": "Westphalia",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51537"
+      ],
+      "latitude": 41.7193993,
+      "longitude": -95.3937696,
+      "centerMiles": 69.1,
+      "censusGeoid": "1984540",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "westphalia-ia"
+    },
+    {
+      "name": "Wiota",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "50274"
+      ],
+      "latitude": 41.4007798,
+      "longitude": -94.8873286,
+      "centerMiles": 56.3,
+      "censusGeoid": "1986610",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "wiota-ia"
+    },
+    {
+      "name": "Yorktown",
+      "state": "IA",
+      "stateName": "Iowa",
+      "zipCodes": [
+        "51656"
+      ],
+      "latitude": 40.7352572,
+      "longitude": -95.154337,
+      "centerMiles": 17.2,
+      "censusGeoid": "1987420",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Page"
+      ],
+      "slug": "yorktown-ia"
+    },
+    {
+      "name": "Bern",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66408"
+      ],
+      "latitude": 39.9614154,
+      "longitude": -95.9710647,
+      "centerMiles": 58.4,
+      "censusGeoid": "2006275",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nemaha"
+      ],
+      "slug": "bern-ks"
+    },
+    {
+      "name": "Fairview",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66425"
+      ],
+      "latitude": 39.8395793,
+      "longitude": -95.7281011,
+      "centerMiles": 62.1,
+      "censusGeoid": "2022425",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Brown"
+      ],
+      "slug": "fairview-ks"
+    },
+    {
+      "name": "Hamlin",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66434"
+      ],
+      "latitude": 39.9155129,
+      "longitude": -95.6275395,
+      "centerMiles": 56.1,
+      "censusGeoid": "2029700",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "hamlin-ks"
+    },
+    {
+      "name": "Hiawatha",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66434"
+      ],
+      "latitude": 39.8516605,
+      "longitude": -95.5377889,
+      "centerMiles": 60.0,
+      "censusGeoid": "2031675",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Brown"
+      ],
+      "slug": "hiawatha-ks"
+    },
+    {
+      "name": "Highland",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66035"
+      ],
+      "latitude": 39.8604068,
+      "longitude": -95.2652691,
+      "centerMiles": 60.4,
+      "censusGeoid": "2031850",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Doniphan"
+      ],
+      "slug": "highland-ks"
+    },
+    {
+      "name": "Kelly",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66538"
+      ],
+      "latitude": 39.736844,
+      "longitude": -96.0007234,
+      "centerMiles": 73.2,
+      "censusGeoid": "2036375",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "kelly-ks"
+    },
+    {
+      "name": "Leona",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66532"
+      ],
+      "latitude": 39.785986,
+      "longitude": -95.3213672,
+      "centerMiles": 65.0,
+      "censusGeoid": "2039475",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "leona-ks"
+    },
+    {
+      "name": "Morrill",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66515"
+      ],
+      "latitude": 39.9291692,
+      "longitude": -95.6943232,
+      "centerMiles": 55.7,
+      "censusGeoid": "2048300",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Brown"
+      ],
+      "slug": "morrill-ks"
+    },
+    {
+      "name": "Oneida",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66538"
+      ],
+      "latitude": 39.8667987,
+      "longitude": -95.9398202,
+      "centerMiles": 63.7,
+      "censusGeoid": "2052900",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "oneida-ks"
+    },
+    {
+      "name": "Reserve",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66434"
+      ],
+      "latitude": 39.9769604,
+      "longitude": -95.5651448,
+      "centerMiles": 51.5,
+      "censusGeoid": "2059050",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "reserve-ks"
+    },
+    {
+      "name": "Robinson",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66532"
+      ],
+      "latitude": 39.8155385,
+      "longitude": -95.4115824,
+      "centerMiles": 62.5,
+      "censusGeoid": "2060325",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Brown"
+      ],
+      "slug": "robinson-ks"
+    },
+    {
+      "name": "Sabetha",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66534"
+      ],
+      "latitude": 39.9127798,
+      "longitude": -95.7914411,
+      "centerMiles": 58.1,
+      "censusGeoid": "2062025",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nemaha"
+      ],
+      "slug": "sabetha-ks"
+    },
+    {
+      "name": "Seneca",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66538"
+      ],
+      "latitude": 39.8379976,
+      "longitude": -96.0696078,
+      "centerMiles": 68.4,
+      "censusGeoid": "2063950",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nemaha"
+      ],
+      "slug": "seneca-ks"
+    },
+    {
+      "name": "Severance",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66087"
+      ],
+      "latitude": 39.7668188,
+      "longitude": -95.2492356,
+      "centerMiles": 66.9,
+      "censusGeoid": "2064025",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "severance-ks"
+    },
+    {
+      "name": "St. Benedict",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66538"
+      ],
+      "latitude": 39.892851,
+      "longitude": -96.1029185,
+      "centerMiles": 65.9,
+      "censusGeoid": "2062075",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "st-benedict-ks"
+    },
+    {
+      "name": "Troy",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66087"
+      ],
+      "latitude": 39.7847576,
+      "longitude": -95.0936892,
+      "centerMiles": 67.7,
+      "censusGeoid": "2071575",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Doniphan"
+      ],
+      "slug": "troy-ks"
+    },
+    {
+      "name": "White Cloud",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66094"
+      ],
+      "latitude": 39.974342,
+      "longitude": -95.2990393,
+      "centerMiles": 52.3,
+      "censusGeoid": "2077850",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Doniphan"
+      ],
+      "slug": "white-cloud-ks"
+    },
+    {
+      "name": "Willis",
+      "state": "KS",
+      "stateName": "Kansas",
+      "zipCodes": [
+        "66434"
+      ],
+      "latitude": 39.7226424,
+      "longitude": -95.5057886,
+      "centerMiles": 68.8,
+      "censusGeoid": "2079400",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "willis-ks"
+    },
+    {
+      "name": "Allendale",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64456"
+      ],
+      "latitude": 40.4853402,
+      "longitude": -94.2886795,
+      "centerMiles": 64.8,
+      "censusGeoid": "2900712",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "allendale-mo"
+    },
+    {
+      "name": "Amazonia",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64421"
+      ],
+      "latitude": 39.8889933,
+      "longitude": -94.892656,
+      "centerMiles": 65.2,
+      "censusGeoid": "2901018",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Andrew"
+      ],
+      "slug": "amazonia-mo"
+    },
+    {
+      "name": "Arkoe",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64468"
+      ],
+      "latitude": 40.2593761,
+      "longitude": -94.8279429,
+      "centerMiles": 46.8,
+      "censusGeoid": "2901864",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "arkoe-mo"
+    },
+    {
+      "name": "Barnard",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64423"
+      ],
+      "latitude": 40.1753977,
+      "longitude": -94.8231541,
+      "centerMiles": 51.1,
+      "censusGeoid": "2903340",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "barnard-mo"
+    },
+    {
+      "name": "Big Lake",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64437"
+      ],
+      "latitude": 40.0735163,
+      "longitude": -95.3518147,
+      "centerMiles": 45.1,
+      "censusGeoid": "2905495",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "big-lake-mo"
+    },
+    {
+      "name": "Bigelow",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64437"
+      ],
+      "latitude": 40.1097834,
+      "longitude": -95.2894026,
+      "centerMiles": 43.3,
+      "censusGeoid": "2905464",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "bigelow-mo"
+    },
+    {
+      "name": "Blanchard",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64498"
+      ],
+      "latitude": 40.5748846,
+      "longitude": -95.2109789,
+      "centerMiles": 17.4,
+      "censusGeoid": "2906247",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "blanchard-mo"
+    },
+    {
+      "name": "Bolckow",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64427"
+      ],
+      "latitude": 40.1152172,
+      "longitude": -94.8212066,
+      "centerMiles": 54.3,
+      "censusGeoid": "2906922",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Andrew"
+      ],
+      "slug": "bolckow-mo"
+    },
+    {
+      "name": "Burlington Junction",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64428"
+      ],
+      "latitude": 40.4465574,
+      "longitude": -95.0667157,
+      "centerMiles": 28.8,
+      "censusGeoid": "2909838",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "burlington-junction-mo"
+    },
+    {
+      "name": "Clearmont",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64431"
+      ],
+      "latitude": 40.507995,
+      "longitude": -95.0325908,
+      "centerMiles": 27.7,
+      "censusGeoid": "2914662",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "clearmont-mo"
+    },
+    {
+      "name": "Clyde",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64432"
+      ],
+      "latitude": 40.2662097,
+      "longitude": -94.6695983,
+      "centerMiles": 53.0,
+      "censusGeoid": "2915130",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "clyde-mo"
+    },
+    {
+      "name": "Conception",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64433"
+      ],
+      "latitude": 40.2410763,
+      "longitude": -94.680567,
+      "centerMiles": 53.6,
+      "censusGeoid": "2915886",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "conception-mo"
+    },
+    {
+      "name": "Conception Junction",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64434"
+      ],
+      "latitude": 40.268351,
+      "longitude": -94.6913599,
+      "centerMiles": 52.0,
+      "censusGeoid": "2915922",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "conception-junction-mo"
+    },
+    {
+      "name": "Corning",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64437"
+      ],
+      "latitude": 40.2486037,
+      "longitude": -95.4544981,
+      "centerMiles": 32.6,
+      "censusGeoid": "2916462",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "corning-mo"
+    },
+    {
+      "name": "Craig",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64437"
+      ],
+      "latitude": 40.1923835,
+      "longitude": -95.3742575,
+      "centerMiles": 36.8,
+      "censusGeoid": "2917056",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Holt"
+      ],
+      "slug": "craig-mo"
+    },
+    {
+      "name": "Elmo",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64445"
+      ],
+      "latitude": 40.5187414,
+      "longitude": -95.1170253,
+      "centerMiles": 23.6,
+      "censusGeoid": "2922024",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "elmo-mo"
+    },
+    {
+      "name": "Fairfax",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64446"
+      ],
+      "latitude": 40.3391898,
+      "longitude": -95.3919528,
+      "centerMiles": 26.7,
+      "censusGeoid": "2923266",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Atchison"
+      ],
+      "slug": "fairfax-mo"
+    },
+    {
+      "name": "Fillmore",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64449"
+      ],
+      "latitude": 40.0253017,
+      "longitude": -94.9731462,
+      "centerMiles": 54.9,
+      "censusGeoid": "2924184",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Andrew"
+      ],
+      "slug": "fillmore-mo"
+    },
+    {
+      "name": "Forest City",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64451"
+      ],
+      "latitude": 39.9829495,
+      "longitude": -95.1883099,
+      "centerMiles": 53.2,
+      "censusGeoid": "2925066",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Holt"
+      ],
+      "slug": "forest-city-mo"
+    },
+    {
+      "name": "Fortescue",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64437"
+      ],
+      "latitude": 40.0518609,
+      "longitude": -95.3175945,
+      "centerMiles": 46.9,
+      "censusGeoid": "2925228",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "fortescue-mo"
+    },
+    {
+      "name": "Gentry",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64453"
+      ],
+      "latitude": 40.3325684,
+      "longitude": -94.4232578,
+      "centerMiles": 61.8,
+      "censusGeoid": "2926776",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Gentry"
+      ],
+      "slug": "gentry-mo"
+    },
+    {
+      "name": "Graham",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64455"
+      ],
+      "latitude": 40.2012545,
+      "longitude": -95.0403908,
+      "centerMiles": 42.7,
+      "censusGeoid": "2928072",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "graham-mo"
+    },
+    {
+      "name": "Grant City",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64456"
+      ],
+      "latitude": 40.4857783,
+      "longitude": -94.4134577,
+      "centerMiles": 58.4,
+      "censusGeoid": "2928594",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Worth"
+      ],
+      "slug": "grant-city-mo"
+    },
+    {
+      "name": "Guilford",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64457"
+      ],
+      "latitude": 40.1685725,
+      "longitude": -94.7359852,
+      "centerMiles": 54.7,
+      "censusGeoid": "2929692",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "guilford-mo"
+    },
+    {
+      "name": "Hopkins",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64461"
+      ],
+      "latitude": 40.5511833,
+      "longitude": -94.8169609,
+      "centerMiles": 36.8,
+      "censusGeoid": "2933004",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "hopkins-mo"
+    },
+    {
+      "name": "Irena",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64456"
+      ],
+      "latitude": 40.5402552,
+      "longitude": -94.3898747,
+      "centerMiles": 58.7,
+      "censusGeoid": "2935324",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "irena-mo"
+    },
+    {
+      "name": "Maitland",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64466"
+      ],
+      "latitude": 40.2021003,
+      "longitude": -95.0779122,
+      "centerMiles": 41.6,
+      "censusGeoid": "2945596",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Holt"
+      ],
+      "slug": "maitland-mo"
+    },
+    {
+      "name": "Maryville",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64468"
+      ],
+      "latitude": 40.3429254,
+      "longitude": -94.8705763,
+      "centerMiles": 41.3,
+      "censusGeoid": "2946640",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "maryville-mo"
+    },
+    {
+      "name": "Mound City",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64470"
+      ],
+      "latitude": 40.1365026,
+      "longitude": -95.2337387,
+      "centerMiles": 42.3,
+      "censusGeoid": "2950312",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Holt"
+      ],
+      "slug": "mound-city-mo"
+    },
+    {
+      "name": "Oregon",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64473"
+      ],
+      "latitude": 39.9860922,
+      "longitude": -95.1433022,
+      "centerMiles": 53.7,
+      "censusGeoid": "2954848",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Holt"
+      ],
+      "slug": "oregon-mo"
+    },
+    {
+      "name": "Parnell",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64475"
+      ],
+      "latitude": 40.4383589,
+      "longitude": -94.6222564,
+      "centerMiles": 49.2,
+      "censusGeoid": "2956360",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "parnell-mo"
+    },
+    {
+      "name": "Phelps City",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64482"
+      ],
+      "latitude": 40.4006351,
+      "longitude": -95.5949553,
+      "centerMiles": 22.8,
+      "censusGeoid": "2957332",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "phelps-city-mo"
+    },
+    {
+      "name": "Pickering",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64476"
+      ],
+      "latitude": 40.4502237,
+      "longitude": -94.8418897,
+      "centerMiles": 38.4,
+      "censusGeoid": "2957404",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "pickering-mo"
+    },
+    {
+      "name": "Quitman",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64487"
+      ],
+      "latitude": 40.3733036,
+      "longitude": -95.0769574,
+      "centerMiles": 32.0,
+      "censusGeoid": "2960410",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "quitman-mo"
+    },
+    {
+      "name": "Ravenwood",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64479"
+      ],
+      "latitude": 40.3524138,
+      "longitude": -94.6721404,
+      "centerMiles": 49.6,
+      "censusGeoid": "2960716",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "ravenwood-mo"
+    },
+    {
+      "name": "Rea",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64480"
+      ],
+      "latitude": 40.0616352,
+      "longitude": -94.7645293,
+      "centerMiles": 59.1,
+      "censusGeoid": "2960842",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Andrew"
+      ],
+      "slug": "rea-mo"
+    },
+    {
+      "name": "Rock Port",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64482"
+      ],
+      "latitude": 40.410911,
+      "longitude": -95.5330871,
+      "centerMiles": 21.5,
+      "censusGeoid": "2962696",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Atchison"
+      ],
+      "slug": "rock-port-mo"
+    },
+    {
+      "name": "Rosendale",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64483"
+      ],
+      "latitude": 40.0407628,
+      "longitude": -94.8234009,
+      "centerMiles": 58.3,
+      "censusGeoid": "2963200",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Andrew"
+      ],
+      "slug": "rosendale-mo"
+    },
+    {
+      "name": "Savannah",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64485"
+      ],
+      "latitude": 39.9390757,
+      "longitude": -94.8279233,
+      "centerMiles": 64.0,
+      "censusGeoid": "2966044",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Andrew"
+      ],
+      "slug": "savannah-mo"
+    },
+    {
+      "name": "Sheridan",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64486"
+      ],
+      "latitude": 40.5171745,
+      "longitude": -94.6146019,
+      "centerMiles": 47.6,
+      "censusGeoid": "2967358",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Worth"
+      ],
+      "slug": "sheridan-mo"
+    },
+    {
+      "name": "Skidmore",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64487"
+      ],
+      "latitude": 40.2878849,
+      "longitude": -95.0795032,
+      "centerMiles": 36.6,
+      "censusGeoid": "2968132",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nodaway"
+      ],
+      "slug": "skidmore-mo"
+    },
+    {
+      "name": "Stanberry",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64489"
+      ],
+      "latitude": 40.2165835,
+      "longitude": -94.5380931,
+      "centerMiles": 60.6,
+      "censusGeoid": "2970270",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Gentry"
+      ],
+      "slug": "stanberry-mo"
+    },
+    {
+      "name": "Tarkio",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64491"
+      ],
+      "latitude": 40.4429879,
+      "longitude": -95.3835162,
+      "centerMiles": 19.8,
+      "censusGeoid": "2972340",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Atchison"
+      ],
+      "slug": "tarkio-mo"
+    },
+    {
+      "name": "Watson",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64496"
+      ],
+      "latitude": 40.4799057,
+      "longitude": -95.6234795,
+      "centerMiles": 18.2,
+      "censusGeoid": "2977848",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Atchison"
+      ],
+      "slug": "watson-mo"
+    },
+    {
+      "name": "Westboro",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64498"
+      ],
+      "latitude": 40.5350502,
+      "longitude": -95.321106,
+      "centerMiles": 15.3,
+      "censusGeoid": "2978622",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Atchison"
+      ],
+      "slug": "westboro-mo"
+    },
+    {
+      "name": "Worth",
+      "state": "MO",
+      "stateName": "Missouri",
+      "zipCodes": [
+        "64499"
+      ],
+      "latitude": 40.4045217,
+      "longitude": -94.4465062,
+      "centerMiles": 58.6,
+      "censusGeoid": "2981070",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Worth"
+      ],
+      "slug": "worth-mo"
+    },
+    {
+      "name": "Adams",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68301"
+      ],
+      "latitude": 40.4571504,
+      "longitude": -96.5127352,
+      "centerMiles": 57.2,
+      "censusGeoid": "3100240",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Gage"
+      ],
+      "slug": "adams-ne"
+    },
+    {
+      "name": "Alvo",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68304"
+      ],
+      "latitude": 40.8721978,
+      "longitude": -96.3865386,
+      "centerMiles": 48.6,
+      "censusGeoid": "3101150",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "alvo-ne"
+    },
+    {
+      "name": "Ashland",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68003"
+      ],
+      "latitude": 41.0403119,
+      "longitude": -96.3718923,
+      "centerMiles": 51.6,
+      "censusGeoid": "3102305",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Saunders"
+      ],
+      "slug": "ashland-ne"
+    },
+    {
+      "name": "Auburn",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68305"
+      ],
+      "latitude": 40.3893844,
+      "longitude": -95.843601,
+      "centerMiles": 29.8,
+      "censusGeoid": "3102655",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nemaha"
+      ],
+      "slug": "auburn-ne"
+    },
+    {
+      "name": "Avoca",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68307"
+      ],
+      "latitude": 40.7958506,
+      "longitude": -96.1198938,
+      "centerMiles": 33.9,
+      "censusGeoid": "3102795",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "avoca-ne"
+    },
+    {
+      "name": "Barada",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68355"
+      ],
+      "latitude": 40.2184598,
+      "longitude": -95.5778005,
+      "centerMiles": 35.0,
+      "censusGeoid": "3103040",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "barada-ne"
+    },
+    {
+      "name": "Beacon View",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68028"
+      ],
+      "latitude": 41.0692398,
+      "longitude": -96.3259242,
+      "centerMiles": 50.4,
+      "censusGeoid": "3103377",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "beacon-view-ne"
+    },
+    {
+      "name": "Beaver Lake",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68048"
+      ],
+      "latitude": 40.9229872,
+      "longitude": -95.8849391,
+      "centerMiles": 25.4,
+      "censusGeoid": "3103546",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "beaver-lake-ne"
+    },
+    {
+      "name": "Bellevue",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68005",
+        "68113",
+        "68123",
+        "68133",
+        "68147",
+        "68157"
+      ],
+      "latitude": 41.1441198,
+      "longitude": -95.9383508,
+      "centerMiles": 37.8,
+      "censusGeoid": "3103950",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Sarpy"
+      ],
+      "slug": "bellevue-ne"
+    },
+    {
+      "name": "Bennet",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68317"
+      ],
+      "latitude": 40.6817275,
+      "longitude": -96.5039319,
+      "centerMiles": 53.8,
+      "censusGeoid": "3104300",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Lancaster"
+      ],
+      "slug": "bennet-ne"
+    },
+    {
+      "name": "Bennington",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68007"
+      ],
+      "latitude": 41.3681967,
+      "longitude": -96.1616173,
+      "centerMiles": 57.1,
+      "censusGeoid": "3104405",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Douglas"
+      ],
+      "slug": "bennington-ne"
+    },
+    {
+      "name": "Blair",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68008",
+        "68009"
+      ],
+      "latitude": 41.5407182,
+      "longitude": -96.134679,
+      "centerMiles": 66.1,
+      "censusGeoid": "3105350",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Washington"
+      ],
+      "slug": "blair-ne"
+    },
+    {
+      "name": "Boys Town",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68010"
+      ],
+      "latitude": 41.2557663,
+      "longitude": -96.1291897,
+      "centerMiles": 50.2,
+      "censusGeoid": "3106015",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Douglas"
+      ],
+      "slug": "boys-town-ne"
+    },
+    {
+      "name": "Brock",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68320"
+      ],
+      "latitude": 40.4804749,
+      "longitude": -95.9600529,
+      "centerMiles": 30.1,
+      "censusGeoid": "3106505",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nemaha"
+      ],
+      "slug": "brock-ne"
+    },
+    {
+      "name": "Brownville",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68321"
+      ],
+      "latitude": 40.3976173,
+      "longitude": -95.6610856,
+      "centerMiles": 24.2,
+      "censusGeoid": "3106750",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nemaha"
+      ],
+      "slug": "brownville-ne"
+    },
+    {
+      "name": "Buccaneer Bay",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68048"
+      ],
+      "latitude": 41.0493891,
+      "longitude": -95.9631568,
+      "centerMiles": 34.0,
+      "censusGeoid": "3106945",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "buccaneer-bay-ne"
+    },
+    {
+      "name": "Burchard",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68323"
+      ],
+      "latitude": 40.149323,
+      "longitude": -96.3485903,
+      "centerMiles": 60.4,
+      "censusGeoid": "3107065",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pawnee"
+      ],
+      "slug": "burchard-ne"
+    },
+    {
+      "name": "Burr",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68324"
+      ],
+      "latitude": 40.5359466,
+      "longitude": -96.2997751,
+      "centerMiles": 44.9,
+      "censusGeoid": "3107205",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Otoe"
+      ],
+      "slug": "burr-ne"
+    },
+    {
+      "name": "Cedar Creek",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68016",
+        "68037"
+      ],
+      "latitude": 41.0437167,
+      "longitude": -96.1009546,
+      "centerMiles": 39.4,
+      "censusGeoid": "3108185",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "cedar-creek-ne"
+    },
+    {
+      "name": "Ceresco",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68017"
+      ],
+      "latitude": 41.0580288,
+      "longitude": -96.6456795,
+      "centerMiles": 65.3,
+      "censusGeoid": "3108570",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Saunders"
+      ],
+      "slug": "ceresco-ne"
+    },
+    {
+      "name": "Chalco",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68138"
+      ],
+      "latitude": 41.1823702,
+      "longitude": -96.135353,
+      "centerMiles": 46.8,
+      "censusGeoid": "3108640",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "chalco-ne"
+    },
+    {
+      "name": "Cheney",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68526"
+      ],
+      "latitude": 40.7260414,
+      "longitude": -96.5936045,
+      "centerMiles": 58.4,
+      "censusGeoid": "3108990",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "cheney-ne"
+    },
+    {
+      "name": "Cook",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68329"
+      ],
+      "latitude": 40.5105751,
+      "longitude": -96.1616373,
+      "centerMiles": 38.6,
+      "censusGeoid": "3110390",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Johnson"
+      ],
+      "slug": "cook-ne"
+    },
+    {
+      "name": "Crab Orchard",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68332"
+      ],
+      "latitude": 40.3346519,
+      "longitude": -96.422437,
+      "centerMiles": 56.3,
+      "censusGeoid": "3111055",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Johnson"
+      ],
+      "slug": "crab-orchard-ne"
+    },
+    {
+      "name": "Dawson",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68337"
+      ],
+      "latitude": 40.1306877,
+      "longitude": -95.8298606,
+      "centerMiles": 44.6,
+      "censusGeoid": "3112420",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Richardson"
+      ],
+      "slug": "dawson-ne"
+    },
+    {
+      "name": "Douglas",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68344"
+      ],
+      "latitude": 40.5931824,
+      "longitude": -96.3882302,
+      "centerMiles": 48.5,
+      "censusGeoid": "3113505",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Otoe"
+      ],
+      "slug": "douglas-ne"
+    },
+    {
+      "name": "Du Bois",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68345"
+      ],
+      "latitude": 40.0348383,
+      "longitude": -96.0472464,
+      "centerMiles": 55.9,
+      "censusGeoid": "3113750",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pawnee"
+      ],
+      "slug": "du-bois-ne"
+    },
+    {
+      "name": "Dunbar",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68346"
+      ],
+      "latitude": 40.6686881,
+      "longitude": -96.0308697,
+      "centerMiles": 29.1,
+      "censusGeoid": "3113855",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Otoe"
+      ],
+      "slug": "dunbar-ne"
+    },
+    {
+      "name": "Eagle",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68347"
+      ],
+      "latitude": 40.8159427,
+      "longitude": -96.4325853,
+      "centerMiles": 50.4,
+      "censusGeoid": "3114100",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "eagle-ne"
+    },
+    {
+      "name": "Elk Creek",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68348"
+      ],
+      "latitude": 40.2882535,
+      "longitude": -96.1269429,
+      "centerMiles": 45.2,
+      "censusGeoid": "3114975",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Johnson"
+      ],
+      "slug": "elk-creek-ne"
+    },
+    {
+      "name": "Elkhorn",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68022"
+      ],
+      "latitude": 41.2756,
+      "longitude": -96.2431,
+      "centerMiles": 55.3,
+      "kind": "Postal community",
+      "counties": [
+        "Douglas"
+      ],
+      "slug": "elkhorn-ne"
+    },
+    {
+      "name": "Elmwood",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68349"
+      ],
+      "latitude": 40.8427814,
+      "longitude": -96.2952244,
+      "centerMiles": 43.5,
+      "censusGeoid": "3115430",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "elmwood-ne"
+    },
+    {
+      "name": "Falls City",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68355"
+      ],
+      "latitude": 40.0623496,
+      "longitude": -95.5989854,
+      "centerMiles": 45.8,
+      "censusGeoid": "3116655",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Richardson"
+      ],
+      "slug": "falls-city-ne"
+    },
+    {
+      "name": "Filley",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68357"
+      ],
+      "latitude": 40.2852017,
+      "longitude": -96.5339352,
+      "centerMiles": 63.1,
+      "censusGeoid": "3116830",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Gage"
+      ],
+      "slug": "filley-ne"
+    },
+    {
+      "name": "Firth",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68358"
+      ],
+      "latitude": 40.5358615,
+      "longitude": -96.6047248,
+      "centerMiles": 60.4,
+      "censusGeoid": "3116935",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Lancaster"
+      ],
+      "slug": "firth-ne"
+    },
+    {
+      "name": "Fort Calhoun",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68023"
+      ],
+      "latitude": 41.4563643,
+      "longitude": -96.026259,
+      "centerMiles": 58.2,
+      "censusGeoid": "3117145",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Washington"
+      ],
+      "slug": "fort-calhoun-ne"
+    },
+    {
+      "name": "Greenwood",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68366"
+      ],
+      "latitude": 40.9612783,
+      "longitude": -96.4437067,
+      "centerMiles": 53.1,
+      "censusGeoid": "3120190",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "greenwood-ne"
+    },
+    {
+      "name": "Gretna",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68028",
+        "68136",
+        "68138"
+      ],
+      "latitude": 41.1371221,
+      "longitude": -96.2123965,
+      "centerMiles": 47.9,
+      "censusGeoid": "3120260",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Sarpy"
+      ],
+      "slug": "gretna-ne"
+    },
+    {
+      "name": "Hickman",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68372"
+      ],
+      "latitude": 40.6258554,
+      "longitude": -96.6280471,
+      "centerMiles": 60.6,
+      "censusGeoid": "3122325",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Lancaster"
+      ],
+      "slug": "hickman-ne"
+    },
+    {
+      "name": "Humboldt",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68376"
+      ],
+      "latitude": 40.1658187,
+      "longitude": -95.9443197,
+      "centerMiles": 45.4,
+      "censusGeoid": "3123445",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Richardson"
+      ],
+      "slug": "humboldt-ne"
+    },
+    {
+      "name": "Ithaca",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68033"
+      ],
+      "latitude": 41.1593386,
+      "longitude": -96.5394948,
+      "centerMiles": 63.1,
+      "censusGeoid": "3124285",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Saunders"
+      ],
+      "slug": "ithaca-ne"
+    },
+    {
+      "name": "Johnson",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68378"
+      ],
+      "latitude": 40.4104592,
+      "longitude": -95.9998649,
+      "centerMiles": 34.7,
+      "censusGeoid": "3124670",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nemaha"
+      ],
+      "slug": "johnson-ne"
+    },
+    {
+      "name": "Julian",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68320",
+        "68379"
+      ],
+      "latitude": 40.5192049,
+      "longitude": -95.8670964,
+      "centerMiles": 24.6,
+      "censusGeoid": "3124915",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nemaha"
+      ],
+      "slug": "julian-ne"
+    },
+    {
+      "name": "Kennard",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68008",
+        "68034"
+      ],
+      "latitude": 41.4750517,
+      "longitude": -96.2035808,
+      "centerMiles": 64.3,
+      "censusGeoid": "3125230",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Washington"
+      ],
+      "slug": "kennard-ne"
+    },
+    {
+      "name": "King Lake",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68064"
+      ],
+      "latitude": 41.3134833,
+      "longitude": -96.3017186,
+      "centerMiles": 59.3,
+      "censusGeoid": "3125510",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "king-lake-ne"
+    },
+    {
+      "name": "La Platte",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68123"
+      ],
+      "latitude": 41.0713911,
+      "longitude": -95.9254556,
+      "centerMiles": 33.6,
+      "censusGeoid": "3126315",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "la-platte-ne"
+    },
+    {
+      "name": "La Vista",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68046",
+        "68128",
+        "68138",
+        "68157"
+      ],
+      "latitude": 41.1812663,
+      "longitude": -96.0672106,
+      "centerMiles": 44.2,
+      "censusGeoid": "3126385",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Sarpy"
+      ],
+      "slug": "la-vista-ne"
+    },
+    {
+      "name": "Lake Waconda",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68455"
+      ],
+      "latitude": 40.8449782,
+      "longitude": -95.8531435,
+      "centerMiles": 21.3,
+      "censusGeoid": "3126156",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "lake-waconda-ne"
+    },
+    {
+      "name": "Leshara",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68064"
+      ],
+      "latitude": 41.3297897,
+      "longitude": -96.4292034,
+      "centerMiles": 65.0,
+      "censusGeoid": "3126630",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "leshara-ne"
+    },
+    {
+      "name": "Lewiston",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68380"
+      ],
+      "latitude": 40.2430544,
+      "longitude": -96.4065554,
+      "centerMiles": 58.8,
+      "censusGeoid": "3126875",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pawnee"
+      ],
+      "slug": "lewiston-ne"
+    },
+    {
+      "name": "Lincoln",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68430",
+        "68501",
+        "68505",
+        "68506",
+        "68507",
+        "68509",
+        "68510",
+        "68516",
+        "68517",
+        "68520",
+        "68526",
+        "68527",
+        "68529",
+        "68542",
+        "68544",
+        "68583"
+      ],
+      "latitude": 40.8090617,
+      "longitude": -96.6769036,
+      "centerMiles": 63.1,
+      "censusGeoid": "3128000",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Lancaster"
+      ],
+      "slug": "lincoln-ne"
+    },
+    {
+      "name": "Linoma Beach",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68028"
+      ],
+      "latitude": 41.058279,
+      "longitude": -96.3148525,
+      "centerMiles": 49.5,
+      "censusGeoid": "3128165",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "linoma-beach-ne"
+    },
+    {
+      "name": "Lorton",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68382"
+      ],
+      "latitude": 40.5972198,
+      "longitude": -96.0241774,
+      "centerMiles": 29.8,
+      "censusGeoid": "3129175",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Otoe"
+      ],
+      "slug": "lorton-ne"
+    },
+    {
+      "name": "Louisville",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68037"
+      ],
+      "latitude": 40.9964711,
+      "longitude": -96.1614055,
+      "centerMiles": 40.4,
+      "censusGeoid": "3129260",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "louisville-ne"
+    },
+    {
+      "name": "Manley",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68403",
+        "68463"
+      ],
+      "latitude": 40.918428,
+      "longitude": -96.1657333,
+      "centerMiles": 38.4,
+      "censusGeoid": "3130415",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "manley-ne"
+    },
+    {
+      "name": "Mead",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68041"
+      ],
+      "latitude": 41.2138626,
+      "longitude": -96.4825486,
+      "centerMiles": 62.5,
+      "censusGeoid": "3131395",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Saunders"
+      ],
+      "slug": "mead-ne"
+    },
+    {
+      "name": "Melia",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68028"
+      ],
+      "latitude": 41.0970684,
+      "longitude": -96.2768049,
+      "centerMiles": 49.1,
+      "censusGeoid": "3131605",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "melia-ne"
+    },
+    {
+      "name": "Memphis",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68042"
+      ],
+      "latitude": 41.0945639,
+      "longitude": -96.4331366,
+      "centerMiles": 56.2,
+      "censusGeoid": "3131640",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Saunders"
+      ],
+      "slug": "memphis-ne"
+    },
+    {
+      "name": "Murdock",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68407"
+      ],
+      "latitude": 40.9261747,
+      "longitude": -96.2808787,
+      "centerMiles": 44.3,
+      "censusGeoid": "3133320",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "murdock-ne"
+    },
+    {
+      "name": "Murray",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68409"
+      ],
+      "latitude": 40.9163861,
+      "longitude": -95.9274636,
+      "centerMiles": 27.1,
+      "censusGeoid": "3133425",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "murray-ne"
+    },
+    {
+      "name": "Nebraska City",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68410"
+      ],
+      "latitude": 40.6757455,
+      "longitude": -95.8616592,
+      "centerMiles": 20.2,
+      "censusGeoid": "3133705",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Otoe"
+      ],
+      "slug": "nebraska-city-ne"
+    },
+    {
+      "name": "Nehawka",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68413"
+      ],
+      "latitude": 40.8296416,
+      "longitude": -95.9908188,
+      "centerMiles": 27.8,
+      "censusGeoid": "3133740",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "nehawka-ne"
+    },
+    {
+      "name": "Nemaha",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68414"
+      ],
+      "latitude": 40.3388008,
+      "longitude": -95.6759653,
+      "centerMiles": 28.2,
+      "censusGeoid": "3133950",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nemaha"
+      ],
+      "slug": "nemaha-ne"
+    },
+    {
+      "name": "Offutt AFB",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68005",
+        "68113",
+        "68123"
+      ],
+      "latitude": 41.1206983,
+      "longitude": -95.9209989,
+      "centerMiles": 36.0,
+      "censusGeoid": "3135875",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [
+        "Sarpy"
+      ],
+      "slug": "offutt-afb-ne"
+    },
+    {
+      "name": "Omaha",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68007",
+        "68010",
+        "68022",
+        "68101",
+        "68102",
+        "68103",
+        "68104",
+        "68105",
+        "68106",
+        "68107",
+        "68108",
+        "68109",
+        "68110",
+        "68111",
+        "68112",
+        "68114",
+        "68116",
+        "68117",
+        "68118",
+        "68119",
+        "68120",
+        "68122",
+        "68124",
+        "68127",
+        "68130",
+        "68131",
+        "68132",
+        "68134",
+        "68135",
+        "68136",
+        "68137",
+        "68138",
+        "68139",
+        "68142",
+        "68144",
+        "68145",
+        "68147",
+        "68152",
+        "68154",
+        "68155",
+        "68157",
+        "68164",
+        "68172",
+        "68175",
+        "68176",
+        "68178",
+        "68179",
+        "68180",
+        "68182",
+        "68183",
+        "68197",
+        "68198"
+      ],
+      "latitude": 41.262769,
+      "longitude": -96.0544715,
+      "centerMiles": 48.0,
+      "censusGeoid": "3137000",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Douglas",
+        "Sarpy"
+      ],
+      "slug": "omaha-ne"
+    },
+    {
+      "name": "Otoe",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68417"
+      ],
+      "latitude": 40.724075,
+      "longitude": -96.1206099,
+      "centerMiles": 33.6,
+      "censusGeoid": "3137630",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Otoe"
+      ],
+      "slug": "otoe-ne"
+    },
+    {
+      "name": "Palmyra",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68418"
+      ],
+      "latitude": 40.7057008,
+      "longitude": -96.3921192,
+      "centerMiles": 47.9,
+      "censusGeoid": "3138190",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Otoe"
+      ],
+      "slug": "palmyra-ne"
+    },
+    {
+      "name": "Panama",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68419"
+      ],
+      "latitude": 40.5998044,
+      "longitude": -96.511169,
+      "centerMiles": 54.8,
+      "censusGeoid": "3138225",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Lancaster"
+      ],
+      "slug": "panama-ne"
+    },
+    {
+      "name": "Papillion",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68046",
+        "68059",
+        "68128",
+        "68133",
+        "68138"
+      ],
+      "latitude": 41.1511807,
+      "longitude": -96.0687836,
+      "centerMiles": 42.8,
+      "censusGeoid": "3138295",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Sarpy"
+      ],
+      "slug": "papillion-ne"
+    },
+    {
+      "name": "Pawnee City",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68420"
+      ],
+      "latitude": 40.11063,
+      "longitude": -96.1531295,
+      "centerMiles": 55.0,
+      "censusGeoid": "3138575",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pawnee"
+      ],
+      "slug": "pawnee-city-ne"
+    },
+    {
+      "name": "Peru",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68421"
+      ],
+      "latitude": 40.4785122,
+      "longitude": -95.7313919,
+      "centerMiles": 21.3,
+      "censusGeoid": "3138960",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Nemaha"
+      ],
+      "slug": "peru-ne"
+    },
+    {
+      "name": "Plattsmouth",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68048"
+      ],
+      "latitude": 41.0051389,
+      "longitude": -95.8942223,
+      "centerMiles": 29.3,
+      "censusGeoid": "3139345",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "plattsmouth-ne"
+    },
+    {
+      "name": "Prairie Home",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68527"
+      ],
+      "latitude": 40.8620062,
+      "longitude": -96.5245376,
+      "centerMiles": 55.6,
+      "censusGeoid": "3140255",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "prairie-home-ne"
+    },
+    {
+      "name": "Preston",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68355"
+      ],
+      "latitude": 40.0345868,
+      "longitude": -95.5181063,
+      "centerMiles": 47.3,
+      "censusGeoid": "3140325",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "preston-ne"
+    },
+    {
+      "name": "Ralston",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68127"
+      ],
+      "latitude": 41.2004483,
+      "longitude": -96.0354175,
+      "centerMiles": 44.0,
+      "censusGeoid": "3140605",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [],
+      "slug": "ralston-ne"
+    },
+    {
+      "name": "Richfield",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68046",
+        "68059"
+      ],
+      "latitude": 41.1107632,
+      "longitude": -96.0763241,
+      "centerMiles": 41.2,
+      "censusGeoid": "3141340",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "richfield-ne"
+    },
+    {
+      "name": "Roca",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68430"
+      ],
+      "latitude": 40.6584685,
+      "longitude": -96.6613971,
+      "centerMiles": 62.2,
+      "censusGeoid": "3141830",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Lancaster"
+      ],
+      "slug": "roca-ne"
+    },
+    {
+      "name": "Rulo",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68431"
+      ],
+      "latitude": 40.0516598,
+      "longitude": -95.4305692,
+      "centerMiles": 46.2,
+      "censusGeoid": "3142670",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Richardson"
+      ],
+      "slug": "rulo-ne"
+    },
+    {
+      "name": "Salem",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68433"
+      ],
+      "latitude": 40.0768895,
+      "longitude": -95.7285224,
+      "centerMiles": 46.3,
+      "censusGeoid": "3143370",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Richardson"
+      ],
+      "slug": "salem-ne"
+    },
+    {
+      "name": "Shubert",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68437"
+      ],
+      "latitude": 40.2359143,
+      "longitude": -95.6836153,
+      "centerMiles": 35.1,
+      "censusGeoid": "3145225",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Richardson"
+      ],
+      "slug": "shubert-ne"
+    },
+    {
+      "name": "South Bend",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68058"
+      ],
+      "latitude": 41.0025405,
+      "longitude": -96.2473808,
+      "centerMiles": 44.6,
+      "censusGeoid": "3145680",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "south-bend-ne"
+    },
+    {
+      "name": "Springfield",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68059"
+      ],
+      "latitude": 41.0993599,
+      "longitude": -96.1406899,
+      "centerMiles": 43.3,
+      "censusGeoid": "3146520",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Sarpy"
+      ],
+      "slug": "springfield-ne"
+    },
+    {
+      "name": "St Columbans",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68056"
+      ],
+      "latitude": 41.0927,
+      "longitude": -96.0905,
+      "centerMiles": 41.0,
+      "kind": "Postal community",
+      "counties": [
+        "Sarpy"
+      ],
+      "slug": "st-columbans-ne"
+    },
+    {
+      "name": "Steinauer",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68441"
+      ],
+      "latitude": 40.2073683,
+      "longitude": -96.2328598,
+      "centerMiles": 53.1,
+      "censusGeoid": "3147080",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pawnee"
+      ],
+      "slug": "steinauer-ne"
+    },
+    {
+      "name": "Stella",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68442"
+      ],
+      "latitude": 40.2323018,
+      "longitude": -95.7734217,
+      "centerMiles": 37.0,
+      "censusGeoid": "3147115",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Richardson"
+      ],
+      "slug": "stella-ne"
+    },
+    {
+      "name": "Sterling",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68443"
+      ],
+      "latitude": 40.4612946,
+      "longitude": -96.3773648,
+      "centerMiles": 50.4,
+      "censusGeoid": "3147150",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Johnson"
+      ],
+      "slug": "sterling-ne"
+    },
+    {
+      "name": "Syracuse",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68446"
+      ],
+      "latitude": 40.6635037,
+      "longitude": -96.1827335,
+      "centerMiles": 37.1,
+      "censusGeoid": "3148235",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Otoe"
+      ],
+      "slug": "syracuse-ne"
+    },
+    {
+      "name": "Table Rock",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68447"
+      ],
+      "latitude": 40.1782806,
+      "longitude": -96.0887146,
+      "centerMiles": 49.2,
+      "censusGeoid": "3148270",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Pawnee"
+      ],
+      "slug": "table-rock-ne"
+    },
+    {
+      "name": "Talmage",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68448"
+      ],
+      "latitude": 40.5315952,
+      "longitude": -96.0238497,
+      "centerMiles": 31.4,
+      "censusGeoid": "3148305",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Otoe"
+      ],
+      "slug": "talmage-ne"
+    },
+    {
+      "name": "Tecumseh",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68450"
+      ],
+      "latitude": 40.3718169,
+      "longitude": -96.1887065,
+      "centerMiles": 44.3,
+      "censusGeoid": "3148480",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Johnson"
+      ],
+      "slug": "tecumseh-ne"
+    },
+    {
+      "name": "Unadilla",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68454"
+      ],
+      "latitude": 40.6830434,
+      "longitude": -96.2698894,
+      "centerMiles": 41.5,
+      "censusGeoid": "3149530",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Otoe"
+      ],
+      "slug": "unadilla-ne"
+    },
+    {
+      "name": "Union",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68455"
+      ],
+      "latitude": 40.8144357,
+      "longitude": -95.9218371,
+      "centerMiles": 24.0,
+      "censusGeoid": "3149635",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "union-ne"
+    },
+    {
+      "name": "Valley",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68064",
+        "68069"
+      ],
+      "latitude": 41.3150522,
+      "longitude": -96.354547,
+      "centerMiles": 61.4,
+      "censusGeoid": "3150020",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Douglas"
+      ],
+      "slug": "valley-ne"
+    },
+    {
+      "name": "Venice",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68069"
+      ],
+      "latitude": 41.2389727,
+      "longitude": -96.3526288,
+      "centerMiles": 58.0,
+      "censusGeoid": "3150265",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "venice-ne"
+    },
+    {
+      "name": "Verdon",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68457"
+      ],
+      "latitude": 40.1490858,
+      "longitude": -95.7111962,
+      "centerMiles": 41.2,
+      "censusGeoid": "3150510",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Richardson"
+      ],
+      "slug": "verdon-ne"
+    },
+    {
+      "name": "Virginia",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68458"
+      ],
+      "latitude": 40.2458595,
+      "longitude": -96.4988244,
+      "centerMiles": 62.8,
+      "censusGeoid": "3150790",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Gage"
+      ],
+      "slug": "virginia-ne"
+    },
+    {
+      "name": "Walton",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68461",
+        "68520"
+      ],
+      "latitude": 40.7962243,
+      "longitude": -96.565291,
+      "centerMiles": 57.1,
+      "censusGeoid": "3151280",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [
+        "Lancaster"
+      ],
+      "slug": "walton-ne"
+    },
+    {
+      "name": "Wann",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68003"
+      ],
+      "latitude": 41.1393505,
+      "longitude": -96.3632373,
+      "centerMiles": 54.5,
+      "censusGeoid": "3151350",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "wann-ne"
+    },
+    {
+      "name": "Washington",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68007",
+        "68068"
+      ],
+      "latitude": 41.3976057,
+      "longitude": -96.2075079,
+      "centerMiles": 60.2,
+      "censusGeoid": "3151595",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Washington"
+      ],
+      "slug": "washington-ne"
+    },
+    {
+      "name": "Waterloo",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68069"
+      ],
+      "latitude": 41.2858041,
+      "longitude": -96.288325,
+      "centerMiles": 57.5,
+      "censusGeoid": "3151665",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Douglas"
+      ],
+      "slug": "waterloo-ne"
+    },
+    {
+      "name": "Waverly",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68462"
+      ],
+      "latitude": 40.9117563,
+      "longitude": -96.5337672,
+      "centerMiles": 56.8,
+      "censusGeoid": "3151770",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Lancaster"
+      ],
+      "slug": "waverly-ne"
+    },
+    {
+      "name": "Weeping Water",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68463"
+      ],
+      "latitude": 40.8691254,
+      "longitude": -96.1403459,
+      "centerMiles": 36.1,
+      "censusGeoid": "3152015",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Cass"
+      ],
+      "slug": "weeping-water-ne"
+    },
+    {
+      "name": "Woodland Hills",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68347"
+      ],
+      "latitude": 40.7511435,
+      "longitude": -96.4209917,
+      "centerMiles": 49.4,
+      "censusGeoid": "3153575",
+      "kind": "Census place",
+      "censusLayer": 30,
+      "counties": [],
+      "slug": "woodland-hills-ne"
+    },
+    {
+      "name": "Yutan",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "zipCodes": [
+        "68073"
+      ],
+      "latitude": 41.2429891,
+      "longitude": -96.39573,
+      "centerMiles": 59.9,
+      "censusGeoid": "3154115",
+      "kind": "Census place",
+      "censusLayer": 28,
+      "counties": [
+        "Saunders"
+      ],
+      "slug": "yutan-ne"
+    }
+  ]
+}

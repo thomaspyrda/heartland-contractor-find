@@ -1,11 +1,11 @@
 # Heartland Contractor Find
 
-An independently branded residential project-referral website for Southwest Iowa, Southeast Nebraska, and Northwest Missouri, with an initial service area of approximately 60 geographic miles from Farragut, Iowa.
+An independently branded residential project-referral website for Southwest Iowa, Southeast Nebraska, Northwest Missouri, and Northeast Kansas. Listed ZIP areas overlap a 60-mile geographic radius from Farragut, Iowa; sales reviews final job acceptance.
 
 ## Current state
 
-- 16 generated pages plus a real 404 page: homepage, service directory, four service guides, six service/location pages, service area, how it works, privacy notice and photo credits.
-- Responsive design, locally hosted licensed stock photography, crawlable HTML, unique titles/descriptions, canonical URLs, structured data and a sitemap.
+- 1,078 generated pages plus a real 404 page: 1,068 service/location pages across 267 communities, four service guides, and the core site pages. The original six researched local pages are preserved.
+- Responsive design, locally hosted owner-supplied photography, crawlable HTML, unique titles/descriptions, canonical URLs, structured data and a sitemap.
 - Open-ended project inquiry form: project description, location, contact information, required budget range, timing and one to three photos, plus optional notes. No service dropdown, budget threshold or automated service-fit rejection.
 - Cloudflare Worker backend with D1 lead records, private R2 photos, Turnstile verification, referral attribution and private email notifications through Resend.
 - Durable notification retry queue. A delivery failure does not discard a saved inquiry. Customer photo attachments are included in the owner's notification.
@@ -37,7 +37,7 @@ Edit `content/site.json` for service guides, researched town context and explici
 - `/concrete/red-oak-ia/`
 - `/retaining-walls/nebraska-city-ne/`
 
-Stock photographs illustrate services, not completed jobs in those towns. Their sources and license are recorded in `docs/CONTENT_SOURCES.md` and on the photo-credits page. Do not replace them with a partner's portfolio without permission and accurate attribution.
+Owner-supplied photographs illustrate services, not completed jobs in those towns. Image-use information is recorded on the photo-credits page. Do not replace them with a partner's portfolio without permission and accurate attribution.
 
 ## Hosting and launch
 
@@ -50,3 +50,5 @@ The supplied GitHub workflow runs checks on source changes. It does not publish 
 ## Search indexing
 
 Builds default to `noindex` during prelaunch review. Only set `INDEXING_ENABLED=true` after domain connection, editorial review, privacy review, working form submission and verified owner email delivery. Successful publication alone does not guarantee indexing or rankings.
+
+Coverage source and overlap rules are documented in `docs/COVERAGE.md`. The site build uses the committed `content/coverage.json`; Python GIS dependencies are only needed to refresh the research dataset.
