@@ -1,0 +1,246 @@
+{
+  "name": "Heartland Contractor Find",
+  "url": "https://heartlandcontractorfind.com",
+  "tagline": "Your project starts with a conversation.",
+  "coverage": "Southwest Iowa, Southeast Nebraska, and Northwest Missouri",
+  "services": {
+    "concrete": {
+      "name": "Concrete",
+      "headline": "A solid start. A surface that works for you.",
+      "intro": "A shed pad, a replacement slab, or a new place to gather outside: concrete work starts with understanding what the space needs to do. Tell us about the project, and we will help arrange a conversation with a contractor serving your area.",
+      "image": "concrete",
+      "examples": [
+        "Shed and equipment pads",
+        "Residential slabs and basement floors",
+        "Replacement of deteriorated concrete",
+        "Footings and concrete project preparation"
+      ],
+      "steps": [
+        [
+          "Start below the surface",
+          "The condition of the ground, existing fill, drainage, and intended load help determine the preparation a concrete project needs. A contractor can assess what is there before recommending the scope."
+        ],
+        [
+          "Plan the practical details",
+          "Dimensions, access for equipment, removal of existing material, forms, reinforcement, and finish all affect the work. Share what the area will be used for and anything that might make access difficult."
+        ],
+        [
+          "Allow for finishing and aftercare",
+          "Placement, joints, curing, and the timing of foot or vehicle use need to suit the actual project and conditions. Ask the contractor for instructions specific to the finished work."
+        ]
+      ],
+      "questions": [
+        [
+          "Can I ask about a small concrete project?",
+          "Yes. Describe the project regardless of size. A follow-up conversation will establish the scope, access, and whether the contractor can take it on."
+        ],
+        [
+          "Do I need exact measurements or a firm budget?",
+          "No. Approximate dimensions, a few photos, and a description of how you want to use the space are useful starting points. Budget and timing are optional."
+        ],
+        [
+          "What affects the cost?",
+          "Area, intended use, preparation, access, demolition, disposal, reinforcement, finish, and scheduling can all affect an estimate. Pricing requires a review of your project."
+        ]
+      ]
+    },
+    "masonry": {
+      "name": "Masonry",
+      "headline": "Give brick and stone the attention they deserve.",
+      "intro": "Loose brick, worn mortar joints, damaged steps, and chimney masonry can each call for a different approach. Share what you are seeing and what you would like to change so a contractor can discuss the next step with you.",
+      "image": "masonry",
+      "examples": [
+        "Brick and stone repairs",
+        "Mortar joint repair and repointing",
+        "Exterior chimney masonry",
+        "Masonry steps, block work, and new construction inquiries"
+      ],
+      "steps": [
+        [
+          "Understand the cause",
+          "Visible damage can involve mortar, individual units, moisture, or movement. A contractor needs to understand the condition and location before deciding whether local repair or more extensive work is appropriate."
+        ],
+        [
+          "Match the existing work",
+          "Brick and stone type, mortar compatibility, joint profile, and appearance matter when repairing existing masonry. Photos of the full area and close-up details help start that discussion."
+        ],
+        [
+          "Plan access and the repair sequence",
+          "Working height, access, preparation, removal of loose material, weather, and finishing affect the project. Describe nearby roofs, landscaping, or other features that may affect access."
+        ]
+      ],
+      "questions": [
+        [
+          "Can I submit photos before knowing what repair I need?",
+          "Yes. Describe the symptoms in your own words and include photos if you have them. You do not need to diagnose the problem or choose a repair method."
+        ],
+        [
+          "Can I include several areas of damage?",
+          "Yes. Include all the areas you would like to discuss, such as a chimney, steps, or exterior wall. The contractor can review them together."
+        ],
+        [
+          "Will new mortar or brick match exactly?",
+          "Matching depends on the existing materials and available replacements. The contractor should discuss the practical options and expected appearance before work is agreed."
+        ]
+      ]
+    },
+    "hardscaping": {
+      "name": "Hardscaping",
+      "headline": "Make more of the space outside your door.",
+      "intro": "Patios, paths, fire pits, and retaining walls can change how a yard feels and functions. Tell us how you want to use your outdoor space, including any related work you have in mind.",
+      "image": "hardscape",
+      "examples": [
+        "Paver patios and walkways",
+        "Retaining walls and usable yard space",
+        "Fire pits and seating areas",
+        "Layout, access, grading, and drainage considerations"
+      ],
+      "steps": [
+        [
+          "Begin with how you will use it",
+          "Dining, entertaining, access, and easier movement through the yard can lead to different layouts. Approximate dimensions and inspiration photos help communicate your priorities."
+        ],
+        [
+          "Look at the whole site",
+          "Existing grades, water movement, access, nearby structures, and existing surfaces affect the design. Preparation and drainage deserve attention alongside material and color choices."
+        ],
+        [
+          "Bring the pieces together",
+          "A patio, path, wall, or fire feature may involve several connected tasks. Describe the whole idea so the contractor can discuss sequence, materials, and feasibility."
+        ]
+      ],
+      "questions": [
+        [
+          "Can I submit an idea rather than a finished design?",
+          "Yes. Explain what you want the space to do and what is not working now. A finished plan is not required for an initial conversation."
+        ],
+        [
+          "Can I combine a patio and retaining wall in one request?",
+          "Yes. Include all related work in your description so it can be discussed together."
+        ],
+        [
+          "What should I photograph?",
+          "A wide view of the area, access from the street or driveway, existing surfaces, and any slopes or drainage concerns will help explain the project."
+        ]
+      ]
+    },
+    "retaining-walls": {
+      "name": "Retaining Walls",
+      "headline": "A better plan for a changing grade.",
+      "intro": "A new wall or replacement of an existing one starts with understanding the slope, space, and what the wall must support. Describe your yard and goals so a contractor can discuss the project with you.",
+      "image": "retaining-wall",
+      "examples": [
+        "New residential retaining walls",
+        "Replacement wall inquiries",
+        "Block or stone material options",
+        "Sloped yards and related outdoor projects"
+      ],
+      "steps": [
+        [
+          "Understand the site and loads",
+          "Approximate wall height, length, changes in grade, and what sits above or below the wall all matter. A site assessment establishes the design needs."
+        ],
+        [
+          "Plan what sits behind the wall",
+          "Excavation, base preparation, backfill, drainage, and any reinforcement affect how a wall performs. These details depend on the site and selected wall system."
+        ],
+        [
+          "Check the full project scope",
+          "Access, existing-wall removal, property boundaries, and possible engineering or permit requirements need to be discussed before construction. A phone call is a starting point, not a structural assessment."
+        ]
+      ],
+      "questions": [
+        [
+          "Can I ask about replacing a leaning wall?",
+          "Yes. Describe the wall material, approximate dimensions, and visible changes. The contractor will determine whether it is a project they can assess and handle."
+        ],
+        [
+          "Do I need to know which wall material I want?",
+          "No. Share any preferences or inspiration, and describe what the wall needs to accomplish."
+        ],
+        [
+          "Can I include a patio or drainage concern?",
+          "Yes. Explain the connected work so the contractor can understand the overall project."
+        ]
+      ]
+    }
+  },
+  "towns": {
+    "shenandoah-ia": {
+      "name": "Shenandoah",
+      "state": "IA",
+      "stateName": "Iowa",
+      "resource": "https://shenandoahiowa.net/forms-permits/",
+      "resourceLabel": "City of Shenandoah forms and permits",
+      "context": "Shenandoah is within our Southwest Iowa inquiry area. Include the project town and ZIP code even if your mailing address uses Shenandoah but the property is outside city limits. The correct project location helps identify coverage and the relevant local office."
+    },
+    "clarinda-ia": {
+      "name": "Clarinda",
+      "state": "IA",
+      "stateName": "Iowa",
+      "resource": "https://bestiowatown.com/city-information/",
+      "resourceLabel": "City of Clarinda building and city information",
+      "context": "For a project in Clarinda, distinguish the actual job location from a nearby rural mailing address. Clarinda City Hall provides building-permit information; projects outside the city may involve a different authority. Share the location so the follow-up conversation starts with the right property context."
+    },
+    "red-oak-ia": {
+      "name": "Red Oak",
+      "state": "IA",
+      "stateName": "Iowa",
+      "resource": "https://www.redoakiowa.com/government-services/",
+      "resourceLabel": "Red Oak local government and permit contacts",
+      "context": "Red Oak homeowners can use this page to start a residential project inquiry. Include the property town and ZIP code, plus any access or street-facing work involved. The Red Oak government-services directory identifies City Hall as a contact for building permits; requirements should be checked for the actual project."
+    },
+    "nebraska-city-ne": {
+      "name": "Nebraska City",
+      "state": "NE",
+      "stateName": "Nebraska",
+      "resource": "https://www.nebraskacityne.gov/departments/building_zoning/index.php",
+      "resourceLabel": "Nebraska City Building & Zoning",
+      "context": "Nebraska City is within our Southeast Nebraska inquiry area. For a wall project, describe whether the property is inside the city or in a nearby rural area. Nebraska City's Building & Zoning department is a starting resource for city projects; the address, wall design, and site determine which requirements need review."
+    }
+  },
+  "pages": [
+    {
+      "service": "concrete",
+      "town": "shenandoah-ia",
+      "intro": "Planning a shed pad, replacing a worn slab, or exploring concrete work at your Shenandoah home? Start with how you want to use the area. Share the size if you know it, what is there now, and any related work you would like to discuss.",
+      "localHeading": "Planning concrete work in Shenandoah",
+      "localDetail": "For a shed or outbuilding pad, explain whether the structure is new, already ordered, or still being considered. Shenandoah's city website provides a building-permit application. Before work is agreed, the project location and intended structure should be checked with the appropriate office. A concrete inquiry does not require choosing the construction method yourself."
+    },
+    {
+      "service": "masonry",
+      "town": "shenandoah-ia",
+      "intro": "If brick, stone, or mortar around your Shenandoah home needs attention, you do not need to know the repair terminology to get started. Tell us where the damage is, what has changed, and what you would like the finished work to look like.",
+      "localHeading": "A useful starting point for Shenandoah masonry",
+      "localDetail": "A chimney, entry steps, and a wall can involve different access and repair needs, even on the same property. Identify each area and include a wide photo alongside close-ups. Shenandoah publishes building forms through its city website; ask which requirements apply if the work involves rebuilding or a structural change."
+    },
+    {
+      "service": "concrete",
+      "town": "clarinda-ia",
+      "intro": "A new concrete pad and a replacement basement floor begin with different questions. For your Clarinda project, describe what the surface will support, the area you have available, and any existing concrete that may need to come out.",
+      "localHeading": "Preparing for a Clarinda concrete conversation",
+      "localDetail": "Clarinda's city information page identifies permits for building and additions and also discusses portable garden sheds. If your concrete work supports a new structure, include that structure in the description. A city address and a rural Page County property may involve different offices, so give the actual project location rather than only the nearest town."
+    },
+    {
+      "service": "masonry",
+      "town": "clarinda-ia",
+      "intro": "From worn mortar joints to damaged brick or stone, the right scope depends on the condition of the existing work. Describe the areas of your Clarinda home you want reviewed, including appearance, water concerns, or loose material you have noticed.",
+      "localHeading": "Discussing masonry at a Clarinda property",
+      "localDetail": "If several areas need attention, group them into one inquiry and explain your priorities. Note the working height and whether the affected area is near a roof, entryway, or neighboring property. Clarinda City Hall is a resource for building questions; repairs and larger alterations should be discussed in the context of the actual structure."
+    },
+    {
+      "service": "concrete",
+      "town": "red-oak-ia",
+      "intro": "Whether you have a small pad in mind or existing concrete you would like replaced, explain what the space needs to do at your Red Oak home. You can include dimensions, access concerns, and photos without having a complete project plan.",
+      "localHeading": "Getting the Red Oak project details right",
+      "localDetail": "Separate the new surface you want from any removal or access work that may be needed. If your idea reaches a driveway approach or public-facing area, mention that in the inquiry rather than assuming it is part of a standard slab installation. Red Oak's local government directory provides a route to City Hall for permit questions."
+    },
+    {
+      "service": "retaining-walls",
+      "town": "nebraska-city-ne",
+      "intro": "Want to make a sloped Nebraska City yard more usable, or discuss replacing an existing wall? Tell us what you want to achieve, what the wall looks like now, and any nearby patio, driveway, or landscaping work that belongs in the conversation.",
+      "localHeading": "Planning a wall project in Nebraska City",
+      "localDetail": "Include the wall's approximate height and length, what lies above it, and how equipment could reach the yard. Nebraska City maintains a Building & Zoning department and permit resources. The contractor should establish whether the proposed wall needs design or permit review for that specific property; this page does not prescribe a universal height threshold."
+    }
+  ]
+}

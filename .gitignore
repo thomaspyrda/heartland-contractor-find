@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars*
+.env*
+wrangler.json
+*.log
+*.sqlite*
+lead-exports/
+
