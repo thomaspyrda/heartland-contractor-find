@@ -1,4 +1,6 @@
-import {site} from './catalog.mjs';
+import site from '../content/site.json' with {type:'json'};
+import coverage from '../content/coverage.json' with {type:'json'};
+const locationNames=new Map(coverage.towns.map(t=>[t.slug,`${t.name}, ${t.state}`]));
 
 const MAX_BODY = 10 * 1024 * 1024;
 const MAX_PHOTO = 3 * 1024 * 1024;
@@ -10,8 +12,8 @@ export function configured(env) {
   return env.INQUIRIES_ENABLED === 'true' && !!(env.DB && env.PHOTOS && env.TURNSTILE_SITE_KEY && env.TURNSTILE_SECRET_KEY && env.RESEND_API_KEY && env.LEAD_NOTIFICATION_TO && env.MAIL_FROM && env.PUBLIC_ORIGIN);
 }
 export function pageContext(path) {
-  const page = site.pages.find(p=>`/${p.service}/${p.town}/`===path);
-  if(page) return {path,service:site.services[page.service].name,town:`${site.towns[page.town].name}, ${site.towns[page.town].state}`};
+  const route=/^\/([^/]+)\/([^/]+)\/$/.exec(path);
+  if(route && site.services[route[1]] && locationNames.has(route[2]))return {path,service:site.services[route[1]].name,town:locationNames.get(route[2])};
   const category=Object.keys(site.services).find(k=>`/${k}/`===path);
   return {path:category||['/','/services/','/areas/','/about/','/privacy/','/photo-credits/'].includes(path)?path:'/',service:category?site.services[category].name:'General project inquiry',town:''};
 }
