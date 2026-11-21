@@ -1,12 +1,12 @@
 {
   "name": "Heartland Contractor Find",
   "url": "https://heartlandcontractorfind.com",
-  "tagline": "Your project starts with a conversation.",
+  "tagline": "Your project. A local contractor. Let\u2019s connect.",
   "coverage": "Southwest Iowa, Southeast Nebraska, and Northwest Missouri",
   "services": {
     "concrete": {
       "name": "Concrete",
-      "headline": "A solid start. A surface that works for you.",
+      "headline": "Connect with a local concrete contractor.",
       "intro": "A shed pad, a replacement slab, or a new place to gather outside: concrete work starts with understanding what the space needs to do. Tell us about the project, and we will help arrange a conversation with a contractor serving your area.",
       "image": "concrete",
       "examples": [
@@ -31,8 +31,8 @@
       ],
       "questions": [
         [
-          "Can I ask about a small concrete project?",
-          "Yes. Describe the project regardless of size. A follow-up conversation will establish the scope, access, and whether the contractor can take it on."
+          "What size concrete projects can I ask about?",
+          "Residential projects of all sizes are welcome. Describe the whole project, from an individual repair to a new installation. The contractor will discuss scope, access, and availability with you."
         ],
         [
           "Do I need exact measurements or a firm budget?",
@@ -46,8 +46,8 @@
     },
     "masonry": {
       "name": "Masonry",
-      "headline": "Give brick and stone the attention they deserve.",
-      "intro": "Loose brick, worn mortar joints, damaged steps, and chimney masonry can each call for a different approach. Share what you are seeing and what you would like to change so a contractor can discuss the next step with you.",
+      "headline": "Connect with a local masonry contractor.",
+      "intro": "Planning new brick or stonework, a repair, or a larger residential masonry project? Tell us what you have in mind. We will help connect you with a local contractor to discuss the scope and next steps.",
       "image": "masonry",
       "examples": [
         "Brick and stone repairs",
@@ -86,7 +86,7 @@
     },
     "hardscaping": {
       "name": "Hardscaping",
-      "headline": "Make more of the space outside your door.",
+      "headline": "Connect with a local hardscape contractor.",
       "intro": "Patios, paths, fire pits, and retaining walls can change how a yard feels and functions. Tell us how you want to use your outdoor space, including any related work you have in mind.",
       "image": "hardscape",
       "examples": [
@@ -126,7 +126,7 @@
     },
     "retaining-walls": {
       "name": "Retaining Walls",
-      "headline": "A better plan for a changing grade.",
+      "headline": "Find a contractor for your retaining wall project.",
       "intro": "A new wall or replacement of an existing one starts with understanding the slope, space, and what the wall must support. Describe your yard and goals so a contractor can discuss the project with you.",
       "image": "retaining-wall",
       "examples": [
@@ -231,7 +231,7 @@
     {
       "service": "concrete",
       "town": "red-oak-ia",
-      "intro": "Whether you have a small pad in mind or existing concrete you would like replaced, explain what the space needs to do at your Red Oak home. You can include dimensions, access concerns, and photos without having a complete project plan.",
+      "intro": "Whether you have a new concrete installation in mind or existing concrete you would like replaced, explain what the space needs to do at your Red Oak home. You can include dimensions, access concerns, and photos without having a complete project plan.",
       "localHeading": "Getting the Red Oak project details right",
       "localDetail": "Separate the new surface you want from any removal or access work that may be needed. If your idea reaches a driveway approach or public-facing area, mention that in the inquiry rather than assuming it is part of a standard slab installation. Red Oak's local government directory provides a route to City Hall for permit questions."
     },
