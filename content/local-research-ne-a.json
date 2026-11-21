@@ -1,0 +1,708 @@
+{
+  "reviewedAt": "2026-11-21",
+  "scope": "First 52 Nebraska communities in coverage.json. Every listed town searched; verified source pages opened. No municipal link invented from a town name.",
+  "towns": {
+    "adams-ne": {
+      "status": "verified",
+      "url": "https://www.villageofadamsnebraska.com/village-information/building-permits/",
+      "label": "Adams building permit guidance",
+      "office": "Village of Adams",
+      "kind": "permit",
+      "guidance": "For a new structure, addition, or structural alteration in Adams, plan time to discuss the work with the village before construction. Its permit guidance describes review by the Building Inspector, Planning and Zoning Committee, and Village Board.",
+      "evidence": "Official Village of Adams page states structures erected, moved, added to, or structurally altered need permits; describes monthly review by inspector, committee and board.",
+      "sourceUrls": [
+        "https://www.villageofadamsnebraska.com/village-information/building-permits/"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Adams Nebraska official village city building permits office"
+    },
+    "alvo-ne": {
+      "status": "verified",
+      "url": "https://www.casscountyne.gov/county-zoning",
+      "label": "Cass County planning and zoning",
+      "office": "Cass County Planning & Zoning",
+      "kind": "county",
+      "guidance": "Cass County lists Alvo among the villages it serves for building permits and inspections through an interlocal agreement. Share the work-site address and proposed changes with the office to confirm the review needed for your project.",
+      "evidence": "Official Cass County Planning & Zoning page explicitly names Alvo among villages receiving building permits and inspection services under interlocal agreements.",
+      "sourceUrls": [
+        "https://www.casscountyne.gov/county-zoning"
+      ],
+      "jurisdictionNote": "The county source explicitly names Alvo; village zoning or local approvals may also need confirmation.",
+      "searchQuery": "Alvo Nebraska official village city building permits office"
+    },
+    "ashland-ne": {
+      "status": "verified",
+      "url": "https://www.cityofashlandne.gov/180/Planning-Building-Zoning",
+      "label": "Ashland planning, building and zoning",
+      "office": "City of Ashland Planning / Building / Zoning",
+      "kind": "permit",
+      "guidance": "Ashland publishes zoning maps alongside building and demolition applications. If your project changes a building footprint or includes removal, use those resources to ask which plans and approvals apply before setting a construction date.",
+      "evidence": "Official City of Ashland department page lists building permit application, demolition permit application, zoning map and subdivision regulations.",
+      "sourceUrls": [
+        "https://www.cityofashlandne.gov/180/Planning-Building-Zoning"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Ashland Nebraska official village city building permits office"
+    },
+    "auburn-ne": {
+      "status": "verified",
+      "url": "https://auburn.ne.gov/city-hall/permits-forms/",
+      "label": "Auburn permits and forms",
+      "office": "City of Auburn",
+      "kind": "permit",
+      "guidance": "Auburn lists separate building, curb-cut, and right-of-way applications. Mention any changes near the street or driveway entrance when describing your project, so the city can identify the relevant approvals.",
+      "evidence": "Official City of Auburn Permits & Forms page lists Building Permit Application and Procedure, Curb Cut Application, Right of Way Application.",
+      "sourceUrls": [
+        "https://auburn.ne.gov/city-hall/permits-forms/"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Auburn Nebraska official village city building permits office"
+    },
+    "avoca-ne": {
+      "status": "verified",
+      "url": "https://www.casscountyne.gov/county-zoning",
+      "label": "Cass County planning and zoning",
+      "office": "Cass County Planning & Zoning",
+      "kind": "county",
+      "guidance": "Cass County lists Avoca among the villages it serves for building permits and inspections through an interlocal agreement. Share the work-site address and proposed changes with the office to confirm the review needed for your project.",
+      "evidence": "Official Cass County Planning & Zoning page explicitly names Avoca among villages receiving building permits and inspection services under interlocal agreements.",
+      "sourceUrls": [
+        "https://www.casscountyne.gov/county-zoning"
+      ],
+      "jurisdictionNote": "The county source explicitly names Avoca; village zoning or local approvals may also need confirmation.",
+      "searchQuery": "Avoca Nebraska official village city building permits office"
+    },
+    "barada-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Barada.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Barada Nebraska official village city building permits office"
+    },
+    "beacon-view-ne": {
+      "status": "verified",
+      "url": "https://www.sarpy.gov/276/Online-Permitting",
+      "label": "Sarpy County permit jurisdiction guidance",
+      "office": "Sarpy County Planning & Building",
+      "kind": "county",
+      "guidance": "For work in the Beacon View area, confirm the property’s permit jurisdiction before applying. Sarpy County provides a jurisdiction check and explains that city limits and municipal extraterritorial areas may be handled by a city instead of the county.",
+      "evidence": "Official Sarpy County Online Permitting page provides jurisdiction map and says county jurisdiction excludes municipal limits and extraterritorial jurisdictions; public copy requires parcel check, not universal county authority.",
+      "sourceUrls": [
+        "https://www.sarpy.gov/276/Online-Permitting"
+      ],
+      "jurisdictionNote": "County source is a parcel-jurisdiction starting point only. Do not imply county issues every permit for this mailing/community area.",
+      "searchQuery": "Beacon View Nebraska official village city building permits office"
+    },
+    "beaver-lake-ne": {
+      "status": "verified",
+      "url": "https://www.casscountyne.gov/county-zoning",
+      "label": "Cass County planning and zoning",
+      "office": "Cass County Planning & Zoning",
+      "kind": "county",
+      "guidance": "For a Beaver Lake project, confirm county permit requirements and separate association review before finalizing the work. The Beaver Lake Association describes a drawings-and-specifications review through its own Building Inspector, while Cass County handles rural planning and zoning.",
+      "evidence": "Opened official Cass County Planning & Zoning page and Beaver Lake Association FAQ. Association FAQ describes submission of drawings/specifications, review by BLA Building Inspector and BLA permit process. These are distinct from county authorization.",
+      "sourceUrls": [
+        "https://www.casscountyne.gov/county-zoning",
+        "https://beaverlakene.org/faqs/"
+      ],
+      "jurisdictionNote": "County is offered as a jurisdiction-check starting point, not a claim that it approves every Beaver Lake project. Confirm association requirements separately.",
+      "searchQuery": "Beaver Lake Nebraska official village city building permits office"
+    },
+    "bellevue-ne": {
+      "status": "verified",
+      "url": "https://www.bellevue.net/332/Building-Permits",
+      "label": "Bellevue building permit guidance",
+      "office": "City of Bellevue Permits & Inspections",
+      "kind": "permit",
+      "guidance": "Bellevue’s guidance distinguishes some like-for-like driveway and walkway replacements from expanded work, and lists conditions for retaining-wall exemptions. Describe the existing dimensions, proposed changes, and nearby loads so the permit office can confirm what applies.",
+      "evidence": "Official Bellevue Building Permits page lists exemptions for replacement concrete/asphalt walks and driveways with conditions and retaining walls with height/surcharge conditions. Public copy avoids universal exemption or height claims.",
+      "sourceUrls": [
+        "https://www.bellevue.net/332/Building-Permits"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Bellevue Nebraska official village city building permits office"
+    },
+    "bennet-ne": {
+      "status": "verified",
+      "url": "https://bennetne.gov/building-permits-and-inspections",
+      "label": "Bennet permits and inspections",
+      "office": "City of Bennet Building Permits & Inspection Department",
+      "kind": "permit",
+      "guidance": "Bennet publishes residential and accessory-building applications as well as a city culvert application. If your plans include a new building pad or work near a driveway entrance, ask the city which application and inspections fit the complete project.",
+      "evidence": "Official City of Bennet permit page lists Residential Building Permit, Accessory Building Permit, City Culvert Application, and department contact details.",
+      "sourceUrls": [
+        "https://bennetne.gov/building-permits-and-inspections"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Bennet Nebraska official village city building permits office"
+    },
+    "bennington-ne": {
+      "status": "verified",
+      "url": "https://www.benningtonne.gov/services/building-permits-inspections/",
+      "label": "Bennington permits and inspections",
+      "office": "City of Bennington / Douglas County Permits & Inspections",
+      "kind": "permit",
+      "guidance": "Bennington partners with Douglas County for building permits and inspections. Start with the city’s permit guidance and confirm which office reviews the actual property before finalizing your project plans.",
+      "evidence": "Current official Bennington .gov page states city partners with Douglas County; old benningtonne.com permit page returned 404, homepage redirected to current .gov site.",
+      "sourceUrls": [
+        "https://www.benningtonne.gov/services/building-permits-inspections/"
+      ],
+      "jurisdictionNote": "The city source cautions that some Douglas County projects are handled by Omaha; actual parcel jurisdiction must be confirmed.",
+      "searchQuery": "Bennington Nebraska official village city building permits office"
+    },
+    "blair-ne": {
+      "status": "verified",
+      "url": "https://blairne.gov/2159/Building-Permit-Requirements",
+      "label": "Blair building permit requirements",
+      "office": "City of Blair Building Department",
+      "kind": "permit",
+      "guidance": "For a new structure or addition in Blair, the city requests a site plan showing existing structures and distances from property lines. Approximate dimensions and a clear description of where the work will go can help start your contractor conversation.",
+      "evidence": "Official Blair page requires full site plan for new structures/additions with existing structures and distances from property lines and other structures.",
+      "sourceUrls": [
+        "https://blairne.gov/2159/Building-Permit-Requirements"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Blair Nebraska official village city building permits office"
+    },
+    "boys-town-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Boys Town.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Boys Town Nebraska official village city building permits office"
+    },
+    "brock-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Brock.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Brock Nebraska official village city building permits office"
+    },
+    "brownville-ne": {
+      "status": "verified",
+      "url": "https://www.brownvillenebraska.gov/residentresources",
+      "label": "Brownville resident permit resources",
+      "office": "Village of Brownville",
+      "kind": "permit",
+      "guidance": "Brownville provides building-permit and zoning resources through its village website. For work affecting an existing wall, entry, or building footprint, ask the village which approvals and supporting details apply to the proposed changes.",
+      "evidence": "Official Village of Brownville Resident Resources page includes Building Permit, Zoning Ordinances, village clerk contact; no project-specific mandate inferred.",
+      "sourceUrls": [
+        "https://www.brownvillenebraska.gov/residentresources"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Brownville Nebraska official village city building permits office"
+    },
+    "buccaneer-bay-ne": {
+      "status": "verified",
+      "url": "https://www.casscountyne.gov/county-zoning",
+      "label": "Cass County planning and zoning",
+      "office": "Cass County Planning & Zoning",
+      "kind": "county",
+      "guidance": "For Buccaneer Bay improvements, check county permit requirements and any separate architectural approval before finalizing the design. The community’s published guidance describes coordination between its Architectural Control Committee and Cass County zoning for major changes.",
+      "evidence": "Official Buccaneer Bay SID #5 page says architectural committee approves major changes/new homes and county zoning administrator works with committee; SID itself has no authority over covenants.",
+      "sourceUrls": [
+        "https://www.casscountyne.gov/county-zoning",
+        "https://buccaneerbay-ne.org/architectural-control-covenants/"
+      ],
+      "jurisdictionNote": "Do not describe SID #5 as enforcing covenants. County permit requirements and architectural approval are distinct.",
+      "searchQuery": "Buccaneer Bay Nebraska official village city building permits office"
+    },
+    "burchard-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Burchard.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Burchard Nebraska official village city building permits office"
+    },
+    "burr-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Burr.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Burr Nebraska official village city building permits office"
+    },
+    "cedar-creek-ne": {
+      "status": "verified",
+      "url": "https://www.casscountyne.gov/county-zoning",
+      "label": "Cass County planning and zoning",
+      "office": "Cass County Planning & Zoning",
+      "kind": "county",
+      "guidance": "Cass County lists Cedar Creek among the villages it serves for building permits and inspections through an interlocal agreement. Share the work-site address and proposed changes with the office to confirm the review needed for your project.",
+      "evidence": "Official Cass County Planning & Zoning page explicitly names Cedar Creek among villages receiving building permits and inspection services under interlocal agreements.",
+      "sourceUrls": [
+        "https://www.casscountyne.gov/county-zoning"
+      ],
+      "jurisdictionNote": "The county source explicitly names Cedar Creek; village zoning or local approvals may also need confirmation.",
+      "searchQuery": "Cedar Creek Nebraska official village city building permits office"
+    },
+    "ceresco-ne": {
+      "status": "verified",
+      "url": "https://www.cerescone.com/vnews/display.v/ART/59972f0f19e5b",
+      "label": "Ceresco applications and permits",
+      "office": "Village of Ceresco",
+      "kind": "permit",
+      "guidance": "Ceresco directs homeowners to the Village Office for building permits and says required permits need Building Inspector approval before work begins. Include your proposed layout and related work when asking what needs review.",
+      "evidence": "Official Village of Ceresco Applications and Permits page says contact Village Office for building permits; permits must be approved by Building Inspector before work can begin.",
+      "sourceUrls": [
+        "https://www.cerescone.com/vnews/display.v/ART/59972f0f19e5b"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Ceresco Nebraska official village city building permits office"
+    },
+    "chalco-ne": {
+      "status": "verified",
+      "url": "https://www.sarpy.gov/276/Online-Permitting",
+      "label": "Sarpy County permit jurisdiction guidance",
+      "office": "Sarpy County Planning & Building",
+      "kind": "county",
+      "guidance": "For work in the Chalco area, confirm the property’s permit jurisdiction before applying. Sarpy County provides a jurisdiction check and explains that city limits and municipal extraterritorial areas may be handled by a city instead of the county.",
+      "evidence": "Official Sarpy County Online Permitting page provides jurisdiction map and says county jurisdiction excludes municipal limits and extraterritorial jurisdictions; public copy requires parcel check, not universal county authority.",
+      "sourceUrls": [
+        "https://www.sarpy.gov/276/Online-Permitting"
+      ],
+      "jurisdictionNote": "County source is a parcel-jurisdiction starting point only. Do not imply county issues every permit for this mailing/community area.",
+      "searchQuery": "Chalco Nebraska official village city building permits office"
+    },
+    "cheney-ne": {
+      "status": "verified",
+      "url": "https://www.lancaster.ne.gov/628/Fees-Permits",
+      "label": "Lincoln–Lancaster County permit resources",
+      "office": "Lincoln–Lancaster County Building and Safety resources",
+      "kind": "county",
+      "guidance": "For a Cheney project, Lancaster County’s official permit page links to Lincoln Building and Safety resources. Confirm the property jurisdiction and ask which drawings and approvals apply to your planned work before construction.",
+      "evidence": "Verified readable Lancaster County Fees & Permits page directly links Building Permits to lincoln.ne.gov. Lincoln homeowner application page was searchable but direct fetch returned 403, so public link uses verified county referral page.",
+      "sourceUrls": [
+        "https://www.lancaster.ne.gov/628/Fees-Permits"
+      ],
+      "jurisdictionNote": "Use county page as an official referral to Lincoln Building and Safety; do not assert every Lancaster property falls within Lincoln municipal jurisdiction.",
+      "searchQuery": "Cheney Nebraska official village city building permits office"
+    },
+    "cook-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Cook.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Cook Nebraska official village city building permits office"
+    },
+    "crab-orchard-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Crab Orchard.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Crab Orchard Nebraska official village city building permits office"
+    },
+    "dawson-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Dawson.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Dawson Nebraska official village city building permits office"
+    },
+    "douglas-ne": {
+      "status": "verified",
+      "url": "https://www.villageofdouglas.com/",
+      "label": "Douglas village services",
+      "office": "Village of Douglas",
+      "kind": "city-hall",
+      "guidance": "Douglas lists building permits among its village services. Share your proposed project with the Village Office to confirm which approvals and plans are needed before work begins.",
+      "evidence": "Official Village of Douglas website lists Building Permits as a village service and provides village departments/contact navigation.",
+      "sourceUrls": [
+        "https://www.villageofdouglas.com/"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Douglas Nebraska official village city building permits office"
+    },
+    "du-bois-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Du Bois.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Du Bois Nebraska official village city building permits office"
+    },
+    "dunbar-ne": {
+      "status": "verified",
+      "url": "https://www.dunbarnebraska.com/permitsandzoning",
+      "label": "Dunbar permits and zoning",
+      "office": "Village of Dunbar / City of Nebraska City",
+      "kind": "permit",
+      "guidance": "Dunbar’s official guidance directs permit, zoning, and inspection matters through Nebraska City. Include the Dunbar work-site address when asking which applications or inspections apply to your plans.",
+      "evidence": "Official Dunbar Permits & Zoning page says village follows Nebraska City Code and all such matters handled directly through City of Nebraska City.",
+      "sourceUrls": [
+        "https://www.dunbarnebraska.com/permitsandzoning"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Dunbar Nebraska official village city building permits office"
+    },
+    "eagle-ne": {
+      "status": "verified",
+      "url": "https://eaglene.gov/village-of-eagle-office",
+      "label": "Eagle Village Office",
+      "office": "Village of Eagle Office",
+      "kind": "city-hall",
+      "guidance": "The Eagle Village Office is a starting point for local service and project-planning questions. Describe the location and intended changes so the village can direct you to the appropriate permit or zoning information.",
+      "evidence": "Official Eagle office page says it is the resource for local government questions and services; official zoning page cautions online rules may not reflect latest legislation.",
+      "sourceUrls": [
+        "https://eaglene.gov/village-of-eagle-office",
+        "https://eaglene.gov/zoning-and-subdivision-regulations"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Eagle Nebraska official village city building permits office"
+    },
+    "elk-creek-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Elk Creek.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Elk Creek Nebraska official village city building permits office"
+    },
+    "elkhorn-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Elkhorn.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Elkhorn Nebraska official village city building permits office"
+    },
+    "elmwood-ne": {
+      "status": "verified",
+      "url": "https://elmwoodnebraska.com/nl/index.php/village-government/municipal-code-book",
+      "label": "Elmwood project and permit guidance",
+      "office": "Village of Elmwood",
+      "kind": "permit",
+      "guidance": "Elmwood’s published guidance describes Planning Commission and Village Board review for building permits. If your project includes a structural change or new building, contact the village early to confirm the current application schedule.",
+      "evidence": "Village website Municipal Code Book summary states permits for structural changes/new buildings/fence reviewed by Planning Commission then Village Board, asks 14-day advance submission; public copy avoids promising a fixed review date.",
+      "sourceUrls": [
+        "https://elmwoodnebraska.com/nl/index.php/village-government/municipal-code-book",
+        "https://www.casscountyne.gov/county-zoning"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Elmwood Nebraska official village city building permits office"
+    },
+    "falls-city-ne": {
+      "status": "verified",
+      "url": "https://www.fallscitynebraska.org/municipal-services/building-and-planning/building-permits",
+      "label": "Falls City building permit guidance",
+      "office": "City of Falls City Building Department",
+      "kind": "permit",
+      "guidance": "Falls City’s permit guidance specifically addresses sidewalks and driveways within the public right-of-way. Mention any work near the street, as well as construction or removal elsewhere on the property, when confirming the approvals your project needs.",
+      "evidence": "Official Falls City Building Permits page expressly includes sidewalk and driveway work in public right-of-way, lists exceptions, and directs questions to Building Inspector.",
+      "sourceUrls": [
+        "https://www.fallscitynebraska.org/municipal-services/building-and-planning/building-permits"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Falls City Nebraska official village city building permits office"
+    },
+    "filley-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Filley.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Filley Nebraska official village city building permits office"
+    },
+    "firth-ne": {
+      "status": "verified",
+      "url": "https://firth.nebraska.gov/building-codes-permit-info",
+      "label": "Firth building codes and permit information",
+      "office": "Village of Firth",
+      "kind": "permit",
+      "guidance": "Firth provides accessory-building applications and foundation guidance alongside its permit information. If you are planning a shed or garage slab, share the building size and intended use when confirming the required plans and inspections.",
+      "evidence": "Official Firth page lists accessory building application and foundation types, requires permits for new construction and directs permit questions to Village Office.",
+      "sourceUrls": [
+        "https://firth.nebraska.gov/building-codes-permit-info"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Firth Nebraska official village city building permits office"
+    },
+    "fort-calhoun-ne": {
+      "status": "verified",
+      "url": "https://fortcalhoun.org/zoning-and-building-permit-applications",
+      "label": "Fort Calhoun zoning and building applications",
+      "office": "City of Fort Calhoun",
+      "kind": "permit",
+      "guidance": "Fort Calhoun publishes a dedicated retaining-wall and fence application alongside exterior-renovation and building forms. Tell the city whether your project changes a wall, entry, or outdoor layout so it can identify the relevant review.",
+      "evidence": "Official Fort Calhoun page lists Retaining Wall & Fence Permit Application, Exterior Renovation Permit Application, Residential Building Permit Application; describes separate zoning/building reviews.",
+      "sourceUrls": [
+        "https://fortcalhoun.org/zoning-and-building-permit-applications"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Fort Calhoun Nebraska official village city building permits office"
+    },
+    "greenwood-ne": {
+      "status": "verified",
+      "url": "https://greenwoodne.gov/government-forms/building-permits/",
+      "label": "Greenwood building permit application",
+      "office": "Village of Greenwood",
+      "kind": "permit",
+      "guidance": "Greenwood publishes its building-permit application through the village website. Before adding a structure or changing the layout of your property, confirm which project details and approvals the village needs.",
+      "evidence": "Official Greenwood building application page offers Form BP-Village of Greenwood Building Permit 01-2026 and identifies site as official village online presence.",
+      "sourceUrls": [
+        "https://greenwoodne.gov/government-forms/building-permits/",
+        "https://www.casscountyne.gov/county-zoning"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Greenwood Nebraska official village city building permits office"
+    },
+    "gretna-ne": {
+      "status": "verified",
+      "url": "https://gretnane.org/147/Building-Zoning",
+      "label": "Gretna building and zoning",
+      "office": "City of Gretna Building & Zoning",
+      "kind": "permit",
+      "guidance": "Gretna lists grading and right-of-way dumpster applications alongside building forms. If your outdoor project involves changing elevations or placing demolition containers near the street, include those details when checking the complete scope with the city.",
+      "evidence": "Official Gretna Building & Zoning page lists Grading Permit Application, Dumpster in Right-of-Way Permit Application, Residential Building Permit Application and inspection scheduling.",
+      "sourceUrls": [
+        "https://gretnane.org/147/Building-Zoning"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Gretna Nebraska official village city building permits office"
+    },
+    "hickman-ne": {
+      "status": "verified",
+      "url": "https://www.hickman.ne.gov/vnews/display.v/ART/67ca04fa144a7",
+      "label": "Hickman building permit forms",
+      "office": "City of Hickman",
+      "kind": "permit",
+      "guidance": "Hickman publishes different residential-construction forms for properties inside city limits and within its extraterritorial jurisdiction. Confirm the work-site jurisdiction before choosing an application for a new structure or addition.",
+      "evidence": "Official Hickman 2025 Building Permit Forms page separately lists residential construction within city limits, residential new construction ETJ outside city limits, addition/remodel and accessory-building forms.",
+      "sourceUrls": [
+        "https://www.hickman.ne.gov/vnews/display.v/ART/67ca04fa144a7"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Hickman Nebraska official village city building permits office"
+    },
+    "humboldt-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Humboldt.",
+      "evidence": "Official current city site is https://www.ci.humboldt.ne.us/ (confirmed by current municipal code publisher), but direct retrieval timed out. Readable cityofhumboldt.weebly.com permit page appears to be an older website with outdated officials; excluded rather than treating it as current permit guidance.",
+      "sourceUrls": [
+        "https://www.ci.humboldt.ne.us/",
+        "https://codelibrary.amlegal.com/codes/humboldtne/latest/overview"
+      ],
+      "jurisdictionNote": "Reverify the current City Office website before publishing a contact link; do not use outdated Weebly site.",
+      "searchQuery": "Humboldt Nebraska official village city building permits office"
+    },
+    "ithaca-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Ithaca.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Ithaca Nebraska official village city building permits office"
+    },
+    "johnson-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Johnson.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Johnson Nebraska official village city building permits office"
+    },
+    "julian-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Julian.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Julian Nebraska official village city building permits office"
+    },
+    "kennard-ne": {
+      "status": "verified",
+      "url": "https://villageofkennard.com/forms-permits/",
+      "label": "Kennard forms and permits",
+      "office": "Village of Kennard",
+      "kind": "permit",
+      "guidance": "Kennard publishes a building-permit form and Building Inspector contact through its official village website. Share the dimensions and intended location of your improvements when confirming the review needed before construction.",
+      "evidence": "Official Village of Kennard forms page includes Building Permit; official village directory lists Building Inspector.",
+      "sourceUrls": [
+        "https://villageofkennard.com/forms-permits/",
+        "https://villageofkennard.com/directory/"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "Kennard Nebraska official village city building permits office"
+    },
+    "king-lake-ne": {
+      "status": "verified",
+      "url": "https://co-douglas-ne.smartgovcommunity.com/Public/Home",
+      "label": "Douglas County permit office",
+      "office": "Douglas County Permits & Inspections",
+      "kind": "county",
+      "guidance": "For a King Lake project, confirm the actual parcel’s building and zoning jurisdiction with Douglas County’s permit office. Its public portal provides permit-office contact information and access to applications and inspection results.",
+      "evidence": "Verified Douglas County official SmartGov portal displays county agency identity, dcpermits@douglascounty-ne.gov, support phone, applications/inspection results and link to Douglas County Environmental Services.",
+      "sourceUrls": [
+        "https://co-douglas-ne.smartgovcommunity.com/Public/Home"
+      ],
+      "jurisdictionNote": "Douglas County offered for parcel-jurisdiction confirmation; no unverified claim that it controls every King Lake parcel or replaces city review.",
+      "searchQuery": "King Lake Nebraska official village city building permits office"
+    },
+    "la-platte-ne": {
+      "status": "verified",
+      "url": "https://www.sarpy.gov/276/Online-Permitting",
+      "label": "Sarpy County permit jurisdiction guidance",
+      "office": "Sarpy County Planning & Building",
+      "kind": "county",
+      "guidance": "For work in the La Platte area, confirm the property’s permit jurisdiction before applying. Sarpy County provides a jurisdiction check and explains that city limits and municipal extraterritorial areas may be handled by a city instead of the county.",
+      "evidence": "Official Sarpy County Online Permitting page provides jurisdiction map and says county jurisdiction excludes municipal limits and extraterritorial jurisdictions; public copy requires parcel check, not universal county authority.",
+      "sourceUrls": [
+        "https://www.sarpy.gov/276/Online-Permitting"
+      ],
+      "jurisdictionNote": "County source is a parcel-jurisdiction starting point only. Do not imply county issues every permit for this mailing/community area.",
+      "searchQuery": "La Platte Nebraska official village city building permits office"
+    },
+    "la-vista-ne": {
+      "status": "verified",
+      "url": "https://www.cityoflavista.org/329/Building-Permits",
+      "label": "La Vista building permit guidance",
+      "office": "City of La Vista Building Department",
+      "kind": "permit",
+      "guidance": "La Vista asks for a drawing showing the proposed improvement and distances from property lines and existing buildings with a permit application. A simple layout and approximate dimensions can help explain your driveway, patio-related structure, or other planned improvement.",
+      "evidence": "Official La Vista page lists driveway/curb applications and requests drawing showing improvement location and distances to property line, house, detached garage and other structures.",
+      "sourceUrls": [
+        "https://www.cityoflavista.org/329/Building-Permits"
+      ],
+      "jurisdictionNote": "Confirm requirements for the actual project scope and work-site address with the office before starting.",
+      "searchQuery": "La Vista Nebraska official village city building permits office"
+    },
+    "lake-waconda-ne": {
+      "status": "verified",
+      "url": "https://www.casscountyne.gov/county-zoning",
+      "label": "Cass County planning and zoning",
+      "office": "Cass County Planning & Zoning",
+      "kind": "county",
+      "guidance": "For a Lake Waconda project, confirm county permit requirements for the actual parcel and ask whether separate community approvals apply. Cass County provides rural planning and zoning services, while Lake Waconda operates as a separate sanitary and improvement district.",
+      "evidence": "Official Cass County source serves rural county; official Lake Waconda About page says SID No.1 of Cass County is a local government subdivision with limited powers. No claim SID substitutes for county building permits.",
+      "sourceUrls": [
+        "https://www.casscountyne.gov/county-zoning",
+        "https://www.lakewaconda.com/225/About"
+      ],
+      "jurisdictionNote": "Confirm parcel jurisdiction and any community approvals separately; SID is not described as a building-permit authority.",
+      "searchQuery": "Lake Waconda Nebraska official village city building permits office"
+    },
+    "leshara-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Leshara.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Leshara Nebraska official village city building permits office"
+    },
+    "lewiston-ne": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Lewiston.",
+      "evidence": "Town-specific search did not identify a sufficiently verified, readable City Hall or permit-office page. Directory, social-media, historical-document and unrelated county results were excluded.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the office responsible for the actual work-site address before relying on permit guidance.",
+      "searchQuery": "Lewiston Nebraska official village city building permits office"
+    },
+    "lincoln-ne": {
+      "status": "verified",
+      "url": "https://www.lancaster.ne.gov/628/Fees-Permits",
+      "label": "Lincoln–Lancaster County permit resources",
+      "office": "Lincoln–Lancaster County Building and Safety resources",
+      "kind": "county",
+      "guidance": "For a Lincoln project, Lancaster County’s official permit page links to Lincoln Building and Safety resources. Confirm the property jurisdiction and ask which drawings and approvals apply to your planned work before construction.",
+      "evidence": "Verified readable Lancaster County Fees & Permits page directly links Building Permits to lincoln.ne.gov. Lincoln homeowner application page was searchable but direct fetch returned 403, so public link uses verified county referral page.",
+      "sourceUrls": [
+        "https://www.lancaster.ne.gov/628/Fees-Permits"
+      ],
+      "jurisdictionNote": "Use county page as an official referral to Lincoln Building and Safety; do not assert every Lancaster property falls within Lincoln municipal jurisdiction.",
+      "searchQuery": "Lincoln Nebraska official village city building permits office"
+    },
+    "linoma-beach-ne": {
+      "status": "verified",
+      "url": "https://www.sarpy.gov/276/Online-Permitting",
+      "label": "Sarpy County permit jurisdiction guidance",
+      "office": "Sarpy County Planning & Building",
+      "kind": "county",
+      "guidance": "For work in the Linoma Beach area, confirm the property’s permit jurisdiction before applying. Sarpy County provides a jurisdiction check and explains that city limits and municipal extraterritorial areas may be handled by a city instead of the county.",
+      "evidence": "Official Sarpy County Online Permitting page provides jurisdiction map and says county jurisdiction excludes municipal limits and extraterritorial jurisdictions; public copy requires parcel check, not universal county authority.",
+      "sourceUrls": [
+        "https://www.sarpy.gov/276/Online-Permitting"
+      ],
+      "jurisdictionNote": "County source is a parcel-jurisdiction starting point only. Do not imply county issues every permit for this mailing/community area.",
+      "searchQuery": "Linoma Beach Nebraska official village city building permits office"
+    }
+  }
+}

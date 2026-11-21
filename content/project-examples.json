@@ -1,0 +1,1010 @@
+{
+  "masonry": {
+    "projects": [
+      {
+        "id": 1,
+        "title": "Repair cracked or damaged exterior brick",
+        "expertise": "A mason needs to assess the damage, select compatible replacement materials, and address relevant moisture or movement concerns."
+      },
+      {
+        "id": 2,
+        "title": "Replace chipped or deteriorating bricks",
+        "expertise": "Careful removal, matching brick dimensions and appearance, and compatible mortar help the repair blend with surrounding work."
+      },
+      {
+        "id": 3,
+        "title": "Repoint worn brick mortar joints",
+        "expertise": "Repointing calls for careful joint preparation, compatible mortar selection, and consistent tooling without damaging the surrounding brick."
+      },
+      {
+        "id": 4,
+        "title": "Repair mortar joints in stone walls",
+        "expertise": "Stone repair requires recognizing the wall construction, choosing compatible mortar, and preserving the surrounding stone during preparation."
+      },
+      {
+        "id": 5,
+        "title": "Restore weathered brickwork on an older home",
+        "expertise": "Restoration experience matters when evaluating older brick, matching mortar, and deciding which original materials can be retained."
+      },
+      {
+        "id": 6,
+        "title": "Repair exterior chimney brickwork",
+        "expertise": "Chimney masonry needs assessment of exposed brick and mortar, safe roof access, and coordination of related water-entry concerns."
+      },
+      {
+        "id": 7,
+        "title": "Rebuild deteriorated chimney masonry above the roofline",
+        "expertise": "Rebuilding calls for sound masonry layout, safe access, and coordination with specialists where the flue or roof connection is affected."
+      },
+      {
+        "id": 8,
+        "title": "Replace a damaged chimney crown",
+        "expertise": "Crown replacement requires understanding the chimney assembly and detailing the top to manage water and movement appropriately."
+      },
+      {
+        "id": 9,
+        "title": "Repair or replace a masonry chimney cap",
+        "expertise": "A mason should assess the cap, supporting masonry, and water-shedding details; metal flue caps may involve a chimney specialist."
+      },
+      {
+        "id": 10,
+        "title": "Repair exterior masonry around a fireplace",
+        "expertise": "The contractor needs to distinguish surface damage from problems involving the fireplace structure or other components before planning repairs."
+      },
+      {
+        "id": 11,
+        "title": "Install a brick fireplace surround",
+        "expertise": "Accurate layout, suitable support, and coordination with the fireplace manufacturer's clearance requirements are important parts of this work."
+      },
+      {
+        "id": 12,
+        "title": "Install a natural stone fireplace surround",
+        "expertise": "Stone selection, preparation of the backing, secure attachment, and appliance-clearance coordination require relevant installation experience."
+      },
+      {
+        "id": 13,
+        "title": "Replace or rebuild a fireplace hearth",
+        "expertise": "A hearth project needs careful measurement, sound support, and coordination of suitable materials and fireplace requirements."
+      },
+      {
+        "id": 14,
+        "title": "Build new brick front steps",
+        "expertise": "Step construction calls for accurate elevations, stable support, consistent walking surfaces, and a sound connection with the entry."
+      },
+      {
+        "id": 15,
+        "title": "Repair loose or damaged masonry steps",
+        "expertise": "The mason should evaluate loose units and their support, then plan compatible repairs rather than simply covering visible damage."
+      },
+      {
+        "id": 16,
+        "title": "Build stone entry steps",
+        "expertise": "Working with stone steps requires selecting suitable pieces, planning elevations, and building stable, comfortable transitions to the entrance."
+      },
+      {
+        "id": 17,
+        "title": "Repair a brick porch or stoop",
+        "expertise": "Repair planning should consider the brickwork, underlying support, entrance elevations, and how water moves around the porch."
+      },
+      {
+        "id": 18,
+        "title": "Replace masonry stair treads",
+        "expertise": "The work needs careful fitting, appropriate support and attachment, and consistent tread and landing transitions."
+      },
+      {
+        "id": 19,
+        "title": "Build brick driveway columns",
+        "expertise": "Column construction requires a stable foundation, accurate alignment, and coordination with driveway clearances and any gate installation."
+      },
+      {
+        "id": 20,
+        "title": "Build a brick mailbox enclosure",
+        "expertise": "A mason needs to plan stable support, weather-resistant detailing, and placement compatible with applicable delivery and roadside requirements."
+      },
+      {
+        "id": 21,
+        "title": "Repair a masonry mailbox",
+        "expertise": "Repair expertise includes checking the foundation, matching the existing units, and determining whether rebuilding is more suitable."
+      },
+      {
+        "id": 22,
+        "title": "Build decorative stone entrance pillars",
+        "expertise": "Pillars call for stable foundations, suitable stonework or veneer attachment, and coordinated placement at the property entrance."
+      },
+      {
+        "id": 23,
+        "title": "Install brick veneer on a home",
+        "expertise": "Veneer work requires appropriate support, secure attachment, and coordination of flashing and drainage with the wall assembly."
+      },
+      {
+        "id": 24,
+        "title": "Install exterior stone veneer",
+        "expertise": "Installation experience should include evaluating the backing, selecting suitable attachment methods, and managing water at edges and openings."
+      },
+      {
+        "id": 25,
+        "title": "Add a stone accent to a porch or entry",
+        "expertise": "A successful accent blends material selection and layout with suitable support, attachment, and details around adjoining surfaces."
+      },
+      {
+        "id": 26,
+        "title": "Repair damaged brick or stone veneer",
+        "expertise": "The contractor should assess attachment and moisture conditions as well as the visible units before choosing a repair approach."
+      },
+      {
+        "id": 27,
+        "title": "Build a block wall for a garage or outbuilding",
+        "expertise": "Block construction needs accurate layout, appropriate foundations, and coordination with specified reinforcement and any required structural design."
+      },
+      {
+        "id": 28,
+        "title": "Repair deteriorated mortar in a block wall",
+        "expertise": "The work calls for evaluating the wall condition, preparing affected joints, and selecting a compatible repair method."
+      },
+      {
+        "id": 29,
+        "title": "Restore masonry foundation walls after assessment",
+        "expertise": "Foundation work needs an assessment of support and movement; structural or moisture specialists may be needed to establish the repair scope."
+      },
+      {
+        "id": 30,
+        "title": "Close an unused opening with matching masonry",
+        "expertise": "Matching the bond, providing appropriate support and connections, and detailing the infill for moisture are important skills."
+      },
+      {
+        "id": 31,
+        "title": "Modify a masonry window or door opening",
+        "expertise": "Changing an opening calls for careful planning of support and sequencing, with structural design where the existing loads require it."
+      },
+      {
+        "id": 32,
+        "title": "Repair brickwork above a window or door",
+        "expertise": "The mason should assess lintel support, surrounding brickwork, and water-management details before repairing the visible damage."
+      },
+      {
+        "id": 33,
+        "title": "Replace damaged masonry windowsills",
+        "expertise": "Sill work requires accurate fitting, suitable support, and attention to how water is directed away from the opening."
+      },
+      {
+        "id": 34,
+        "title": "Repair or rebuild a brick garden wall",
+        "expertise": "A stable repair depends on understanding the foundation, wall alignment, weather exposure, and the cause of existing damage."
+      },
+      {
+        "id": 35,
+        "title": "Build a decorative stone garden wall",
+        "expertise": "Stone selection, stable support, wall layout, and a well-finished top help the new feature suit the surrounding landscape."
+      },
+      {
+        "id": 36,
+        "title": "Install brick or stone wall caps",
+        "expertise": "Cap installation calls for accurate fitting, compatible bedding or attachment, and details that shed water from the wall."
+      },
+      {
+        "id": 37,
+        "title": "Build a masonry outdoor fireplace",
+        "expertise": "This project requires suitable foundations, experience with fireplace assemblies, and coordination of clearances and any required specialist work."
+      },
+      {
+        "id": 38,
+        "title": "Build a brick or stone outdoor kitchen base",
+        "expertise": "The mason should coordinate support, appliance dimensions, and material detailing with any separate gas, electrical, or plumbing trades."
+      },
+      {
+        "id": 39,
+        "title": "Build raised masonry planters",
+        "expertise": "Planter construction needs stable walls and consideration of soil, moisture, drainage, and the surfaces beside the planting area."
+      },
+      {
+        "id": 40,
+        "title": "Restore masonry damaged by impact or construction",
+        "expertise": "Assessment should establish the extent of damage, temporary support needs, and a repair sequence that protects adjoining work."
+      }
+    ],
+    "themes": [
+      {
+        "id": 1,
+        "title": "Exterior brick repairs",
+        "projectIds": [
+          1,
+          2,
+          3,
+          40
+        ],
+        "hook": "Would refreshed brickwork make your {town} home feel cared for again? Loose mortar, damaged bricks, or an area affected by past work can be useful starting points for a conversation.",
+        "prompt": "Share a wide view and close-ups of the affected area, along with when you first noticed the damage."
+      },
+      {
+        "id": 2,
+        "title": "Older brick and stone walls",
+        "projectIds": [
+          4,
+          5,
+          34,
+          36
+        ],
+        "hook": "If the brick or stone around your {town} home has lost its original character, tell us what you would like to preserve and what needs attention.",
+        "prompt": "Tell us which parts are original, any previous repairs you know about, and the appearance you want to keep."
+      },
+      {
+        "id": 3,
+        "title": "Chimney masonry",
+        "projectIds": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "hook": "Looking up at a weathered chimney on your {town} home? Share the visible concerns so a contractor can discuss the masonry work and any related specialist assessment.",
+        "prompt": "Include photos taken safely from the ground and describe any visible loose material, staining, or past repairs."
+      },
+      {
+        "id": 4,
+        "title": "Fireplace updates",
+        "projectIds": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "hook": "A new fireplace surround or refreshed hearth could change the feel of a favorite room in your {town} home. Tell us about the look you have in mind.",
+        "prompt": "Share the fireplace or appliance type, a view of the surrounding room, and any inspiration images."
+      },
+      {
+        "id": 5,
+        "title": "Entry steps and treads",
+        "projectIds": [
+          14,
+          15,
+          16,
+          18
+        ],
+        "hook": "Picture a more welcoming approach to your {town} front door, with renewed brickwork or stone steps that fit the home.",
+        "prompt": "Describe the steps and landings you want to change, how they connect to the door, and any loose or uneven areas."
+      },
+      {
+        "id": 6,
+        "title": "Porches and exterior accents",
+        "projectIds": [
+          17,
+          23,
+          24,
+          25
+        ],
+        "hook": "Want to give your {town} porch or entrance a different look? Brick or stone can be part of a focused refresh or a larger exterior project.",
+        "prompt": "Show the full entrance and nearby wall surfaces, and tell us which materials and colors appeal to you."
+      },
+      {
+        "id": 7,
+        "title": "Driveway and mailbox features",
+        "projectIds": [
+          19,
+          20,
+          21,
+          22
+        ],
+        "hook": "A brick mailbox or stone entrance feature can give your {town} property a more finished arrival. Share the feature you imagine and where it would sit.",
+        "prompt": "Include the entrance layout, the existing mailbox or pillars, and whether gates or other work are part of the idea."
+      },
+      {
+        "id": 8,
+        "title": "Block walls and existing masonry",
+        "projectIds": [
+          26,
+          27,
+          28,
+          29
+        ],
+        "hook": "Planning an outbuilding or hoping to restore masonry at your {town} home? Tell us whether the goal is new construction, repair, or understanding the condition of an existing wall.",
+        "prompt": "Include the wall or building dimensions if known, visible concerns, and any plans or prior assessments you already have."
+      },
+      {
+        "id": 9,
+        "title": "Windows, doors, and masonry openings",
+        "projectIds": [
+          30,
+          31,
+          32,
+          33
+        ],
+        "hook": "Changing a window or doorway at your {town} home may also involve the brick or stone around it. Describe the whole change so the support and finish can be discussed together.",
+        "prompt": "Show the full opening and surrounding wall, and explain whether the opening will stay the same size, change, or be closed."
+      },
+      {
+        "id": 10,
+        "title": "Outdoor masonry features",
+        "projectIds": [
+          35,
+          37,
+          38,
+          39
+        ],
+        "hook": "Imagine a stone garden wall, a raised planter, or a gathering place beside an outdoor fireplace at your {town} home. Tell us how you want to use the space.",
+        "prompt": "Share the outdoor layout, inspiration photos, and whether appliances, utilities, or other contractors will be involved."
+      }
+    ]
+  },
+  "hardscaping": {
+    "projects": [
+      {
+        "id": 1,
+        "title": "Install a backyard paver patio",
+        "expertise": "Paver installation calls for thoughtful layout, excavation, compacted base preparation, drainage planning, and secure edge restraint."
+      },
+      {
+        "id": 2,
+        "title": "Expand an existing paver patio",
+        "expertise": "The installer needs to match elevations and materials while preparing the new base and managing the connection to existing paving."
+      },
+      {
+        "id": 3,
+        "title": "Replace an aging patio with pavers",
+        "expertise": "Replacement work includes evaluating removal, preparing the ground, and planning the new surface's elevations and drainage."
+      },
+      {
+        "id": 4,
+        "title": "Install a flagstone or natural stone patio",
+        "expertise": "Stone selection, careful fitting, appropriate bedding, and consistent transitions help create a useful outdoor surface."
+      },
+      {
+        "id": 5,
+        "title": "Create a backyard dining area",
+        "expertise": "The layout should allow room for furniture and circulation, supported by stable paving and planned drainage."
+      },
+      {
+        "id": 6,
+        "title": "Build an outdoor lounge area",
+        "expertise": "An experienced installer can coordinate seating space, surface layout, and connections with the rest of the yard."
+      },
+      {
+        "id": 7,
+        "title": "Connect outdoor dining and seating spaces",
+        "expertise": "This calls for planning how people move between spaces, aligning elevations, and preparing a consistent paving base."
+      },
+      {
+        "id": 8,
+        "title": "Build a patio around a fire pit",
+        "expertise": "Layout and paving skills should be paired with appropriate clearances and coordination of the selected fire feature."
+      },
+      {
+        "id": 9,
+        "title": "Install a fire pit with surrounding paving",
+        "expertise": "The work needs a stable setting, suitable materials, and coordination with fire-feature requirements and any separate fuel-system work."
+      },
+      {
+        "id": 10,
+        "title": "Create paving beside an outdoor fireplace",
+        "expertise": "The installer should coordinate surface elevations, access, and drainage with the fireplace foundation and required clearances."
+      },
+      {
+        "id": 11,
+        "title": "Build a front paver walkway",
+        "expertise": "Accurate layout, stable base preparation, and smooth connections to the driveway and entrance matter for everyday use."
+      },
+      {
+        "id": 12,
+        "title": "Replace a deteriorated walkway with pavers",
+        "expertise": "The contractor should assess removal and ground conditions before setting new grades, a stable base, and appropriate edges."
+      },
+      {
+        "id": 13,
+        "title": "Install a garden path",
+        "expertise": "A garden path needs thoughtful routing, suitable materials, and preparation that fits how the path will be used."
+      },
+      {
+        "id": 14,
+        "title": "Create a stepping-stone path",
+        "expertise": "The work calls for comfortable placement, stable bedding, and attention to surrounding grades and maintenance access."
+      },
+      {
+        "id": 15,
+        "title": "Build a side-yard walkway",
+        "expertise": "Narrow access, drainage, and transitions around gates or equipment should be considered alongside paving and base preparation."
+      },
+      {
+        "id": 16,
+        "title": "Connect the house to a detached garage with a path",
+        "expertise": "Good planning aligns entrances and walking routes while accounting for surface elevations, drainage, and material transitions."
+      },
+      {
+        "id": 17,
+        "title": "Connect a patio to a shed or workshop",
+        "expertise": "The installer should plan a practical route, any equipment access, and stable transitions between the patio and building."
+      },
+      {
+        "id": 18,
+        "title": "Build outdoor steps between yard elevations",
+        "expertise": "Step work requires coordinated elevations, stable foundations, and careful connections with paths, landings, and nearby walls."
+      },
+      {
+        "id": 19,
+        "title": "Replace uneven landscape steps",
+        "expertise": "The contractor should evaluate the existing support and layout before rebuilding consistent steps and stable landings."
+      },
+      {
+        "id": 20,
+        "title": "Create a paver entrance landing",
+        "expertise": "Landing construction requires accurate height planning and a stable base, with careful transitions at the doorway and walkway."
+      },
+      {
+        "id": 21,
+        "title": "Install pavers around a swimming pool",
+        "expertise": "Poolside work calls for suitable surface materials, drainage planning, and coordination with pool edges and existing equipment."
+      },
+      {
+        "id": 22,
+        "title": "Repair uneven poolside pavers",
+        "expertise": "The installer should assess settlement, affected bedding, and transitions near the pool before resetting the surface."
+      },
+      {
+        "id": 23,
+        "title": "Build a paved base for a hot tub",
+        "expertise": "Preparation must account for the tub manufacturer's support requirements, access, and drainage; a paving surface alone does not establish suitability."
+      },
+      {
+        "id": 24,
+        "title": "Create a paved grill or outdoor kitchen area",
+        "expertise": "The layout should coordinate circulation, appliance placement, paving support, and any separate utility-trade work."
+      },
+      {
+        "id": 25,
+        "title": "Build a patio beneath an existing pergola",
+        "expertise": "The installer needs to plan around existing footings, access constraints, surface heights, and water movement."
+      },
+      {
+        "id": 26,
+        "title": "Create a paved base around a gazebo site",
+        "expertise": "This requires coordinated layout, drainage, and elevations; the gazebo's structural support must be considered separately where required."
+      },
+      {
+        "id": 27,
+        "title": "Install a paver driveway",
+        "expertise": "Vehicle paving needs preparation and materials suited to the intended traffic, with compacted support, edge restraint, and drainage."
+      },
+      {
+        "id": 28,
+        "title": "Add a paver driveway border",
+        "expertise": "Careful cutting, stable edge support, and compatible transitions help the border work with the existing driveway."
+      },
+      {
+        "id": 29,
+        "title": "Build a paver parking area",
+        "expertise": "The contractor should establish intended vehicle use, access, and drainage before planning the paving system and ground preparation."
+      },
+      {
+        "id": 30,
+        "title": "Install a permeable paver surface where suitable",
+        "expertise": "The work calls for site evaluation and a compatible drainage and aggregate system, rather than simply changing the paving units."
+      },
+      {
+        "id": 31,
+        "title": "Build a retaining wall for more usable yard space",
+        "expertise": "Retaining-wall experience includes foundations, drainage, backfill, and assessment of loads and any need for engineered design."
+      },
+      {
+        "id": 32,
+        "title": "Replace a deteriorating retaining wall",
+        "expertise": "The contractor should investigate the existing wall's problems and plan removal, drainage, support, and rebuilding in a suitable sequence."
+      },
+      {
+        "id": 33,
+        "title": "Create terraces with walls and steps",
+        "expertise": "Coordinating multiple elevations requires attention to drainage, wall interaction, usable landings, and any required structural design."
+      },
+      {
+        "id": 34,
+        "title": "Build a patio seating wall",
+        "expertise": "A seating wall needs suitable foundations, accurate layout, and finished heights coordinated with the patio and intended use."
+      },
+      {
+        "id": 35,
+        "title": "Build raised garden beds with landscape blocks",
+        "expertise": "The installer should consider stable wall construction, soil and moisture conditions, drainage, and convenient access for planting."
+      },
+      {
+        "id": 36,
+        "title": "Install stone or block garden edging",
+        "expertise": "Edging calls for careful layout, stable bedding, and appropriate transitions between planting beds, paving, and lawn."
+      },
+      {
+        "id": 37,
+        "title": "Relevel sunken or uneven pavers",
+        "expertise": "The work needs an assessment of settlement and drainage, followed by suitable bedding or base repairs before resetting the pavers."
+      },
+      {
+        "id": 38,
+        "title": "Repair loose pavers, failed edges, or washed-out joints",
+        "expertise": "A lasting repair involves identifying failed support, restraints, or joint material and addressing the cause as well as the surface."
+      },
+      {
+        "id": 39,
+        "title": "Rework patio preparation and slope for drainage",
+        "expertise": "The installer should assess where water comes from and where it can go before adjusting grades, base, and surface connections."
+      },
+      {
+        "id": 40,
+        "title": "Create a walkway with easier transitions",
+        "expertise": "Planning should consider the user's needs, available space, stable surfaces, and suitable slopes and landings for the site."
+      }
+    ],
+    "themes": [
+      {
+        "id": 1,
+        "title": "Paver and stone patios",
+        "projectIds": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "hook": "Picture a patio at your {town} home with room for the way you actually spend time outside. A new layout, more space, or a fresh surface could be your starting point.",
+        "prompt": "Tell us the approximate area, preferred materials, and what you would like to keep or replace."
+      },
+      {
+        "id": 2,
+        "title": "Outdoor living spaces",
+        "projectIds": [
+          5,
+          6,
+          7,
+          25
+        ],
+        "hook": "Would your {town} backyard work better with a place to dine, lounge, or gather under a pergola? Describe the activities you want the space to support.",
+        "prompt": "Share furniture sizes if known, how many people you want to accommodate, and how the space connects to the house."
+      },
+      {
+        "id": 3,
+        "title": "Fire features and outdoor cooking",
+        "projectIds": [
+          8,
+          9,
+          10,
+          24
+        ],
+        "hook": "Imagine evenings around a fire feature or cooking outside at your {town} home. The gathering space and the paving around it can be planned together.",
+        "prompt": "Tell us which fire or cooking features you are considering, and show existing paving, structures, and utility locations if known."
+      },
+      {
+        "id": 4,
+        "title": "Front entrances and easier access",
+        "projectIds": [
+          11,
+          12,
+          20,
+          40
+        ],
+        "hook": "A new path or landing can make the approach to your {town} home feel more inviting. Tell us how you want to move between the driveway, yard, and entrance.",
+        "prompt": "Share the current route, doorway and landing heights if known, and any access needs you want the contractor to consider."
+      },
+      {
+        "id": 5,
+        "title": "Paths through the yard",
+        "projectIds": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "hook": "A garden path or side-yard walkway could make more of your {town} property easy to enjoy. Start with where you want to go and what you want to connect.",
+        "prompt": "Show both ends of the route, narrow passages, gates, and any slopes or areas where water collects."
+      },
+      {
+        "id": 6,
+        "title": "Connections, steps, and backyard structures",
+        "projectIds": [
+          17,
+          18,
+          19,
+          26
+        ],
+        "hook": "Could a path, a new set of landscape steps, or paving beside a gazebo make your {town} yard feel more connected? Tell us which areas should work together.",
+        "prompt": "Include changes in height, existing structures, and the access available for materials and equipment."
+      },
+      {
+        "id": 7,
+        "title": "Poolside and hot tub areas",
+        "projectIds": [
+          21,
+          22,
+          23,
+          39
+        ],
+        "hook": "Looking for a more useful poolside space or a place for a hot tub at your {town} home? Share the equipment and surroundings so support, access, and drainage can be discussed.",
+        "prompt": "Include manufacturer information where available, current paving, and any settling or standing-water concerns."
+      },
+      {
+        "id": 8,
+        "title": "Paver driveways and parking",
+        "projectIds": [
+          27,
+          28,
+          29,
+          30
+        ],
+        "hook": "A paver driveway, parking space, or decorative border could bring a different finish to your {town} property. Tell us how the area needs to handle daily use.",
+        "prompt": "Describe the vehicles, existing surface, street connection, and any water-management goals."
+      },
+      {
+        "id": 9,
+        "title": "Walls and terraced outdoor spaces",
+        "projectIds": [
+          31,
+          32,
+          33,
+          34
+        ],
+        "hook": "Picture more usable yard space or a patio framed by a new wall at your {town} home. Share the change in elevation and what you want the finished area to do.",
+        "prompt": "Show the slope or existing wall, nearby buildings and paving, and the proposed space from several angles."
+      },
+      {
+        "id": 10,
+        "title": "Garden borders and paving repairs",
+        "projectIds": [
+          35,
+          36,
+          37,
+          38
+        ],
+        "hook": "Sometimes renewed edges, garden beds, or repaired paving can make a familiar {town} yard feel better organized. Tell us which details would make the biggest difference.",
+        "prompt": "Include wide photos of the layout and close-ups of loose units, washed-out joints, or damaged edges."
+      }
+    ]
+  },
+  "concrete": {
+    "projects": [
+      {
+        "id": 1,
+        "title": "Install a new concrete driveway",
+        "expertise": "Driveway work calls for ground preparation, traffic-appropriate slab planning, drainage, joint layout, finishing, and curing."
+      },
+      {
+        "id": 2,
+        "title": "Replace a deteriorated concrete driveway",
+        "expertise": "Replacement requires assessing removal and existing support before planning new grades, joints, and placement access."
+      },
+      {
+        "id": 3,
+        "title": "Widen an existing concrete driveway",
+        "expertise": "The contractor should plan vehicle use, ground preparation, drainage, and the joint or transition beside the existing slab."
+      },
+      {
+        "id": 4,
+        "title": "Extend a driveway to a garage or outbuilding",
+        "expertise": "Good planning coordinates vehicle access, building entrance heights, drainage, slab support, and placement sequencing."
+      },
+      {
+        "id": 5,
+        "title": "Add a concrete parking pad",
+        "expertise": "The installer should understand intended vehicle use and prepare a suitable base, drainage layout, joints, and finished surface."
+      },
+      {
+        "id": 6,
+        "title": "Build a concrete RV or camper pad",
+        "expertise": "Vehicle size and loading, access, ground support, drainage, and slab design all need consideration before placement."
+      },
+      {
+        "id": 7,
+        "title": "Install a backyard concrete patio",
+        "expertise": "Patio construction needs accurate grades, prepared support, a planned joint layout, and finishing and curing suited to the intended use."
+      },
+      {
+        "id": 8,
+        "title": "Expand an existing concrete patio",
+        "expertise": "Expansion work should coordinate surface heights, drainage, appearance, and an appropriate joint with the existing patio."
+      },
+      {
+        "id": 9,
+        "title": "Replace an aging concrete patio",
+        "expertise": "The contractor should assess the old slab and ground conditions before organizing removal, access, new grades, and placement."
+      },
+      {
+        "id": 10,
+        "title": "Create a stamped concrete patio",
+        "expertise": "Decorative work requires controlled placement, coordinated stamping and coloring, and planning of joints and surface protection."
+      },
+      {
+        "id": 11,
+        "title": "Install colored concrete paving",
+        "expertise": "Consistent color depends on suitable material selection, placement and finishing practices, and coordination of the desired appearance."
+      },
+      {
+        "id": 12,
+        "title": "Create an exposed-aggregate surface",
+        "expertise": "This finish calls for appropriate aggregate selection, careful timing, consistent workmanship, and a plan for the finished surface."
+      },
+      {
+        "id": 13,
+        "title": "Install a concrete front walkway",
+        "expertise": "Walkway work requires coordinated elevations, stable support, suitable joints, and safe transitions at steps and entrances."
+      },
+      {
+        "id": 14,
+        "title": "Replace a cracked or uneven sidewalk",
+        "expertise": "The contractor should evaluate settlement and adjoining surfaces before planning removal, base repair, and replacement elevations."
+      },
+      {
+        "id": 15,
+        "title": "Build a concrete side-yard path",
+        "expertise": "Narrow placement access, drainage, surface heights, and joints need planning alongside preparation and finishing."
+      },
+      {
+        "id": 16,
+        "title": "Connect the house and garage with concrete paving",
+        "expertise": "The work calls for accurate transitions between entrances and appropriate grades, joints, and ground preparation along the route."
+      },
+      {
+        "id": 17,
+        "title": "Pour new concrete entry steps",
+        "expertise": "Steps need accurate layout and formwork, suitable support, and consistent connections between the approach, landing, and entrance."
+      },
+      {
+        "id": 18,
+        "title": "Replace deteriorating concrete steps",
+        "expertise": "Replacement should begin with assessment of the support and entrance elevations, followed by careful removal and formed construction."
+      },
+      {
+        "id": 19,
+        "title": "Build a concrete stoop or landing",
+        "expertise": "This calls for coordinated doorway heights, drainage, foundations or support suited to the assembly, and careful formwork."
+      },
+      {
+        "id": 20,
+        "title": "Create a concrete access ramp",
+        "expertise": "The contractor should understand the intended users and plan appropriate slopes, landings, surface finish, and any applicable requirements."
+      },
+      {
+        "id": 21,
+        "title": "Pour a garden shed slab",
+        "expertise": "Slab planning should match the shed dimensions, intended loading, support requirements, and access for concrete placement."
+      },
+      {
+        "id": 22,
+        "title": "Pour a detached garage slab",
+        "expertise": "Garage floors need coordination with building plans, vehicle use, elevations, drainage details, and specified reinforcement and joints."
+      },
+      {
+        "id": 23,
+        "title": "Pour a workshop floor",
+        "expertise": "The installer should understand equipment loads and the desired finish before planning support, joints, reinforcement, and placement."
+      },
+      {
+        "id": 24,
+        "title": "Install a concrete floor in a new basement",
+        "expertise": "Basement work requires coordinating moisture-related details, utilities, support preparation, joints, and concrete placement access."
+      },
+      {
+        "id": 25,
+        "title": "Replace a damaged basement floor",
+        "expertise": "A replacement plan should consider the damage, moisture conditions, interior access, utilities, and removal without affecting structural supports."
+      },
+      {
+        "id": 26,
+        "title": "Pour a slab for a residential addition",
+        "expertise": "The concrete work needs coordination with approved building plans, existing construction, utilities, foundations, and any required inspections."
+      },
+      {
+        "id": 27,
+        "title": "Install footings for an addition or structure",
+        "expertise": "Footing work requires accurate layout and execution of the applicable structural plans, with suitable ground conditions and inspection coordination."
+      },
+      {
+        "id": 28,
+        "title": "Pour a slab for a residential storage building",
+        "expertise": "The contractor should coordinate building dimensions, intended loads, support details, and future door or equipment access."
+      },
+      {
+        "id": 29,
+        "title": "Build a pad for lawn equipment or small machinery",
+        "expertise": "The intended equipment, loads, access, drainage, and finish should guide the pad layout and concrete preparation."
+      },
+      {
+        "id": 30,
+        "title": "Pour a concrete hot tub pad",
+        "expertise": "The installer needs the tub's support and loading requirements, with suitable ground preparation, drainage, and coordination of utility work."
+      },
+      {
+        "id": 31,
+        "title": "Install a generator or HVAC equipment pad",
+        "expertise": "The pad should be coordinated with equipment dimensions, support and clearance requirements, and the relevant equipment installer."
+      },
+      {
+        "id": 32,
+        "title": "Create a trash and recycling pad",
+        "expertise": "A practical pad needs suitable access, a stable base, drainage planning, and transitions that work with the containers."
+      },
+      {
+        "id": 33,
+        "title": "Build a concrete basketball or recreation area",
+        "expertise": "Recreation surfaces need coordinated dimensions, planned grades and joints, and a finish suited to the intended activities."
+      },
+      {
+        "id": 34,
+        "title": "Install or replace a concrete pool deck",
+        "expertise": "Poolside work requires attention to surface choice, drainage, joints, and coordination with pool edges, utilities, and equipment."
+      },
+      {
+        "id": 35,
+        "title": "Repair localized concrete surface damage",
+        "expertise": "Repair experience includes assessing the cause and depth of deterioration and whether the remaining concrete is suitable for repair."
+      },
+      {
+        "id": 36,
+        "title": "Resurface suitable existing concrete",
+        "expertise": "The contractor should assess the existing slab, prepare the surface properly, and select a compatible system for its condition and use."
+      },
+      {
+        "id": 37,
+        "title": "Level settled concrete where lifting is suitable",
+        "expertise": "Slab-lifting expertise includes evaluating settlement, the slab's condition, access, and whether lifting can address the specific problem."
+      },
+      {
+        "id": 38,
+        "title": "Remove and replace damaged concrete sections",
+        "expertise": "The work calls for controlled removal, assessment of the underlying support, and suitable joints and transitions with retained sections."
+      },
+      {
+        "id": 39,
+        "title": "Install a driveway apron or approach",
+        "expertise": "Approach work needs careful street-side elevations, drainage coordination, and confirmation of applicable right-of-way and access requirements."
+      },
+      {
+        "id": 40,
+        "title": "Reconstruct concrete at a garage entrance",
+        "expertise": "The contractor should assess water movement and building thresholds before planning grades, joints, and transitions at the entrance."
+      }
+    ],
+    "themes": [
+      {
+        "id": 1,
+        "title": "Concrete driveways",
+        "projectIds": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "hook": "Imagine a driveway at your {town} home that better suits your vehicles and daily routine. A replacement, wider layout, or extension can start with the way you use the space.",
+        "prompt": "Tell us the vehicles it serves, approximate dimensions, existing surface, and how the driveway meets the garage and street."
+      },
+      {
+        "id": 2,
+        "title": "Parking pads and street approaches",
+        "projectIds": [
+          5,
+          6,
+          39
+        ],
+        "hook": "Need room for another vehicle or a camper at your {town} property? Share where the space would sit and how vehicles would enter and turn.",
+        "prompt": "Include vehicle sizes, the existing driveway, nearby property boundaries if known, and the proposed street connection."
+      },
+      {
+        "id": 3,
+        "title": "Concrete patios",
+        "projectIds": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "hook": "Picture a patio at your {town} home with room for outdoor meals, seating, or a different layout. Tell us whether you are starting fresh, expanding, or replacing what is there.",
+        "prompt": "Show the house entrance, existing patio or lawn, desired size, and examples of finishes you like."
+      },
+      {
+        "id": 4,
+        "title": "Decorative and poolside surfaces",
+        "projectIds": [
+          11,
+          12,
+          34,
+          36
+        ],
+        "hook": "Want a different look for the concrete around your {town} home? Color, exposed aggregate, or an appropriate resurfacing option may be worth discussing for the project you have in mind.",
+        "prompt": "Share finish inspiration, the current surface condition, and whether the area is beside a pool or other existing features."
+      },
+      {
+        "id": 5,
+        "title": "Walkways and side-yard paths",
+        "projectIds": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "hook": "A new concrete walkway could connect the spaces you use most at your {town} home. Tell us where the route should begin, end, and meet existing paving.",
+        "prompt": "Include doorways, gates, slopes, and any uneven sections or drainage concerns along the route."
+      },
+      {
+        "id": 6,
+        "title": "Steps, landings, and access",
+        "projectIds": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "hook": "Could renewed steps, a better landing, or a planned access ramp improve the entrance to your {town} home? Describe the route and the people who will use it.",
+        "prompt": "Show the entrance and approach from several angles, and explain any access needs or changes in height."
+      },
+      {
+        "id": 7,
+        "title": "Workshop and basement floors",
+        "projectIds": [
+          23,
+          24,
+          25
+        ],
+        "hook": "Planning a workshop floor or a change beneath your {town} home? Share how you will use the room and what the concrete needs to support.",
+        "prompt": "Include equipment plans, existing floor concerns, moisture observations, and access for removing or placing material."
+      },
+      {
+        "id": 8,
+        "title": "Slabs for sheds and garages",
+        "projectIds": [
+          21,
+          22,
+          28
+        ],
+        "hook": "A shed, garage, or storage building at your {town} home starts with thinking through the space and its support. Tell us about the building and what you plan to store inside.",
+        "prompt": "Share building dimensions or plans, vehicle or storage use, and the location relative to existing structures."
+      },
+      {
+        "id": 9,
+        "title": "Additions and structural support",
+        "projectIds": [
+          26,
+          27,
+          22
+        ],
+        "hook": "Thinking about adding space to your {town} home or building a garage? Discuss the concrete work as part of the wider construction plan.",
+        "prompt": "Include any building plans, the proposed footprint, existing structures, and your preferred project sequence."
+      },
+      {
+        "id": 10,
+        "title": "Equipment and utility pads",
+        "projectIds": [
+          29,
+          30,
+          31,
+          32
+        ],
+        "hook": "A dedicated concrete pad could make equipment storage or an outdoor installation more practical at your {town} home. Tell us what will sit on it and how it will be accessed.",
+        "prompt": "Share equipment dimensions or manufacturer information, the installation location, and any related utility work."
+      },
+      {
+        "id": 11,
+        "title": "Repairs and surface renewal",
+        "projectIds": [
+          35,
+          36,
+          37,
+          38
+        ],
+        "hook": "If existing concrete at your {town} home is uneven or deteriorating, tell us what has changed and what you want to improve. A contractor can discuss whether repair or replacement suits the condition.",
+        "prompt": "Show the full surface and close-ups, and note settling, water collection, previous repairs, or access limitations."
+      },
+      {
+        "id": 12,
+        "title": "Recreation and connected patio space",
+        "projectIds": [
+          33,
+          7,
+          13
+        ],
+        "hook": "Imagine a place to play or gather outside at your {town} home, with a concrete surface and a practical route back to the house.",
+        "prompt": "Share the intended activities, approximate space available, and how the area should connect with existing paths or patios."
+      },
+      {
+        "id": 13,
+        "title": "Garage approaches and transitions",
+        "projectIds": [
+          4,
+          22,
+          40
+        ],
+        "hook": "Does the concrete around your {town} garage need a new layout or a better transition? Describe vehicle access, the doorway, and any water concerns together.",
+        "prompt": "Show the garage threshold, driveway, surrounding grades, and where water currently travels."
+      }
+    ]
+  }
+}

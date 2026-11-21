@@ -1,0 +1,1301 @@
+{
+  "reviewedAt": "2026-11-21",
+  "method": "Searched every Iowa coverage town individually; opened each linked official page and reviewed relevant city/permit information. Missing or unverified office resources deliberately have no link. City Clerk contacts published by county government are identified as municipal contacts, not county permitting authority.",
+  "towns": {
+    "anderson-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Anderson.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Anderson\" Iowa  official city hall building permits"
+    },
+    "anita-ia": {
+      "status": "verified",
+      "url": "https://www.anitaiowa.com/official-city-documents",
+      "kind": "permit",
+      "guidance": "Anita publishes its building permit form and zoning ordinances together, making them useful starting points when planning where new work will go.",
+      "label": "Anita permit information",
+      "office": "Anita permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.anitaiowa.com/official-city-documents"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Anita\" Iowa Cass official city hall building permits"
+    },
+    "athelstan-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Athelstan.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Athelstan\" Iowa  official city hall building permits"
+    },
+    "atlantic-ia": {
+      "status": "verified",
+      "url": "https://cityofatlantic.com/government/forms-permits/",
+      "kind": "permit",
+      "guidance": "Atlantic publishes a separate application for street, sidewalk, curb-cut, and sewer-connection work alongside its building permit form. Mention any changes near the street or public sidewalk when describing your Atlantic project.",
+      "label": "Atlantic permit information",
+      "office": "Atlantic permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://cityofatlantic.com/government/forms-permits/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Atlantic\" Iowa Cass official city hall building permits"
+    },
+    "avoca-ia": {
+      "status": "verified",
+      "url": "https://www.cityofavoca.com/page/avoca-applications/",
+      "kind": "permit",
+      "guidance": "Avoca publishes building and right-of-way permit resources. Mention work near a sidewalk or street when describing your Avoca project so any additional coordination can be discussed.",
+      "label": "Avoca permit information",
+      "office": "Avoca permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.cityofavoca.com/page/avoca-applications/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Avoca\" Iowa Pottawattamie official city hall building permits"
+    },
+    "bartlett-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Bartlett.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Bartlett\" Iowa  official city hall building permits"
+    },
+    "bedford-ia": {
+      "status": "verified",
+      "url": "https://www.bedfordia.org/newsview.aspx?nid=9916",
+      "kind": "permit",
+      "guidance": "Bedford advises obtaining a building permit before constructing, reconstructing, or adding to a structure within city limits. Include any structural additions in your project description and confirm the applicable requirements with City Hall.",
+      "label": "Bedford permit information",
+      "office": "Bedford permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.bedfordia.org/newsview.aspx?nid=9916"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Bedford\" Iowa Taylor official city hall building permits"
+    },
+    "bentley-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Bentley.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Bentley\" Iowa  official city hall building permits"
+    },
+    "benton-ia": {
+      "status": "verified",
+      "url": "https://ringgoldcountyelections.iowa.gov/elected_officials/city/benton/",
+      "kind": "city-hall",
+      "guidance": "For your Benton project, the county’s official city-officials page provides a City Clerk contact. Confirm which local requirements apply to your plans before work begins.",
+      "label": "Benton city office contact — official county website",
+      "office": "Benton city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://ringgoldcountyelections.iowa.gov/elected_officials/city/benton/"
+      ],
+      "jurisdictionNote": "County government publishes this municipal contact; this is not a claim that the county issues city permits.",
+      "searchQuery": "\"Benton\" Iowa Ringgold official city hall building permits"
+    },
+    "blanchard-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Blanchard.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Blanchard\" Iowa Page official city hall building permits"
+    },
+    "blockton-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Blockton.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Blockton\" Iowa Taylor official city hall building permits"
+    },
+    "braddyville-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Braddyville.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Braddyville\" Iowa Page official city hall building permits"
+    },
+    "bridgewater-ia": {
+      "status": "verified",
+      "url": "https://adaircounty.iowa.gov/about/elected_officials/city/bridgewater/",
+      "kind": "city-hall",
+      "guidance": "Adair County provides official City Clerk contact information for Bridgewater. That contact can help you find the appropriate local guidance for your proposed work.",
+      "label": "Bridgewater city office contact — official county website",
+      "office": "Bridgewater city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://adaircounty.iowa.gov/about/elected_officials/city/bridgewater/"
+      ],
+      "jurisdictionNote": "County government publishes this municipal contact; this is not a claim that the county issues city permits.",
+      "searchQuery": "\"Bridgewater\" Iowa Adair official city hall building permits"
+    },
+    "california-junction-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in California Junction.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"California Junction\" Iowa  official city hall building permits"
+    },
+    "carbon-ia": {
+      "status": "verified",
+      "url": "https://adamscounty.iowa.gov/about/elected_officials/city/",
+      "kind": "city-hall",
+      "guidance": "Adams County’s official city-officials page lists Carbon’s City Clerk. Contact the city to identify any requirements for the work you are considering in Carbon.",
+      "label": "Carbon city office contact — official county website",
+      "office": "Carbon city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://adamscounty.iowa.gov/about/elected_officials/city/"
+      ],
+      "jurisdictionNote": "County government publishes this municipal contact; this is not a claim that the county issues city permits.",
+      "searchQuery": "\"Carbon\" Iowa Adams official city hall building permits"
+    },
+    "carson-ia": {
+      "status": "verified",
+      "url": "https://www.carsongov.com/city-code",
+      "kind": "permit",
+      "guidance": "Carson’s administration page links to its building permit application and city code. Include any new structures or related work in your Carson inquiry so the applicable local requirements can be checked.",
+      "label": "Carson permit information",
+      "office": "Carson permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.carsongov.com/city-code"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Carson\" Iowa Pottawattamie official city hall building permits"
+    },
+    "carter-lake-ia": {
+      "status": "verified",
+      "url": "https://cityofcarterlake.com/forms/",
+      "kind": "permit",
+      "guidance": "Carter Lake publishes separate applications for accessory structures and work in the public right-of-way. Tell us whether your Carter Lake project includes a new structure or changes near the street so those details can be considered early.",
+      "label": "Carter Lake permit information",
+      "office": "Carter Lake permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://cityofcarterlake.com/forms/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Carter Lake\" Iowa Pottawattamie official city hall building permits"
+    },
+    "clarinda-ia": {
+      "status": "verified",
+      "url": "https://bestiowatown.com/city-information/",
+      "kind": "permit",
+      "guidance": "Clarinda identifies building additions, decks, fences, and portable garden sheds among projects needing permits. Include those related improvements in your plans and ask City Hall which requirements apply to your Clarinda property.",
+      "label": "Clarinda permit information",
+      "office": "Clarinda permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://bestiowatown.com/city-information/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Clarinda\" Iowa Page official city hall building permits"
+    },
+    "clearfield-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Clearfield.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Clearfield\" Iowa Taylor official city hall building permits"
+    },
+    "coburg-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Coburg.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Coburg\" Iowa  official city hall building permits"
+    },
+    "coin-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Coin.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Coin\" Iowa Page official city hall building permits"
+    },
+    "college-springs-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in College Springs.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"College Springs\" Iowa Page official city hall building permits"
+    },
+    "conway-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Conway.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Conway\" Iowa  official city hall building permits"
+    },
+    "corley-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Corley.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Corley\" Iowa  official city hall building permits"
+    },
+    "corning-ia": {
+      "status": "verified",
+      "url": "https://www.cityofcorningia.com/index.asp?SEC=60E378EF-81E3-4719-9CC3-796CEA01C5CD&Type=B_BASIC",
+      "kind": "permit",
+      "guidance": "Corning groups building, demolition, and curb permit information on its official permit page. Mention removal work and any changes near the street when describing your Corning project.",
+      "label": "Corning permit information",
+      "office": "Corning permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.cityofcorningia.com/index.asp?SEC=60E378EF-81E3-4719-9CC3-796CEA01C5CD&Type=B_BASIC"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Corning\" Iowa Adams official city hall building permits"
+    },
+    "council-bluffs-ia": {
+      "status": "verified",
+      "url": "https://www.councilbluffs-ia.gov/135/Licenses-Permits",
+      "kind": "city-hall",
+      "guidance": "Council Bluffs provides official permit contacts and an online application portal. Confirm the appropriate building or planning contact for your Council Bluffs project before submitting an application.",
+      "label": "Council Bluffs city office contact",
+      "office": "Council Bluffs city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://www.councilbluffs-ia.gov/135/Licenses-Permits"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Council Bluffs\" Iowa Pottawattamie official city hall building permits"
+    },
+    "crescent-ia": {
+      "status": "verified",
+      "url": "https://crescentiowa.org/government/licenses-permits/",
+      "kind": "permit",
+      "guidance": "Crescent publishes an accessory-building permit application and other permit forms. If your Crescent plans include a new shed or other structure, share its intended location and size so the required review can be discussed.",
+      "label": "Crescent permit information",
+      "office": "Crescent permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://crescentiowa.org/government/licenses-permits/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Crescent\" Iowa Pottawattamie official city hall building permits"
+    },
+    "creston-ia": {
+      "status": "verified",
+      "url": "https://www.crestoniowa.gov/2148/Code-Compliance-Building",
+      "kind": "permit",
+      "guidance": "Creston’s Building and Code Compliance Department offers guidance about permit needs and property improvements. Use the department’s official information to confirm the next steps for your Creston project.",
+      "label": "Creston permit information",
+      "office": "Creston permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.crestoniowa.gov/2148/Code-Compliance-Building"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Creston\" Iowa Union official city hall building permits"
+    },
+    "cromwell-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Cromwell.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Cromwell\" Iowa Union official city hall building permits"
+    },
+    "cumberland-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Cumberland.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Cumberland\" Iowa Cass official city hall building permits"
+    },
+    "delphos-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Delphos.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Delphos\" Iowa  official city hall building permits"
+    },
+    "diagonal-ia": {
+      "status": "verified",
+      "url": "https://ringgoldcountyelections.iowa.gov/elected_officials/city/diagonal/",
+      "kind": "city-hall",
+      "guidance": "Ringgold County publishes an official City Clerk contact for Diagonal. Ask the city which local requirements need to be confirmed for your proposed Diagonal project.",
+      "label": "Diagonal city office contact — official county website",
+      "office": "Diagonal city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://ringgoldcountyelections.iowa.gov/elected_officials/city/diagonal/"
+      ],
+      "jurisdictionNote": "County government publishes this municipal contact; this is not a claim that the county issues city permits.",
+      "searchQuery": "\"Diagonal\" Iowa Ringgold official city hall building permits"
+    },
+    "elk-horn-ia": {
+      "status": "verified",
+      "url": "https://www.cityofelkhornia.com/obtain-a-building-permit.html",
+      "kind": "permit",
+      "guidance": "Elk Horn asks building permit applicants to submit a sketch, plans, and specifications to the City Clerk. If your Elk Horn project includes a new wall or other structure, share its proposed location and confirm the review needed before work begins.",
+      "label": "Elk Horn permit information",
+      "office": "Elk Horn permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.cityofelkhornia.com/obtain-a-building-permit.html"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Elk Horn\" Iowa Shelby official city hall building permits"
+    },
+    "elliott-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Elliott.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Elliott\" Iowa Montgomery official city hall building permits"
+    },
+    "emerson-ia": {
+      "status": "verified",
+      "url": "https://emersonia.org/your-government/city-hall/",
+      "kind": "city-hall",
+      "guidance": "Emerson publishes City Hall contact information on its official website. Contact the city to confirm where to direct questions about requirements for your Emerson project.",
+      "label": "Emerson city office contact",
+      "office": "Emerson city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://emersonia.org/your-government/city-hall/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Emerson\" Iowa Mills official city hall building permits"
+    },
+    "essex-ia": {
+      "status": "verified",
+      "url": "https://www.essexia.net/vnews/display.v/SEC/Forms",
+      "kind": "permit",
+      "guidance": "Essex provides a building permit form among its official city forms. Describe the full scope of your Essex project, including related construction, so the applicable requirements can be confirmed.",
+      "label": "Essex permit information",
+      "office": "Essex permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.essexia.net/vnews/display.v/SEC/Forms"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Essex\" Iowa Page official city hall building permits"
+    },
+    "farragut-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Farragut.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Farragut\" Iowa Fremont official city hall building permits"
+    },
+    "fontanelle-ia": {
+      "status": "verified",
+      "url": "https://fontanelleia.org/forms/",
+      "kind": "permit",
+      "guidance": "Fontanelle provides a building permit form and directs application questions to City Hall. Include the size and proposed location of new work when starting a conversation about your Fontanelle project.",
+      "label": "Fontanelle permit information",
+      "office": "Fontanelle permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://fontanelleia.org/forms/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Fontanelle\" Iowa Adair official city hall building permits"
+    },
+    "glenwood-ia": {
+      "status": "verified",
+      "url": "https://cityofglenwoodia.gov/permits",
+      "kind": "permit",
+      "guidance": "Glenwood explains that its development review considers factors including where structures sit and how much of a lot is paved. Share the footprint of your Glenwood project and any connected parking or outdoor improvements so those details can be checked early.",
+      "label": "Glenwood permit information",
+      "office": "Glenwood permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://cityofglenwoodia.gov/permits"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Glenwood\" Iowa Mills official city hall building permits"
+    },
+    "grant-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Grant.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Grant\" Iowa Montgomery official city hall building permits"
+    },
+    "gravity-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Gravity.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Gravity\" Iowa Taylor official city hall building permits"
+    },
+    "griswold-ia": {
+      "status": "verified",
+      "url": "https://www.griswoldia.gov/forms/building-permit",
+      "kind": "permit",
+      "guidance": "Griswold’s building permit application asks for a site plan showing property dimensions and distances between construction and property lines. Include the planned size and placement of improvements when describing your Griswold project.",
+      "label": "Griswold permit information",
+      "office": "Griswold permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.griswoldia.gov/forms/building-permit"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Griswold\" Iowa Cass official city hall building permits"
+    },
+    "hamburg-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Hamburg.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Hamburg\" Iowa Fremont official city hall building permits"
+    },
+    "hancock-ia": {
+      "status": "verified",
+      "url": "https://www.pottcounty-ia.gov/about/elected_officials/city/",
+      "kind": "city-hall",
+      "guidance": "Pottawattamie County’s official city-officials page lists Hancock’s City Clerk contact. Use that contact to help identify the appropriate local requirements for your Hancock project.",
+      "label": "Hancock city office contact — official county website",
+      "office": "Hancock city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://www.pottcounty-ia.gov/about/elected_officials/city/"
+      ],
+      "jurisdictionNote": "County government publishes this municipal contact; this is not a claim that the county issues city permits.",
+      "searchQuery": "\"Hancock\" Iowa Pottawattamie official city hall building permits"
+    },
+    "harlan-ia": {
+      "status": "verified",
+      "url": "https://cityofharlan.socs.net/vnews/display.v/SEC/Codes%2C%20Permits%20%26%20Licenses%7CPermits",
+      "kind": "permit",
+      "guidance": "Harlan publishes permit guidance and application resources on its official city website. Include the full proposed work in your Harlan inquiry and confirm which applications are needed before work begins.",
+      "label": "Harlan permit information",
+      "office": "Harlan permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://cityofharlan.socs.net/vnews/display.v/SEC/Codes%2C%20Permits%20%26%20Licenses%7CPermits"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Harlan\" Iowa Shelby official city hall building permits"
+    },
+    "hastings-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Hastings.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Hastings\" Iowa Mills official city hall building permits"
+    },
+    "henderson-ia": {
+      "status": "verified",
+      "url": "https://www.cityofhendersoniowa.com/",
+      "kind": "city-hall",
+      "guidance": "Henderson’s official city website provides city-office information. Confirm which requirements apply to your Henderson project and whether the property is within city limits before starting work.",
+      "label": "Henderson city office contact",
+      "office": "Henderson city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://www.cityofhendersoniowa.com/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Henderson\" Iowa Mills official city hall building permits"
+    },
+    "honey-creek-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Honey Creek.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Honey Creek\" Iowa Pottawattamie official city hall building permits"
+    },
+    "imogene-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Imogene.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Imogene\" Iowa Fremont official city hall building permits"
+    },
+    "jacksonville-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Jacksonville.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Jacksonville\" Iowa  official city hall building permits"
+    },
+    "kent-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Kent.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Kent\" Iowa  official city hall building permits"
+    },
+    "lenox-ia": {
+      "status": "verified",
+      "url": "https://lenoxia.com/permitsandforms.php",
+      "kind": "permit",
+      "guidance": "Lenox publishes separate applications for building work, driveway access changes, and sidewalk construction. Tell us whether your Lenox project changes an entrance from the street or connects with a sidewalk so the appropriate review can be discussed.",
+      "label": "Lenox permit information",
+      "office": "Lenox permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://lenoxia.com/permitsandforms.php"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Lenox\" Iowa Taylor official city hall building permits"
+    },
+    "lewis-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Lewis.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Lewis\" Iowa Cass official city hall building permits"
+    },
+    "logan-ia": {
+      "status": "verified",
+      "url": "https://www.loganiowa.org/apply-permit",
+      "kind": "permit",
+      "guidance": "For work requiring a permit, Logan’s published procedures call for approval, payment, and posting the permit before construction starts. Include your preferred timing when describing your Logan project so review and inspection steps can be considered.",
+      "label": "Logan permit information",
+      "office": "Logan permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.loganiowa.org/apply-permit"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Logan\" Iowa Harrison official city hall building permits"
+    },
+    "loveland-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Loveland.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Loveland\" Iowa  official city hall building permits"
+    },
+    "macedonia-ia": {
+      "status": "verified",
+      "url": "https://www.macedoniaiowa.com/contact-us.html",
+      "kind": "city-hall",
+      "guidance": "Macedonia publishes City Hall contact details on its official city website. Ask the city which local requirements need to be confirmed for your Macedonia project before construction begins.",
+      "label": "Macedonia city office contact",
+      "office": "Macedonia city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://www.macedoniaiowa.com/contact-us.html"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Macedonia\" Iowa Pottawattamie official city hall building permits"
+    },
+    "magnolia-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Magnolia.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Magnolia\" Iowa  official city hall building permits"
+    },
+    "maloy-ia": {
+      "status": "verified",
+      "url": "https://ringgoldcountyelections.iowa.gov/elected_officials/city/maloy/",
+      "kind": "city-hall",
+      "guidance": "Ringgold County provides an official City Clerk contact for Maloy. Ask the city where to confirm local requirements for your Maloy project before work begins.",
+      "label": "Maloy city office contact — official county website",
+      "office": "Maloy city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://ringgoldcountyelections.iowa.gov/elected_officials/city/maloy/"
+      ],
+      "jurisdictionNote": "County government publishes this municipal contact; this is not a claim that the county issues city permits.",
+      "searchQuery": "\"Maloy\" Iowa  official city hall building permits"
+    },
+    "malvern-ia": {
+      "status": "verified",
+      "url": "https://www.malvernia.gov/formsandpermits",
+      "kind": "permit",
+      "guidance": "Malvern provides a building permit form and offers copies and application assistance through City Hall. Include the dimensions and location of proposed improvements in your Malvern project details.",
+      "label": "Malvern permit information",
+      "office": "Malvern permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.malvernia.gov/formsandpermits"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Malvern\" Iowa Mills official city hall building permits"
+    },
+    "marne-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Marne.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Marne\" Iowa Cass official city hall building permits"
+    },
+    "massena-ia": {
+      "status": "verified",
+      "url": "https://cityofmassena.org/government",
+      "kind": "city-hall",
+      "guidance": "Massena’s official government page identifies its City Clerk and city administration. Contact the city to determine which local requirements need to be checked for your Massena project.",
+      "label": "Massena city office contact",
+      "office": "Massena city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://cityofmassena.org/government"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Massena\" Iowa Cass official city hall building permits"
+    },
+    "mcclelland-ia": {
+      "status": "verified",
+      "url": "https://www.pottcounty-ia.gov/about/elected_officials/city/",
+      "kind": "city-hall",
+      "guidance": "Pottawattamie County publishes official City Clerk contact information for McClelland. Ask the city which local requirements apply to the work you are considering at your McClelland property.",
+      "label": "McClelland city office contact — official county website",
+      "office": "McClelland city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://www.pottcounty-ia.gov/about/elected_officials/city/"
+      ],
+      "jurisdictionNote": "County government publishes this municipal contact; this is not a claim that the county issues city permits.",
+      "searchQuery": "\"McClelland\" Iowa Pottawattamie official city hall building permits"
+    },
+    "minden-ia": {
+      "status": "verified",
+      "url": "https://mindeniowa.com/city-administration",
+      "kind": "city-hall",
+      "guidance": "Minden’s city administration page provides City Hall contact information and its code of ordinances. Confirm the requirements for your Minden property and proposed work before construction begins.",
+      "label": "Minden city office contact",
+      "office": "Minden city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://mindeniowa.com/city-administration"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Minden\" Iowa Pottawattamie official city hall building permits"
+    },
+    "mineola-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Mineola.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Mineola\" Iowa Mills official city hall building permits"
+    },
+    "missouri-valley-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Missouri Valley.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Missouri Valley\" Iowa Harrison official city hall building permits"
+    },
+    "mount-ayr-ia": {
+      "status": "verified",
+      "url": "https://www.mountayriowa.com/c/-/?p=contactus.html",
+      "kind": "city-hall",
+      "guidance": "Mount Ayr publishes City Hall contact information on its official website. Ask the city where to confirm requirements for the work you are considering at your Mount Ayr property.",
+      "label": "Mount Ayr city office contact",
+      "office": "Mount Ayr city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://www.mountayriowa.com/c/-/?p=contactus.html"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Mount Ayr\" Iowa Ringgold official city hall building permits"
+    },
+    "neola-ia": {
+      "status": "verified",
+      "url": "https://neola-iowa.com/Government/",
+      "kind": "city-hall",
+      "guidance": "Neola’s government page provides City Hall contact details. Ask the city which local requirements need to be checked for your Neola project before work begins.",
+      "label": "Neola city office contact",
+      "office": "Neola city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://neola-iowa.com/Government/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Neola\" Iowa Pottawattamie official city hall building permits"
+    },
+    "new-market-ia": {
+      "status": "verified",
+      "url": "https://www.newmarketia.com/faq",
+      "kind": "permit",
+      "guidance": "New Market explains its building permit application process and directs completed applications to City Hall. Review those instructions when preparing plans for work at your New Market property.",
+      "label": "New Market permit information",
+      "office": "New Market permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.newmarketia.com/faq"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"New Market\" Iowa Taylor official city hall building permits"
+    },
+    "nodaway-ia": {
+      "status": "verified",
+      "url": "https://adamscounty.iowa.gov/about/elected_officials/city/nodaway/",
+      "kind": "city-hall",
+      "guidance": "Adams County publishes an official City Clerk contact for Nodaway. Ask the city which requirements need to be confirmed for your Nodaway project before construction begins.",
+      "label": "Nodaway city office contact — official county website",
+      "office": "Nodaway city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://adamscounty.iowa.gov/about/elected_officials/city/nodaway/"
+      ],
+      "jurisdictionNote": "County government publishes this municipal contact; this is not a claim that the county issues city permits.",
+      "searchQuery": "\"Nodaway\" Iowa Adams official city hall building permits"
+    },
+    "northboro-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Northboro.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Northboro\" Iowa Page official city hall building permits"
+    },
+    "oakland-ia": {
+      "status": "verified",
+      "url": "https://www.cityofoaklandiowa.com/building-permits",
+      "kind": "permit",
+      "guidance": "Oakland publishes its building permit form alongside zoning ordinances and permit information. Review those resources when planning the location and scope of improvements at your Oakland property.",
+      "label": "Oakland permit information",
+      "office": "Oakland permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.cityofoaklandiowa.com/building-permits"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Oakland\" Iowa Pottawattamie official city hall building permits"
+    },
+    "orient-ia": {
+      "status": "verified",
+      "url": "https://www.orientiowa.com/city-of-orient",
+      "kind": "permit",
+      "guidance": "Orient’s official city page provides a building permit resource and local government contacts. Include the proposed size and location of new work when discussing your Orient project.",
+      "label": "Orient permit information",
+      "office": "Orient permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.orientiowa.com/city-of-orient"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Orient\" Iowa Adair official city hall building permits"
+    },
+    "pacific-junction-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Pacific Junction.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Pacific Junction\" Iowa Mills official city hall building permits"
+    },
+    "percival-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Percival.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Percival\" Iowa Fremont official city hall building permits"
+    },
+    "persia-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Persia.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Persia\" Iowa Harrison official city hall building permits"
+    },
+    "portsmouth-ia": {
+      "status": "verified",
+      "url": "https://www.portsmouthiowa.com/",
+      "kind": "city-hall",
+      "guidance": "Portsmouth notes that its community burn pile is for yard waste and does not accept construction waste. If your Portsmouth project includes removing an old patio, wall, or other materials, include disposal in the conversation about the work.",
+      "label": "Portsmouth city office contact",
+      "office": "Portsmouth city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://www.portsmouthiowa.com/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Portsmouth\" Iowa Shelby official city hall building permits"
+    },
+    "prescott-ia": {
+      "status": "verified",
+      "url": "https://adamscounty.iowa.gov/about/elected_officials/city/prescott/",
+      "kind": "city-hall",
+      "guidance": "Adams County provides official city contact information for Prescott. Use the city contact to identify local requirements for your proposed Prescott project.",
+      "label": "Prescott city office contact — official county website",
+      "office": "Prescott city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://adamscounty.iowa.gov/about/elected_officials/city/prescott/"
+      ],
+      "jurisdictionNote": "County government publishes this municipal contact; this is not a claim that the county issues city permits.",
+      "searchQuery": "\"Prescott\" Iowa Adams official city hall building permits"
+    },
+    "randolph-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Randolph.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Randolph\" Iowa Fremont official city hall building permits"
+    },
+    "red-oak-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Red Oak.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Red Oak\" Iowa Montgomery official city hall building permits"
+    },
+    "redding-ia": {
+      "status": "verified",
+      "url": "https://ringgoldcountyelections.iowa.gov/elected_officials/city/",
+      "kind": "city-hall",
+      "guidance": "Ringgold County’s official city-officials page provides a City Clerk contact for Redding. Confirm the relevant local requirements for your Redding project before work begins.",
+      "label": "Redding city office contact — official county website",
+      "office": "Redding city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://ringgoldcountyelections.iowa.gov/elected_officials/city/"
+      ],
+      "jurisdictionNote": "County government publishes this municipal contact; this is not a claim that the county issues city permits.",
+      "searchQuery": "\"Redding\" Iowa Ringgold official city hall building permits"
+    },
+    "riverton-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Riverton.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Riverton\" Iowa Fremont official city hall building permits"
+    },
+    "shambaugh-ia": {
+      "status": "verified",
+      "url": "https://shambaughia.weebly.com/permitsforms.html",
+      "kind": "permit",
+      "guidance": "Shambaugh publishes building permit information that includes fences, storage buildings, and housing additions. Include these related improvements in your Shambaugh plans so the requirements can be checked together.",
+      "label": "Shambaugh permit information",
+      "office": "Shambaugh permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://shambaughia.weebly.com/permitsforms.html"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Shambaugh\" Iowa Page official city hall building permits"
+    },
+    "sharpsburg-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Sharpsburg.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Sharpsburg\" Iowa Taylor official city hall building permits"
+    },
+    "shelby-ia": {
+      "status": "verified",
+      "url": "https://www.shelbyia.com/services.asp",
+      "kind": "permit",
+      "guidance": "Shelby states that building permit applications are available at City Hall. Describe new construction and related improvements in your Shelby inquiry so the applicable requirements can be discussed.",
+      "label": "Shelby permit information",
+      "office": "Shelby permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.shelbyia.com/services.asp"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Shelby\" Iowa Pottawattamie official city hall building permits"
+    },
+    "shenandoah-ia": {
+      "status": "verified",
+      "url": "https://shenandoahiowa.net/forms-permits/",
+      "kind": "permit",
+      "guidance": "Shenandoah publishes building permit forms through its official city website. For projects requiring an application, prepare a sketch showing the proposed work, dimensions, and distances from property lines.",
+      "label": "Shenandoah permit information",
+      "office": "Shenandoah permit information",
+      "evidence": "Official building application requests a plot plan with dimensions and distances from property lines.",
+      "sourceUrls": [
+        "https://shenandoahiowa.net/forms-permits/",
+        "https://shenandoahiowa.net/wp-content/uploads/2024/04/Building-Permit.pdf"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Shenandoah\" Iowa Page official city hall building permits"
+    },
+    "sidney-ia": {
+      "status": "verified",
+      "url": "https://sidneyiowa.org/forms-permits/",
+      "kind": "permit",
+      "guidance": "Sidney publishes a building permit application and related information on its official forms page. Review the application when planning where new work will go at your Sidney property.",
+      "label": "Sidney permit information",
+      "office": "Sidney permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://sidneyiowa.org/forms-permits/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Sidney\" Iowa Fremont official city hall building permits"
+    },
+    "silver-city-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Silver City.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Silver City\" Iowa Mills official city hall building permits"
+    },
+    "stanton-ia": {
+      "status": "verified",
+      "url": "https://stantoniowa.com/city-information/",
+      "kind": "city-hall",
+      "guidance": "Stanton’s official city information page provides City Clerk and local government contacts. Confirm the applicable requirements for your Stanton project before scheduling construction.",
+      "label": "Stanton city office contact",
+      "office": "Stanton city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://stantoniowa.com/city-information/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Stanton\" Iowa Montgomery official city hall building permits"
+    },
+    "tabor-ia": {
+      "status": "verified",
+      "url": "https://www.taboriowa.us/vnews/display.v/SEC/City%20Hall%7CForms%20and%20Applications",
+      "kind": "permit",
+      "guidance": "Tabor provides a combined building and fence permit application through its official forms page. Mention any fence or new structure connected with your Tabor project so the full scope can be reviewed.",
+      "label": "Tabor permit information",
+      "office": "Tabor permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.taboriowa.us/vnews/display.v/SEC/City%20Hall%7CForms%20and%20Applications"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Tabor\" Iowa Fremont official city hall building permits"
+    },
+    "tennant-ia": {
+      "status": "verified",
+      "url": "https://shelbycounty.iowa.gov/about/communities/",
+      "kind": "city-hall",
+      "guidance": "Shelby County provides official city contact information for Tennant. Contact the city to identify the local requirements that need confirmation for your Tennant project.",
+      "label": "Tennant city office contact — official county website",
+      "office": "Tennant city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://shelbycounty.iowa.gov/about/communities/"
+      ],
+      "jurisdictionNote": "County government publishes this municipal contact; this is not a claim that the county issues city permits.",
+      "searchQuery": "\"Tennant\" Iowa  official city hall building permits"
+    },
+    "thurman-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Thurman.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Thurman\" Iowa Fremont official city hall building permits"
+    },
+    "treynor-ia": {
+      "status": "verified",
+      "url": "https://cityoftreynor.com/formspermits",
+      "kind": "permit",
+      "guidance": "Treynor directs residents to contact City Hall before building and publishes local permit resources. Include any driveway, sidewalk, fence, deck, or retaining-wall work in your Treynor inquiry so the appropriate review can be discussed.",
+      "label": "Treynor permit information",
+      "office": "Treynor permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://cityoftreynor.com/formspermits"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Treynor\" Iowa Pottawattamie official city hall building permits"
+    },
+    "underwood-ia": {
+      "status": "verified",
+      "url": "https://underwoodia.com/forms-permits/",
+      "kind": "permit",
+      "guidance": "Underwood publishes guidance about when permits are required or exempt and what inspections may be needed. Review the city’s information when planning the scope and sequence of your Underwood project.",
+      "label": "Underwood permit information",
+      "office": "Underwood permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://underwoodia.com/forms-permits/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Underwood\" Iowa Pottawattamie official city hall building permits"
+    },
+    "villisca-ia": {
+      "status": "verified",
+      "url": "https://www.cityofvillisca.com/printable-forms/",
+      "kind": "permit",
+      "guidance": "Villisca provides a building permit application through its official printable forms page. Include the full scope of proposed work at your Villisca property so any necessary approvals can be identified.",
+      "label": "Villisca permit information",
+      "office": "Villisca permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.cityofvillisca.com/printable-forms/"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Villisca\" Iowa Montgomery official city hall building permits"
+    },
+    "walnut-ia": {
+      "status": "verified",
+      "url": "https://www.walnutiowa.org/pView.aspx?catid=2&id=1586",
+      "kind": "permit",
+      "guidance": "Walnut provides a building permit application and directs completed forms to City Hall. Share the size and location of planned improvements when preparing your Walnut project details.",
+      "label": "Walnut permit information",
+      "office": "Walnut permit information",
+      "evidence": "Opened the official municipal resource and verified its relevant permit/application information.",
+      "sourceUrls": [
+        "https://www.walnutiowa.org/pView.aspx?catid=2&id=1586"
+      ],
+      "jurisdictionNote": "City guidance applies to the city’s jurisdiction; confirm the actual property address and any separate authorities.",
+      "searchQuery": "\"Walnut\" Iowa Pottawattamie official city hall building permits"
+    },
+    "weston-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Weston.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Weston\" Iowa  official city hall building permits"
+    },
+    "westphalia-ia": {
+      "status": "verified",
+      "url": "https://shelbycounty.iowa.gov/about/communities/",
+      "kind": "city-hall",
+      "guidance": "Shelby County publishes official city contact information for Westphalia. Ask the city which requirements need to be checked for your Westphalia project before work begins.",
+      "label": "Westphalia city office contact — official county website",
+      "office": "Westphalia city office",
+      "evidence": "Opened the government resource and verified its municipal contact or City Hall information.",
+      "sourceUrls": [
+        "https://shelbycounty.iowa.gov/about/communities/"
+      ],
+      "jurisdictionNote": "County government publishes this municipal contact; this is not a claim that the county issues city permits.",
+      "searchQuery": "\"Westphalia\" Iowa  official city hall building permits"
+    },
+    "wiota-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Wiota.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Wiota\" Iowa Cass official city hall building permits"
+    },
+    "yorktown-ia": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Yorktown.",
+      "evidence": "Individual official-source search did not establish a suitable readable municipal or permit-office link; no requirements inferred.",
+      "sourceUrls": [],
+      "jurisdictionNote": "The actual work-site address and jurisdiction must be confirmed; a mailing town or ZIP does not establish permit authority.",
+      "searchQuery": "\"Yorktown\" Iowa Page official city hall building permits"
+    }
+  }
+}

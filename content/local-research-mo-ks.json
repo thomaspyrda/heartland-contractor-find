@@ -1,0 +1,827 @@
+{
+  "reviewedAt": "2026-11-21",
+  "method": "Each of64MO/KS communities searched by town/state for official City Hall or permit sources; promising official pages opened and read. Only verified readable primary municipal/official county-hosted city-office pages linked. Contact-only pages are not treated as evidence of specific permit mandates.",
+  "towns": {
+    "bern-ks": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Bern.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Bern Kansas official city hall building permits"
+    },
+    "fairview-ks": {
+      "status": "verified",
+      "url": "https://www.fairviewkansas.com/living-visiting",
+      "label": "Fairview building permit resources",
+      "office": "City of Fairview",
+      "kind": "permit",
+      "guidance": "Fairview's resident resources include a building permit application. Share the size and intended location of your proposed work when asking the city which approvals apply.",
+      "evidence": "Official city page has a Permits & Forms section linking a Building Permit Application. Opened and read on 2026-11-21; no general permit mandate inferred.",
+      "sourceUrls": [
+        "https://www.fairviewkansas.com/living-visiting"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Fairview Kansas official city hall building permits"
+    },
+    "hamlin-ks": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Hamlin.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Hamlin Kansas official city hall building permits"
+    },
+    "hiawatha-ks": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Hiawatha.",
+      "evidence": "Official permit/root sources identified but returned403 to retrieval; readable working link not verified, so omitted conservatively.",
+      "sourceUrls": [
+        "https://www.cityofhiawatha.org/code-enforcementplanningzoning/page/permits",
+        "https://www.cityofhiawatha.org/"
+      ],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Hiawatha Kansas official city hall building permits"
+    },
+    "highland-ks": {
+      "status": "verified",
+      "url": "https://dpcountyks.com/directory/highland-city-hall/",
+      "label": "Highland City Hall contact",
+      "office": "Highland City Hall",
+      "kind": "city-hall",
+      "guidance": "For a project within Highland, City Hall is a starting point for confirming the right local review process. Doniphan County publishes the city office's contact information; have your work-site address and a brief description of the improvements ready.",
+      "evidence": "Official Doniphan County government page identifies Highland City Hall at 220 W. Main Street, Highland KS, and provides its phone. Current main municipal website could not be retrieved, so county-authored office page used.",
+      "sourceUrls": [
+        "https://dpcountyks.com/directory/highland-city-hall/"
+      ],
+      "jurisdictionNote": "County-hosted contact page for Highland City Hall, not a claim that county zoning governs properties within Highland.",
+      "searchQuery": "Highland Kansas official city hall building permits"
+    },
+    "kelly-ks": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Kelly.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Kelly Kansas official city hall building permits"
+    },
+    "leona-ks": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Leona.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Leona Kansas official city hall building permits"
+    },
+    "morrill-ks": {
+      "status": "verified",
+      "url": "https://www.cityofmorrillks.gov/contactus",
+      "label": "Morrill city office contact",
+      "office": "City of Morrill",
+      "kind": "city-hall",
+      "guidance": "Before starting your Morrill project, contact the city office with the property address and proposed scope to confirm where permit or zoning questions should be directed. Its official contact page provides the city office's location and phone number.",
+      "evidence": "Official .gov city contact page gives 612 Roxanna St, Morrill KS 66515 and city phone; homepage also links Forms & Permits. Opened and read; no permit rules inferred.",
+      "sourceUrls": [
+        "https://www.cityofmorrillks.gov/contactus"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Morrill Kansas official city hall building permits"
+    },
+    "oneida-ks": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Oneida.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Oneida Kansas official city hall building permits"
+    },
+    "reserve-ks": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Reserve.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Reserve Kansas official city hall building permits"
+    },
+    "robinson-ks": {
+      "status": "verified",
+      "url": "https://www.cityofrobinsonks.org/about-6",
+      "label": "Robinson Code Enforcement",
+      "office": "City of Robinson Code Enforcement",
+      "kind": "permit",
+      "guidance": "Robinson's Code Enforcement page provides access to the city's code book and invites residents to bring questions to City Hall. Include your property's address and whether the work involves a new structure, repair, or related outdoor improvements when confirming the review needed.",
+      "evidence": "Official City of Robinson Code Enforcement page links City of Robinson Code Book and states requests may be dropped off at City Hall. No permit mandate inferred.",
+      "sourceUrls": [
+        "https://www.cityofrobinsonks.org/about-6"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Robinson Kansas official city hall building permits"
+    },
+    "sabetha-ks": {
+      "status": "verified",
+      "url": "https://www.cityofsabetha.com/174/Building-Permits-NRP",
+      "label": "Sabetha building and fence permit forms",
+      "office": "City of Sabetha",
+      "kind": "permit",
+      "guidance": "Planning a fence alongside a patio or other improvements in Sabetha? The city publishes separate building and fence permit applications, so confirm which forms apply to the whole project before work begins.",
+      "evidence": "Official Building Permits / NRP page lists Building Permit Application and Fence Building Permit Application separately. Opened and read.",
+      "sourceUrls": [
+        "https://www.cityofsabetha.com/174/Building-Permits-NRP"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Sabetha Kansas official city hall building permits"
+    },
+    "seneca-ks": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Seneca.",
+      "evidence": "Official city sources identified but returned403 to retrieval; readable working link not verified, so omitted conservatively.",
+      "sourceUrls": [
+        "https://senecakansas.com/city-departments/planning-and-zoning/",
+        "https://senecakansas.com/"
+      ],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Seneca Kansas official city hall building permits"
+    },
+    "severance-ks": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Severance.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Severance Kansas official city hall building permits"
+    },
+    "st-benedict-ks": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in St. Benedict.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "St. Benedict Kansas official city hall building permits"
+    },
+    "troy-ks": {
+      "status": "verified",
+      "url": "https://troykansas.com/government/forms-permits/",
+      "label": "Troy forms, permits and city contact",
+      "office": "City of Troy",
+      "kind": "permit",
+      "guidance": "Troy's official Forms & Permits page includes city contact information. Use your work-site address, approximate dimensions, and a description of related improvements to ask the city which project approvals may be needed.",
+      "evidence": "Official Troy Forms & Permits page renders readable city government navigation and city contact details at 137 West Walnut St. No specific permit requirement inferred from page.",
+      "sourceUrls": [
+        "https://troykansas.com/government/forms-permits/"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Troy Kansas official city hall building permits"
+    },
+    "white-cloud-ks": {
+      "status": "verified",
+      "url": "https://dpcountyks.com/directory/white-cloud-city-hall/",
+      "label": "White Cloud City Hall contact",
+      "office": "White Cloud City Hall",
+      "kind": "city-hall",
+      "guidance": "For a project within White Cloud, start by confirming the appropriate local review with City Hall. Doniphan County's official website publishes the White Cloud city office contact so you can ask about the actual property and proposed work.",
+      "evidence": "Official Doniphan County website specifically identifies White Cloud City Hall, PO Box 23 White Cloud KS 66094, and city office phone. Opened and read.",
+      "sourceUrls": [
+        "https://dpcountyks.com/directory/white-cloud-city-hall/"
+      ],
+      "jurisdictionNote": "County-hosted city office contact, not a statement that county permit rules apply inside White Cloud.",
+      "searchQuery": "White Cloud Kansas official city hall building permits"
+    },
+    "willis-ks": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Willis.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Willis Kansas official city hall building permits"
+    },
+    "allendale-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Allendale.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Allendale Missouri official city hall building permits"
+    },
+    "amazonia-mo": {
+      "status": "verified",
+      "url": "https://cityofamazoniamo.com/contact-us",
+      "label": "Amazonia city office contact",
+      "office": "City of Amazonia",
+      "kind": "city-hall",
+      "guidance": "Amazonia's official contact page lets residents direct questions to city departments. Describe the property location and whether you are repairing an existing feature or adding something new when asking which local approvals may apply.",
+      "evidence": "Official City of Amazonia Contact Us page provides department selection and resident question form. Opened and read; no construction rule inferred.",
+      "sourceUrls": [
+        "https://cityofamazoniamo.com/contact-us"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Amazonia Missouri official city hall building permits"
+    },
+    "arkoe-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Arkoe.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Arkoe Missouri official city hall building permits"
+    },
+    "barnard-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Barnard.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Barnard Missouri official city hall building permits"
+    },
+    "big-lake-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Big Lake.",
+      "evidence": "Village site identified but homepage timed out and other page returned redirect loop; no working official office page verified.",
+      "sourceUrls": [
+        "https://www.biglakemo.net/",
+        "https://www.biglakemo.net/water-bill/"
+      ],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Big Lake Missouri official city hall building permits"
+    },
+    "bigelow-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Bigelow.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Bigelow Missouri official city hall building permits"
+    },
+    "blanchard-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Blanchard.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Blanchard Missouri official city hall building permits"
+    },
+    "bolckow-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Bolckow.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Bolckow Missouri official city hall building permits"
+    },
+    "burlington-junction-mo": {
+      "status": "verified",
+      "url": "https://burlingtonjunction.org/",
+      "label": "Burlington Junction City Hall contact",
+      "office": "Burlington Junction City Hall",
+      "kind": "city-hall",
+      "guidance": "Burlington Junction lists City Hall as its municipal contact at 122 N. Clarinda Street. Have the work-site address and a short description of the proposed improvements ready when confirming the right local office and any review needed.",
+      "evidence": "Official City of Burlington Junction homepage identifies City Hall address and phone in Contact Us section. Opened and read.",
+      "sourceUrls": [
+        "https://burlingtonjunction.org/"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Burlington Junction Missouri official city hall building permits"
+    },
+    "clearmont-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Clearmont.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Clearmont Missouri official city hall building permits"
+    },
+    "clyde-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Clyde.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Clyde Missouri official city hall building permits"
+    },
+    "conception-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Conception.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Conception Missouri official city hall building permits"
+    },
+    "conception-junction-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Conception Junction.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Conception Junction Missouri official city hall building permits"
+    },
+    "corning-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Corning.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Corning Missouri official city hall building permits"
+    },
+    "craig-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Craig.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Craig Missouri official city hall building permits"
+    },
+    "elmo-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Elmo.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Elmo Missouri official city hall building permits"
+    },
+    "fairfax-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Fairfax.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Fairfax Missouri official city hall building permits"
+    },
+    "fillmore-mo": {
+      "status": "verified",
+      "url": "https://fillmoremo.com/citycontact.php",
+      "label": "Fillmore city office contact",
+      "office": "City of Fillmore",
+      "kind": "city-hall",
+      "guidance": "Fillmore's city contact page provides a municipal phone number and mailing address. Before starting work, describe the property and planned improvements to confirm where local permit or zoning questions should be directed.",
+      "evidence": "City of Fillmore CITY CONTACT page identifies municipal mailing address and phone. City council page on same site identifies council and city clerk. Opened and read; no permit mandate inferred.",
+      "sourceUrls": [
+        "https://fillmoremo.com/citycontact.php"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Fillmore Missouri official city hall building permits"
+    },
+    "forest-city-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Forest City.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Forest City Missouri official city hall building permits"
+    },
+    "fortescue-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Fortescue.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Fortescue Missouri official city hall building permits"
+    },
+    "gentry-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Gentry.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Gentry Missouri official city hall building permits"
+    },
+    "graham-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Graham.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Graham Missouri official city hall building permits"
+    },
+    "grant-city-mo": {
+      "status": "verified",
+      "url": "https://www.cityofgrantcity.com/contact-us",
+      "label": "Grant City office contact",
+      "office": "Grant City City Hall",
+      "kind": "city-hall",
+      "guidance": "For improvements within Grant City, the city office is a starting point for confirming who should review the proposed work. Share the property's address and whether your plans involve a new feature, replacement, or an addition.",
+      "evidence": "Official City of Grant City Contact Us page gives 101 W 3rd St and city phone; linked City Hall page identifies City Administrator, Clerk and Public Works. Both opened and read.",
+      "sourceUrls": [
+        "https://www.cityofgrantcity.com/contact-us"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Grant City Missouri official city hall building permits"
+    },
+    "guilford-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Guilford.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Guilford Missouri official city hall building permits"
+    },
+    "hopkins-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Hopkins.",
+      "evidence": "Recent public report identified municipal website migration; neither current nor prior city host could be retrieved, so no working office link verified.",
+      "sourceUrls": [
+        "https://cityofhopkinsmo.gov/",
+        "https://www.hopkinsmogov.com/"
+      ],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Hopkins Missouri official city hall building permits"
+    },
+    "irena-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Irena.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Irena Missouri official city hall building permits"
+    },
+    "maitland-mo": {
+      "status": "verified",
+      "url": "https://www.maitlandmo.com/city-government.php",
+      "label": "Maitland city government contacts",
+      "office": "City of Maitland",
+      "kind": "city-hall",
+      "guidance": "Maitland's city government page lists city office and clerk contacts. Use those contacts to confirm the appropriate local requirements for your property before committing to a new structure or outdoor improvement.",
+      "evidence": "City Government page identifies municipal departments, city clerk, City Mailing Address and phone; read on 2026-11-21. No permit mandate inferred.",
+      "sourceUrls": [
+        "https://www.maitlandmo.com/city-government.php"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Maitland Missouri official city hall building permits"
+    },
+    "maryville-mo": {
+      "status": "verified",
+      "url": "https://www.maryvillemo.gov/22767/PermitsInspections",
+      "label": "Maryville Code Enforcement and permit guidance",
+      "office": "Maryville Code Enforcement",
+      "kind": "permit",
+      "guidance": "Maryville lists structural masonry and concrete work in a public right-of-way among projects requiring building permits. Its application guidance also asks for site details such as drainage, easements, utility locations, and distances from property lines, so include any related site changes in your plans.",
+      "evidence": "Official Maryville Code Enforcement FAQ lists Structural Masonry, Sidewalks and Driveways in Public Right of Way, and Concrete work in Public ROW; application site-plan list includes setbacks, contours/drainage, easements, utility locations. Opened/read.",
+      "sourceUrls": [
+        "https://www.maryvillemo.gov/22767/PermitsInspections"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Maryville Missouri official city hall building permits"
+    },
+    "mound-city-mo": {
+      "status": "verified",
+      "url": "https://moundcitymo.com/government/taxes-permits-licenses/",
+      "label": "Mound City building permit guidance",
+      "office": "Mound City City Hall",
+      "kind": "permit",
+      "guidance": "Mound City says building permits are obtained at City Hall for new construction and some remodeling, with construction plans reviewed before work begins. Tell us whether your project adds something new or changes an existing feature so you can clarify the review needed.",
+      "evidence": "Official City of Mound City Taxes, Permits & Licenses page states permit from City Hall for new construction and some remodeling; plans approved by building inspector and permit issued before construction. Opened/read; no fees repeated.",
+      "sourceUrls": [
+        "https://moundcitymo.com/government/taxes-permits-licenses/"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Mound City Missouri official city hall building permits"
+    },
+    "oregon-mo": {
+      "status": "verified",
+      "url": "https://www.cityoforegon.info/",
+      "label": "Oregon City Hall contact",
+      "office": "Oregon City Hall",
+      "kind": "city-hall",
+      "guidance": "Oregon's official city website provides City Hall's contact information. Before starting improvements at your Oregon property, use the address and scope of work to confirm which office should answer local approval questions.",
+      "evidence": "City of Oregon homepage identifies City Hall at 106 S. Main St, Oregon MO 64473 and phone; government navigation and municipal payment link confirm city identity. Opened/read.",
+      "sourceUrls": [
+        "https://www.cityoforegon.info/"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Oregon Missouri official city hall building permits"
+    },
+    "parnell-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Parnell.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Parnell Missouri official city hall building permits"
+    },
+    "phelps-city-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Phelps City.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Phelps City Missouri official city hall building permits"
+    },
+    "pickering-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Pickering.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Pickering Missouri official city hall building permits"
+    },
+    "quitman-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Quitman.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Quitman Missouri official city hall building permits"
+    },
+    "ravenwood-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Ravenwood.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Ravenwood Missouri official city hall building permits"
+    },
+    "rea-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Rea.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Rea Missouri official city hall building permits"
+    },
+    "rock-port-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Rock Port.",
+      "evidence": "The official Rock Port building application PDF was initially retrieved and read, but a subsequent root-agent check returned403. Follow-up official-domain search exposed PDF sources only; the official homepage also returned403. No consistently readable City Hall/permit landing page was verified, so the public link and specific guidance are conservatively omitted.",
+      "sourceUrls": [
+        "https://www.rpmo.com/media/3876",
+        "https://www.rpmo.com/"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Rock Port Missouri official city hall building permits"
+    },
+    "rosendale-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Rosendale.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Rosendale Missouri official city hall building permits"
+    },
+    "savannah-mo": {
+      "status": "verified",
+      "url": "https://www.savannahmo.net/6407/building-and-zoning",
+      "label": "Savannah building and zoning guidance",
+      "office": "Savannah Building and Zoning",
+      "kind": "permit",
+      "guidance": "Savannah specifically notes that patios and other property improvements may need a building permit. Its Building and Zoning page provides applications and the appropriate city contact, making it useful to discuss the full project before work begins.",
+      "evidence": "Official Savannah Building and Zoning page explicitly lists fence, roof, patio and property improvements as possibly requiring permit; provides applications and Planning & Zoning Administrator contact. Opened/read.",
+      "sourceUrls": [
+        "https://www.savannahmo.net/6407/building-and-zoning"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Savannah Missouri official city hall building permits"
+    },
+    "sheridan-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Sheridan.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Sheridan Missouri official city hall building permits"
+    },
+    "skidmore-mo": {
+      "status": "verified",
+      "url": "https://skidmoremo.org/city-contact/",
+      "label": "Skidmore City Hall contact",
+      "office": "Skidmore City Hall",
+      "kind": "city-hall",
+      "guidance": "Skidmore publishes City Hall and city clerk contact information on its official website. Explain where the property is and whether your work is a repair, replacement, or new improvement when confirming the local requirements before starting.",
+      "evidence": "Official City Contact page gives city office at108 S Walnut St and city clerk contact; homepage explicitly labels official government website. Opened/read.",
+      "sourceUrls": [
+        "https://skidmoremo.org/city-contact/"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Skidmore Missouri official city hall building permits"
+    },
+    "stanberry-mo": {
+      "status": "verified",
+      "url": "https://www.stanberrymo.com/contactus",
+      "label": "Stanberry city office contact",
+      "office": "City of Stanberry",
+      "kind": "city-hall",
+      "guidance": "For a Stanberry project, the city office is a starting point for confirming local review and the forms you may need. Its official website provides city contact details and a Forms & Permits section; describe the full scope, including related improvements.",
+      "evidence": "Official city contact page lists130 W1stStreet, Stanberry MO and city phone; official navigation links Forms & Permits page. Both opened/read; no specific permit mandate inferred.",
+      "sourceUrls": [
+        "https://www.stanberrymo.com/contactus"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Stanberry Missouri official city hall building permits"
+    },
+    "tarkio-mo": {
+      "status": "verified",
+      "url": "https://tarkiomo.com/city-hall-contact/",
+      "label": "Tarkio City Hall contact",
+      "office": "Tarkio City Hall",
+      "kind": "city-hall",
+      "guidance": "Tarkio's official City Contacts page lists City Hall and the city clerk. Use your property address and a brief outline of the work to confirm any required local review before starting your Tarkio project.",
+      "evidence": "Official City Contacts page identifies City Clerk and City Hall at602MainStreet, Tarkio MO with office phone. Opened/read. No permit mandate inferred.",
+      "sourceUrls": [
+        "https://tarkiomo.com/city-hall-contact/"
+      ],
+      "jurisdictionNote": "City resource for properties within municipal jurisdiction; confirm the actual work-site address and project scope.",
+      "searchQuery": "Tarkio Missouri official city hall building permits"
+    },
+    "watson-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Watson.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Watson Missouri official city hall building permits"
+    },
+    "westboro-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Westboro.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Westboro Missouri official city hall building permits"
+    },
+    "worth-mo": {
+      "status": "not-found",
+      "url": null,
+      "label": "",
+      "office": "",
+      "kind": null,
+      "guidance": "More details about local requirements may need to be found before starting your project in Worth.",
+      "evidence": "Searched for official City Hall and permit-office sources by town and state. No appropriate, readable government office page was verified in this research pass; third-party listings, raw data, historical filings and unrelated permit documents were excluded. This does not establish that no local office or requirements exist.",
+      "sourceUrls": [],
+      "jurisdictionNote": "Confirm the jurisdiction for the actual work-site address before assuming municipal or county requirements.",
+      "searchQuery": "Worth Missouri official city hall building permits"
+    }
+  }
+}
